@@ -1,43 +1,16 @@
-# Dependencies
-node_modules/
-frontend/node_modules/
-
-# Production build artifacts
-dist/
-frontend/dist/
-build/
-
-# Python cache & bytecode
 __pycache__/
-backend/**/__pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
 .venv/
-.pytest_cache/
-
-# Environment variables & local configs
+venv/
+env/
+node_modules/
+dist/
+build/
 .env
-.env.local
-.env.*.local
-
-# Vite / NPM caches
-.npm/
-.eslintcache
-.vite/
-frontend/.vite/
-
-# Editor / IDE
+.env.*
+!.env.example
+*.log
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# OS files
-Thumbs.db
-desktop.ini
 .DS_Store
+Thumbs.db
