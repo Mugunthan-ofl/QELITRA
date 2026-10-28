@@ -37,8 +37,8 @@ export default function CategoryBreakdownChart({
   const totalFlow = totalInflow + totalOutflow;
 
   // Palettes for categories
-  const inflowPalette = ["#14B8A6", "#0D9488", "#2DD4BF", "#06B6D4", "#0891B2", "#38BDF8"];
-  const outflowPalette = ["#F43F5E", "#E11D48", "#BE123C", "#FB7185", "#F59E0B", "#D97706", "#EC4899", "#8B5CF6"];
+  const inflowPalette = ["#F59E0B", "#D97706", "#B45309", "#FBBF24", "#FDE68A", "#92400E"];
+  const outflowPalette = ["#F43F5E", "#E11D48", "#BE123C", "#FB7185", "#EA580C", "#C2410C", "#EC4899", "#8B5CF6"];
 
   // 1. Treemap Trace with single root for valid d3-hierarchy
   const labels = [
@@ -63,8 +63,8 @@ export default function CategoryBreakdownChart({
     ...outflows.map((o) => o.total_amount_inr)
   ];
   const colors = [
-    "#0B1120",
-    "#0D9488",
+    "#08090D",
+    "#B45309",
     ...inflows.map((_, idx) => inflowPalette[idx % inflowPalette.length]),
     "#9F1239",
     ...outflows.map((_, idx) => outflowPalette[idx % outflowPalette.length])
@@ -127,7 +127,7 @@ export default function CategoryBreakdownChart({
     orientation: "h",
     y: inflows.map((i) => i.category).reverse(),
     x: inflows.map((i) => i.total_amount_inr).reverse(),
-    marker: { color: "#14B8A6" },
+    marker: { color: "#F59E0B" },
     text: inflows.map((i) => formatINR(i.total_amount_inr, true)).reverse(),
     textposition: "auto",
     hoverinfo: "x+y",
@@ -201,7 +201,7 @@ export default function CategoryBreakdownChart({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-navy-800/80 gap-2">
         <div>
           <div className="flex items-center gap-2">
-            <Layers className="h-4 w-4 text-teal-400" />
+            <Layers className="h-4 w-4 text-amber-400" />
             <h3 className="text-sm font-semibold text-white tracking-wide">{title}</h3>
           </div>
           <p className="text-xs text-slate-400 mt-0.5">{subtitle}</p>
@@ -212,7 +212,7 @@ export default function CategoryBreakdownChart({
           <button
             onClick={() => setViewMode("stacked")}
             className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium transition-colors ${
-              viewMode === "stacked" ? "bg-teal-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
+              viewMode === "stacked" ? "bg-amber-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
             }`}
           >
             <Layers className="h-3 w-3" />
@@ -221,7 +221,7 @@ export default function CategoryBreakdownChart({
           <button
             onClick={() => setViewMode("treemap")}
             className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium transition-colors ${
-              viewMode === "treemap" ? "bg-teal-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
+              viewMode === "treemap" ? "bg-amber-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
             }`}
           >
             <PieChart className="h-3 w-3" />
@@ -230,7 +230,7 @@ export default function CategoryBreakdownChart({
           <button
             onClick={() => setViewMode("bar")}
             className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium transition-colors ${
-              viewMode === "bar" ? "bg-teal-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
+              viewMode === "bar" ? "bg-amber-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
             }`}
           >
             <BarChart2 className="h-3 w-3" />

@@ -4,28 +4,28 @@
 
 @layer base {
   body {
-    @apply bg-[#070B14] text-slate-100 font-sans;
+    @apply bg-[#08090D] text-slate-100 font-sans;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 }
 
-/* Custom sleek scrollbars */
+/* Custom sleek Obsidian & Gold scrollbars */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0B1120;
+  background: #101219;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1E2D4A;
+  background: #2A3043;
   border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #2DD4BF;
+  background: #F59E0B;
 }
 
 @keyframes fadeIn {
@@ -43,12 +43,12 @@
   animation: fadeIn 0.25s ease-out forwards;
 }
 
-/* Glassmorphism & Hover elevation utility */
+/* Glassmorphism & Gold hover elevation utility */
 .card-hover {
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-hover:hover {
-  border-color: rgba(45, 212, 191, 0.35);
-  box-shadow: 0 10px 25px -5px rgba(11, 17, 32, 0.6), 0 8px 10px -6px rgba(45, 212, 191, 0.08);
+  border-color: rgba(245, 158, 11, 0.4);
+  box-shadow: 0 10px 25px -5px rgba(8, 9, 13, 0.7), 0 8px 10px -6px rgba(245, 158, 11, 0.12);
 }

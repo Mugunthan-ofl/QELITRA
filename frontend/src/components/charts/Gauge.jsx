@@ -17,7 +17,7 @@ export default function Gauge({
   const isCritical = numVal < 1.0;
   const isWarning = numVal >= 1.0 && numVal < 1.5;
   const statusLabel = isCritical ? "Critical Deficit" : isWarning ? "Warning Buffer" : "Optimal Reserve";
-  const statusColor = isCritical ? "#F43F5E" : isWarning ? "#F59E0B" : "#14B8A6";
+  const statusColor = isCritical ? "#F43F5E" : isWarning ? "#F59E0B" : "#D97706";
 
   const data = [
     {
@@ -43,13 +43,13 @@ export default function Gauge({
           dtick: 3,
         },
         bar: { color: statusColor, thickness: 0.28 },
-        bgcolor: "#070B14",
+        bgcolor: "#08090D",
         borderwidth: 1,
-        bordercolor: "#1E293B",
+        bordercolor: "#212635",
         steps: [
           { range: [0, 1.0], color: "rgba(244, 63, 94, 0.25)" },      // Critical (Red)
           { range: [1.0, 1.5], color: "rgba(245, 158, 11, 0.25)" },    // Warning (Amber)
-          { range: [1.5, 15.0], color: "rgba(20, 184, 166, 0.25)" },   // Safe (Teal)
+          { range: [1.5, 15.0], color: "rgba(217, 119, 6, 0.25)" },   // Safe (Champagne Gold)
         ],
         threshold: {
           line: { color: "#F43F5E", width: 3 },

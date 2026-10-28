@@ -41,7 +41,7 @@ export default function AlertsPanel({
       {/* Panel Header */}
       <div className="flex items-center justify-between border-b border-navy-800 pb-3">
         <div className="flex items-center gap-2">
-          <ShieldCheck className="h-4 w-4 text-teal-400" />
+          <ShieldCheck className="h-4 w-4 text-amber-400" />
           <h3 className="text-sm font-semibold text-white">Treasury Risk Alerts & Action Items</h3>
           <span className="text-xs text-slate-400 font-mono">({alerts.length} Active)</span>
         </div>
@@ -82,7 +82,7 @@ export default function AlertsPanel({
             ? "border-rose-500/40 bg-rose-500/5 hover:border-rose-500/60"
             : isWarning
             ? "border-amber-500/40 bg-amber-500/5 hover:border-amber-500/60"
-            : "border-teal-500/30 bg-teal-500/5 hover:border-teal-500/50";
+            : "border-amber-500/30 bg-amber-500/5 hover:border-amber-500/50";
 
           return (
             <div
@@ -95,7 +95,7 @@ export default function AlertsPanel({
                     {isCritical && <AlertCircle className="h-4 w-4 text-rose-400 shrink-0" />}
                     {isWarning && <AlertTriangle className="h-4 w-4 text-amber-400 shrink-0" />}
                     {isSuccess && <CheckCircle2 className="h-4 w-4 text-emerald-400 shrink-0" />}
-                    {!isCritical && !isWarning && !isSuccess && <Info className="h-4 w-4 text-teal-400 shrink-0" />}
+                    {!isCritical && !isWarning && !isSuccess && <Info className="h-4 w-4 text-amber-400 shrink-0" />}
                     <h4 className="font-semibold text-white tracking-tight">{alert.title}</h4>
                   </div>
                   <span
@@ -104,7 +104,7 @@ export default function AlertsPanel({
                         ? "bg-rose-500/20 text-rose-300"
                         : isWarning
                         ? "bg-amber-500/20 text-amber-300"
-                        : "bg-teal-500/20 text-teal-300"
+                        : "bg-amber-500/20 text-amber-300"
                     }`}
                   >
                     {alert.level}
@@ -122,8 +122,8 @@ export default function AlertsPanel({
               </div>
 
               {alert.action_required && (
-                <div className="p-2 rounded-lg bg-navy-950/70 border border-navy-800 text-[10px] text-teal-300 flex items-start gap-1.5">
-                  <ArrowRight className="h-3 w-3 text-teal-400 shrink-0 mt-0.5" />
+                <div className="p-2 rounded-lg bg-navy-950/70 border border-navy-800 text-[10px] text-amber-300 flex items-start gap-1.5">
+                  <ArrowRight className="h-3 w-3 text-amber-400 shrink-0 mt-0.5" />
                   <span>{alert.action_required}</span>
                 </div>
               )}

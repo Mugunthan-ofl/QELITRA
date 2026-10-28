@@ -18,7 +18,7 @@ export default function TabNav({ activeTab, setActiveTab }) {
             onClick={() => setActiveTab(tab.id)}
             className={`py-3 px-4 text-sm font-medium border-b-2 transition-colors duration-150 ${
               isActive
-                ? "border-teal-400 text-teal-400"
+                ? "border-amber-400 text-amber-400 font-semibold shadow-sm"
                 : "border-transparent text-slate-400 hover:text-slate-200 hover:border-slate-700"
             }`}
           >

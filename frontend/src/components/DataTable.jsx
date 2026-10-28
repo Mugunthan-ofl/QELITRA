@@ -146,10 +146,10 @@ export default function DataTable({
           ) : (
             <div className="flex items-center gap-2 mt-0.5">
               <span className="text-xs text-slate-400">
-                Total matching: <strong className="text-teal-400 font-mono">{totalItems}</strong>
+                Total matching: <strong className="text-amber-400 font-mono">{totalItems}</strong>
               </span>
               {searchTerm && (
-                <span className="text-[11px] px-2 py-0.5 rounded bg-teal-950 text-teal-400 border border-teal-800">
+                <span className="text-[11px] px-2 py-0.5 rounded bg-amber-500/10 text-amber-300 border border-amber-500/30">
                   Filtered by: "{searchTerm}"
                 </span>
               )}
@@ -170,7 +170,7 @@ export default function DataTable({
                   setSearchTerm(e.target.value);
                   setCurrentPage(1);
                 }}
-                className="pl-8 pr-7 py-1.5 bg-navy-900 border border-navy-700/80 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-teal-500 w-52 sm:w-64 transition-colors"
+                className="pl-8 pr-7 py-1.5 bg-navy-900 border border-navy-700/80 rounded-lg text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-400 w-52 sm:w-64 transition-colors"
               />
               {searchTerm && (
                 <button
@@ -191,9 +191,9 @@ export default function DataTable({
             onClick={handleExportCSV}
             disabled={sortedData.length === 0}
             title="Download currently filtered rows directly to CSV in browser"
-            className="flex items-center gap-1.5 px-3 py-1.5 bg-navy-800 hover:bg-navy-700 border border-navy-700/80 rounded-lg text-xs font-medium text-slate-200 hover:text-teal-400 transition-colors disabled:opacity-40 disabled:cursor-not-allowed shadow-sm"
+            className="flex items-center gap-1.5 px-3 py-1.5 bg-navy-800 hover:bg-navy-750 border border-navy-700/80 rounded-lg text-xs font-medium text-slate-200 hover:text-amber-300 transition-colors disabled:opacity-40 disabled:cursor-not-allowed shadow-sm"
           >
-            <Download className="h-3.5 w-3.5 text-teal-400" />
+            <Download className="h-3.5 w-3.5 text-amber-400" />
             <span>Export CSV</span>
             <span className="text-[10px] text-slate-400 font-mono">({sortedData.length})</span>
           </button>
@@ -222,9 +222,9 @@ export default function DataTable({
                         <span className="text-slate-500">
                           {isSorted ? (
                             sortDirection === "asc" ? (
-                              <ChevronUp className="h-3.5 w-3.5 text-teal-400" />
+                              <ChevronUp className="h-3.5 w-3.5 text-amber-400" />
                             ) : (
-                              <ChevronDown className="h-3.5 w-3.5 text-teal-400" />
+                              <ChevronDown className="h-3.5 w-3.5 text-amber-400" />
                             )
                           ) : (
                             <ChevronsUpDown className="h-3 w-3 text-slate-600 hover:text-slate-400" />
@@ -247,7 +247,7 @@ export default function DataTable({
                     {searchTerm && (
                       <button
                         onClick={() => setSearchTerm("")}
-                        className="text-xs text-teal-400 hover:underline"
+                        className="text-xs text-amber-400 hover:underline"
                       >
                         Clear search filter
                       </button>
@@ -286,7 +286,7 @@ export default function DataTable({
               setPageSize(Number(e.target.value));
               setCurrentPage(1);
             }}
-            className="bg-navy-900 border border-navy-700 rounded px-2 py-1 text-xs text-slate-300 focus:outline-none focus:border-teal-500"
+            className="bg-navy-900 border border-navy-700 rounded px-2 py-1 text-xs text-slate-300 focus:outline-none focus:border-amber-400"
           >
             {pageSizeOptions.map((opt) => (
               <option key={opt} value={opt}>

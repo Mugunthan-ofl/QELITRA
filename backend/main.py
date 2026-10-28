@@ -7,7 +7,7 @@ from backend.routes.stress import router as stress_router
 from backend.core.data_loader import get_data_loader
 
 app = FastAPI(
-    title="Corporate Liquidity Management & Cash Flow Stress Testing API",
+    title="QELITRA — Corporate Liquidity Management & Cash Flow Stress Testing API",
     description="Backend API serving real-time liquidity analytics, cash flow forecasts, working capital, and stress simulation.",
     version="1.0.0"
 )
@@ -43,7 +43,7 @@ def startup_event():
 def root():
     return {
         "status": "online",
-        "service": "Corporate Liquidity Management API",
+        "service": "QELITRA — Corporate Liquidity Management API",
         "documentation": "/docs"
     }
 

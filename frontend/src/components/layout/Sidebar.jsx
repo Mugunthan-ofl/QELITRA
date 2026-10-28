@@ -14,14 +14,14 @@ export default function Sidebar({ activeTab, setActiveTab }) {
       <div>
         {/* Brand Header */}
         <div className="p-5 border-b border-navy-800/80 flex items-center gap-3">
-          <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-teal-500 via-teal-400 to-cyan-400 flex items-center justify-center shadow-lg shadow-teal-500/25 shrink-0">
-            <Sparkles className="h-5 w-5 text-navy-950" />
+          <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-amber-600 via-amber-400 to-yellow-300 flex items-center justify-center shadow-lg shadow-amber-500/25 shrink-0">
+            <Sparkles className="h-5 w-5 text-navy-950 font-bold" />
           </div>
           <div>
-            <h2 className="text-sm font-bold tracking-tight text-white leading-tight">
-              Liquidity Command Center
+            <h2 className="text-base font-extrabold tracking-wider text-white leading-tight">
+              QELITRA
             </h2>
-            <p className="text-[11px] text-teal-400 font-medium">Corporate Treasury System</p>
+            <p className="text-[11px] text-amber-400 font-medium">Liquidity Command Center</p>
           </div>
         </div>
 
@@ -41,11 +41,11 @@ export default function Sidebar({ activeTab, setActiveTab }) {
                   onClick={() => setActiveTab(item.id)}
                   className={`w-full flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-semibold transition-all duration-150 ${
                     isActive
-                      ? "bg-gradient-to-r from-teal-500/15 to-teal-500/5 text-teal-300 border border-teal-500/30 shadow-sm shadow-teal-500/10"
+                      ? "bg-gradient-to-r from-amber-500/20 to-amber-500/5 text-amber-300 border border-amber-500/35 shadow-sm shadow-amber-500/15"
                       : "text-slate-400 hover:text-slate-200 hover:bg-navy-900/60 border border-transparent"
                   }`}
                 >
-                  <Icon className={`h-4 w-4 ${isActive ? "text-teal-400" : "text-slate-400"}`} />
+                  <Icon className={`h-4 w-4 ${isActive ? "text-amber-400" : "text-slate-400"}`} />
                   {item.label}
                 </button>
               );
@@ -57,7 +57,7 @@ export default function Sidebar({ activeTab, setActiveTab }) {
       {/* Engine & Integrity Indicator */}
       <div className="p-4 m-3 rounded-xl bg-navy-900/80 border border-navy-800 text-xs space-y-2">
         <div className="flex items-center gap-2 text-slate-300 font-semibold text-[11px]">
-          <Cpu className="h-3.5 w-3.5 text-teal-400" />
+          <Cpu className="h-3.5 w-3.5 text-amber-400" />
           <span>Python Analytics Engine</span>
         </div>
         <p className="text-[10px] text-slate-400 leading-relaxed">

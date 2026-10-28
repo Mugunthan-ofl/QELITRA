@@ -39,7 +39,7 @@ export default function StressPanel({
       {/* Panel Header */}
       <div className="flex items-center justify-between border-b border-navy-800/80 pb-3">
         <div className="flex items-center gap-2">
-          <div className="p-1.5 rounded-lg bg-teal-500/10 border border-teal-500/20 text-teal-400">
+          <div className="p-1.5 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-400">
             <Sliders className="h-4 w-4" />
           </div>
           <div>
@@ -55,7 +55,7 @@ export default function StressPanel({
         {/* Live Calculation Indicator */}
         <div className="flex items-center gap-2">
           {(simulating || mcLoading) && (
-            <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-teal-500/10 border border-teal-500/20 text-[10px] text-teal-400 animate-pulse font-mono">
+            <div className="flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-[10px] text-amber-400 animate-pulse font-mono">
               <Zap className="h-3 w-3 animate-spin" />
               <span>Recalculating...</span>
             </div>
@@ -86,7 +86,7 @@ export default function StressPanel({
             onClick={() => applyPreset("base")}
             className={`py-1.5 px-2.5 rounded-lg text-xs font-semibold border transition flex items-center justify-center gap-1.5 ${
               scenarioId === "SCN001" && inflowDrop === 0 && outflowRise === 0
-                ? "bg-teal-500/20 border-teal-500/50 text-teal-300 shadow-sm shadow-teal-500/20"
+                ? "bg-amber-500/20 border-amber-500/50 text-amber-300 shadow-sm shadow-amber-500/20"
                 : "bg-navy-850/80 border-navy-750 text-slate-300 hover:bg-navy-800 hover:text-white"
             }`}
           >
@@ -129,7 +129,7 @@ export default function StressPanel({
           className="text-xs font-medium text-slate-300 flex items-center justify-between"
         >
           <span>Select Scenario Preset (22 Scenarios)</span>
-          <span className="text-[10px] text-teal-400 font-mono">
+          <span className="text-[10px] text-amber-400 font-mono">
             {scenarioId ? scenarioId : "Custom fine-tuned"}
           </span>
         </label>
@@ -141,7 +141,7 @@ export default function StressPanel({
               selectScenario(e.target.value);
             }
           }}
-          className="w-full bg-navy-950 border border-navy-700 hover:border-teal-500/50 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:ring-1 focus:ring-teal-400 transition"
+          className="w-full bg-navy-950 border border-navy-700 hover:border-amber-500/50 rounded-lg px-3 py-2 text-xs text-white focus:outline-none focus:ring-1 focus:ring-amber-400 transition"
         >
           <option value="" disabled>
             -- Choose a Risk Scenario Preset --
@@ -160,11 +160,11 @@ export default function StressPanel({
         <div className="space-y-1.5">
           <div className="flex justify-between items-center text-xs">
             <span className="text-slate-300 flex items-center gap-1.5 font-medium">
-              <TrendingDown className="h-3.5 w-3.5 text-teal-400" />
+              <TrendingDown className="h-3.5 w-3.5 text-amber-400" />
               Inflow / Revenue Shock %
             </span>
             <div className="flex items-center gap-1">
-              <span className="font-mono text-teal-400 font-bold">-{inflowDrop}%</span>
+              <span className="font-mono text-amber-400 font-bold">-{inflowDrop}%</span>
               <input
                 type="number"
                 min="0"
@@ -176,7 +176,7 @@ export default function StressPanel({
                     Math.max(0, Math.min(100, Number(e.target.value)))
                   )
                 }
-                className="w-14 px-1.5 py-0.5 bg-navy-950 border border-navy-700 rounded text-[11px] text-right font-mono text-white focus:border-teal-400 outline-none"
+                className="w-14 px-1.5 py-0.5 bg-navy-950 border border-navy-700 rounded text-[11px] text-right font-mono text-white focus:border-amber-400 outline-none"
               />
             </div>
           </div>
@@ -187,7 +187,7 @@ export default function StressPanel({
             step="1"
             value={inflowDrop}
             onChange={(e) => updateParameter("inflowDrop", Number(e.target.value))}
-            className="w-full h-1.5 bg-navy-800 rounded-lg appearance-none cursor-pointer accent-teal-400"
+            className="w-full h-1.5 bg-navy-800 rounded-lg appearance-none cursor-pointer accent-amber-400"
           />
           <div className="flex justify-between text-[10px] text-slate-500 font-mono">
             <span>0% (Normal)</span>
@@ -283,10 +283,10 @@ export default function StressPanel({
         <div className="space-y-1.5">
           <div className="flex justify-between items-center text-xs">
             <span className="text-slate-300 flex items-center gap-1.5 font-medium">
-              <Coins className="h-3.5 w-3.5 text-cyan-400" />
+              <Coins className="h-3.5 w-3.5 text-amber-400" />
               Minimum Cash Threshold
             </span>
-            <span className="font-mono text-cyan-400 font-bold">
+            <span className="font-mono text-amber-400 font-bold">
               {formatINR(minThreshold, true)}
             </span>
           </div>
@@ -298,7 +298,7 @@ export default function StressPanel({
               step="50000"
               value={minThreshold}
               onChange={(e) => updateParameter("minThreshold", Number(e.target.value))}
-              className="flex-1 h-1.5 bg-navy-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+              className="flex-1 h-1.5 bg-navy-800 rounded-lg appearance-none cursor-pointer accent-amber-400"
             />
             <input
               type="number"
@@ -307,7 +307,7 @@ export default function StressPanel({
               step="50000"
               value={minThreshold}
               onChange={(e) => updateParameter("minThreshold", Number(e.target.value))}
-              className="w-24 px-1.5 py-0.5 bg-navy-950 border border-navy-700 rounded text-[11px] text-right font-mono text-white focus:border-cyan-400 outline-none"
+              className="w-24 px-1.5 py-0.5 bg-navy-950 border border-navy-700 rounded text-[11px] text-right font-mono text-white focus:border-amber-400 outline-none"
             />
           </div>
           <div className="flex items-center gap-1 pt-1">
@@ -319,7 +319,7 @@ export default function StressPanel({
                 onClick={() => updateParameter("minThreshold", t)}
                 className={`px-1.5 py-0.5 rounded text-[10px] font-mono border transition ${
                   minThreshold === t
-                    ? "bg-cyan-500/20 text-cyan-300 border-cyan-500/40"
+                    ? "bg-amber-500/20 text-amber-300 border-amber-500/40"
                     : "bg-navy-950 text-slate-400 border-navy-800 hover:text-white"
                 }`}
               >

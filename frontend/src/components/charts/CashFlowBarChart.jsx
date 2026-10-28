@@ -21,7 +21,7 @@ function CustomBarTooltip({ active, payload, label }) {
         <div className="font-semibold text-slate-200 border-b border-navy-800 pb-1 font-mono">
           {label}
         </div>
-        <div className="flex justify-between items-center text-teal-400">
+        <div className="flex justify-between items-center text-amber-400">
           <span>Inflow:</span>
           <span className="font-bold font-mono">+{formatINR(data.inflow || data.inflow_inr)}</span>
         </div>
@@ -58,7 +58,7 @@ export default function CashFlowBarChart({
     <div className="bg-navy-900/70 border border-navy-800 rounded-xl p-5 space-y-4">
       <div className="flex items-center justify-between border-b border-navy-800 pb-3">
         <div className="flex items-center gap-2">
-          <BarChart3 className="h-4 w-4 text-teal-400" />
+          <BarChart3 className="h-4 w-4 text-amber-400" />
           <h3 className="text-sm font-semibold text-white">{title}</h3>
         </div>
         <span className="text-xs text-slate-400 font-mono">Periodic Inflows vs Disbursements</span>
@@ -67,7 +67,7 @@ export default function CashFlowBarChart({
       <div className="h-64 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data} margin={{ top: 10, right: 10, left: 10, bottom: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#1E2D4A" vertical={false} opacity={0.6} />
+            <CartesianGrid strokeDasharray="3 3" stroke="#212635" vertical={false} opacity={0.6} />
 
             <XAxis
               dataKey="period"
@@ -99,7 +99,7 @@ export default function CashFlowBarChart({
             <Bar
               dataKey="inflow_inr"
               name="Inflow"
-              fill="#14B8A6"
+              fill="#F59E0B"
               radius={[4, 4, 0, 0]}
               maxBarSize={32}
             />

@@ -18,7 +18,7 @@ export default function TopCounterpartiesCard({
     return (
       <div className="bg-navy-900/70 border border-navy-800 rounded-xl p-5 h-80 flex items-center justify-center animate-pulse">
         <div className="flex flex-col items-center gap-2 text-slate-500">
-          <Building2 className="h-8 w-8 text-teal-500/50 animate-bounce" />
+          <Building2 className="h-8 w-8 text-amber-500/50 animate-bounce" />
           <p className="text-xs">Ranking top counterparty exposure...</p>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function TopCounterpartiesCard({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-navy-800/80 gap-2">
         <div>
           <div className="flex items-center gap-2">
-            <Building2 className="h-4 w-4 text-teal-400" />
+            <Building2 className="h-4 w-4 text-amber-400" />
             <h3 className="text-sm font-semibold text-white tracking-wide">{title}</h3>
           </div>
           <p className="text-xs text-slate-400 mt-0.5">{subtitle}</p>
@@ -45,7 +45,7 @@ export default function TopCounterpartiesCard({
             onClick={() => setActiveTab("receivables")}
             className={`px-2.5 py-1 rounded transition-colors ${
               activeTab === "receivables"
-                ? "bg-teal-500 text-navy-950 font-semibold"
+                ? "bg-amber-500 text-navy-950 font-semibold"
                 : "text-slate-400 hover:text-white"
             }`}
           >
@@ -92,7 +92,7 @@ export default function TopCounterpartiesCard({
                 <div className="w-full h-1.5 rounded-full bg-navy-950 overflow-hidden">
                   <div
                     className={`h-full rounded-full transition-all duration-500 ${
-                      isAR ? "bg-teal-400" : "bg-rose-500"
+                      isAR ? "bg-amber-500" : "bg-rose-500"
                     }`}
                     style={{ width: `${pct}%` }}
                   ></div>

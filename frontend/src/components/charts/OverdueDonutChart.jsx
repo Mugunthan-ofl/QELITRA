@@ -63,7 +63,7 @@ export default function OverdueDonutChart({
 
   const pieData = [
     { name: "Overdue (> Due Date)", value: overdueAmt, count: overdueCount, color: "#F43F5E" },
-    { name: "On-Time (Current / Not Due)", value: ontimeAmt, count: ontimeCount, color: "#14B8A6" }
+    { name: "On-Time (Current / Not Due)", value: ontimeAmt, count: ontimeCount, color: "#F59E0B" }
   ];
 
   const CustomTooltip = ({ active, payload }) => {
@@ -93,7 +93,7 @@ export default function OverdueDonutChart({
       <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-3 border-b border-navy-800/80 gap-2">
         <div>
           <div className="flex items-center gap-2">
-            <PieIcon className="h-4 w-4 text-teal-400" />
+            <PieIcon className="h-4 w-4 text-amber-400" />
             <h3 className="text-sm font-semibold text-white tracking-wide">{title}</h3>
           </div>
           <p className="text-xs text-slate-400 mt-0.5">{subtitle}</p>
@@ -104,7 +104,7 @@ export default function OverdueDonutChart({
           <button
             onClick={() => setScope("receivables")}
             className={`px-2 py-0.5 rounded transition-colors ${
-              scope === "receivables" ? "bg-teal-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
+              scope === "receivables" ? "bg-amber-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
             }`}
           >
             AR
@@ -112,7 +112,7 @@ export default function OverdueDonutChart({
           <button
             onClick={() => setScope("payables")}
             className={`px-2 py-0.5 rounded transition-colors ${
-              scope === "payables" ? "bg-teal-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
+              scope === "payables" ? "bg-amber-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
             }`}
           >
             AP
@@ -120,7 +120,7 @@ export default function OverdueDonutChart({
           <button
             onClick={() => setScope("combined")}
             className={`px-2 py-0.5 rounded transition-colors ${
-              scope === "combined" ? "bg-teal-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
+              scope === "combined" ? "bg-amber-500 text-navy-950 font-semibold" : "text-slate-400 hover:text-white"
             }`}
           >
             Total
@@ -143,7 +143,7 @@ export default function OverdueDonutChart({
               paddingAngle={4}
             >
               {pieData.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={entry.color} stroke="#070B14" strokeWidth={2} />
+                <Cell key={`cell-${index}`} fill={entry.color} stroke="#08090D" strokeWidth={2} />
               ))}
             </Pie>
             <Tooltip content={<CustomTooltip />} />
@@ -163,7 +163,7 @@ export default function OverdueDonutChart({
           <span>Overdue ({overdueCount})</span>
         </div>
         <div className="flex items-center gap-1.5">
-          <span className="w-2.5 h-2.5 rounded-full bg-teal-400"></span>
+          <span className="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
           <span>On-Time ({ontimeCount})</span>
         </div>
       </div>
@@ -176,10 +176,10 @@ export default function OverdueDonutChart({
           <div className="text-[10px] text-rose-400/80 mt-0.5">{overdueCount} pending invoices</div>
         </div>
 
-        <div className="p-2.5 rounded-lg bg-teal-500/10 border border-teal-500/20">
-          <div className="text-[11px] text-teal-400 font-medium">On-Time / Not Due</div>
-          <div className="text-sm font-bold font-mono text-teal-300 mt-0.5">{formatINR(ontimeAmt)}</div>
-          <div className="text-[10px] text-teal-400/80 mt-0.5">{ontimeCount} pending invoices</div>
+        <div className="p-2.5 rounded-lg bg-amber-500/10 border border-amber-500/20">
+          <div className="text-[11px] text-amber-400 font-medium">On-Time / Not Due</div>
+          <div className="text-sm font-bold font-mono text-amber-300 mt-0.5">{formatINR(ontimeAmt)}</div>
+          <div className="text-[10px] text-amber-400/80 mt-0.5">{ontimeCount} pending invoices</div>
         </div>
       </div>
     </div>

@@ -26,13 +26,13 @@ export default function StressMethodology({
         className="w-full flex items-center justify-between p-4 bg-navy-950/70 hover:bg-navy-950 transition text-left"
       >
         <div className="flex items-center gap-3">
-          <div className="p-1.5 rounded-lg bg-teal-500/10 border border-teal-500/20 text-teal-400">
+          <div className="p-1.5 rounded-lg bg-amber-500/10 border border-amber-500/20 text-amber-400">
             <BookOpen className="h-4 w-4" />
           </div>
           <div>
             <h3 className="text-sm font-bold text-white tracking-wide flex items-center gap-2">
               <span>Stress Testing & Monte Carlo Methodology</span>
-              <span className="text-[10px] px-2 py-0.5 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 font-mono">
+              <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 font-mono">
                 Mathematical Reference
               </span>
             </h3>
@@ -45,7 +45,7 @@ export default function StressMethodology({
         <div className="flex items-center gap-2 text-slate-400 text-xs font-medium">
           <span>{isOpen ? "Collapse Details" : "Expand Methodology"}</span>
           {isOpen ? (
-            <ChevronUp className="h-4 w-4 text-teal-400" />
+            <ChevronUp className="h-4 w-4 text-amber-400" />
           ) : (
             <ChevronDown className="h-4 w-4 text-slate-400" />
           )}
@@ -57,8 +57,8 @@ export default function StressMethodology({
         <div className="p-5 border-t border-navy-800 space-y-6 text-xs text-slate-300 leading-relaxed">
           {/* Active Python Methodology Output */}
           {methodologyText && (
-            <div className="p-3.5 rounded-lg bg-teal-500/5 border border-teal-500/20 text-teal-200 font-mono text-[11px] space-y-1">
-              <span className="text-[10px] uppercase font-bold text-teal-400 tracking-wider block font-sans">
+            <div className="p-3.5 rounded-lg bg-amber-500/5 border border-amber-500/20 text-amber-200 font-mono text-[11px] space-y-1">
+              <span className="text-[10px] uppercase font-bold text-amber-400 tracking-wider block font-sans">
                 Active Runtime Calibration (Backend Python Core)
               </span>
               <p>{methodologyText}</p>
@@ -69,7 +69,7 @@ export default function StressMethodology({
             {/* 1. Deterministic Shock Mathematics */}
             <div className="space-y-3 p-4 rounded-xl bg-navy-950/50 border border-navy-800">
               <div className="flex items-center gap-2 text-white font-bold text-sm">
-                <Layers className="h-4 w-4 text-teal-400" />
+                <Layers className="h-4 w-4 text-amber-400" />
                 <h4>1. Deterministic Liquidity Shock Formulation</h4>
               </div>
 
@@ -81,7 +81,7 @@ export default function StressMethodology({
 
               <div className="space-y-2 font-mono text-[11px] bg-navy-900/90 p-3 rounded-lg border border-navy-750 text-slate-200">
                 <div>
-                  <span className="text-teal-400">Stressed Inflow(t):</span>
+                  <span className="text-amber-400">Stressed Inflow(t):</span>
                   <div className="text-slate-300 ml-2">
                     I_stressed(t) = I_base(t - d) × (1 - δ_inflow)
                   </div>
@@ -122,7 +122,7 @@ export default function StressMethodology({
             {/* 2. Stochastic Monte Carlo Simulation */}
             <div className="space-y-3 p-4 rounded-xl bg-navy-950/50 border border-navy-800">
               <div className="flex items-center gap-2 text-white font-bold text-sm">
-                <Sigma className="h-4 w-4 text-teal-400" />
+                <Sigma className="h-4 w-4 text-amber-400" />
                 <h4>2. Stochastic Monte Carlo Engine (1,000 Iterations)</h4>
               </div>
 
@@ -133,7 +133,7 @@ export default function StressMethodology({
 
               <div className="space-y-2 font-mono text-[11px] bg-navy-900/90 p-3 rounded-lg border border-navy-750 text-slate-200">
                 <div>
-                  <span className="text-teal-400">Log-Normal Multiplier:</span>
+                  <span className="text-amber-400">Log-Normal Multiplier:</span>
                   <div className="text-slate-300 ml-2">
                     M_i(t) = exp(-0.5 · σ² + σ · Z), where Z ~ N(0, 1)
                   </div>

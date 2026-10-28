@@ -78,7 +78,7 @@ export default function ActualVsForecastChart({
             className={`px-1.5 py-0.5 rounded text-[10px] font-semibold uppercase ${
               isFc
                 ? "bg-amber-500/10 text-amber-400 border border-amber-500/20"
-                : "bg-teal-500/10 text-teal-400 border border-teal-500/20"
+                : "bg-amber-500/20 text-amber-300 border border-amber-500/40"
             }`}
           >
             {isFc ? "90d Forecast" : "Audited Actual"}
@@ -88,7 +88,7 @@ export default function ActualVsForecastChart({
         <div className="space-y-1 pt-1">
           {pt.actual_cash_inr !== null && pt.actual_cash_inr !== undefined && (
             <div className="flex justify-between items-center text-slate-300">
-              <span className="text-teal-400 font-medium">Actual Cash:</span>
+              <span className="text-amber-400 font-medium">Actual Cash:</span>
               <span className="font-mono font-semibold">{formatINR(pt.actual_cash_inr)}</span>
             </div>
           )}
@@ -177,16 +177,16 @@ export default function ActualVsForecastChart({
           <ComposedChart data={filteredSeries} margin={{ top: 15, right: 25, left: 20, bottom: 25 }}>
             <defs>
               <linearGradient id="actualAreaGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#14B8A6" stopOpacity={0.25} />
-                <stop offset="95%" stopColor="#14B8A6" stopOpacity={0.0} />
+                <stop offset="5%" stopColor="#F59E0B" stopOpacity={0.3} />
+                <stop offset="95%" stopColor="#F59E0B" stopOpacity={0.0} />
               </linearGradient>
               <linearGradient id="forecastAreaGrad" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#F59E0B" stopOpacity={0.25} />
-                <stop offset="95%" stopColor="#F59E0B" stopOpacity={0.0} />
+                <stop offset="5%" stopColor="#D97706" stopOpacity={0.2} />
+                <stop offset="95%" stopColor="#D97706" stopOpacity={0.0} />
               </linearGradient>
             </defs>
 
-            <CartesianGrid strokeDasharray="3 3" stroke="#1E293B" vertical={false} />
+            <CartesianGrid strokeDasharray="3 3" stroke="#212635" vertical={false} />
 
             <XAxis
               dataKey="date"
@@ -246,8 +246,8 @@ export default function ActualVsForecastChart({
             <Area
               type="monotone"
               dataKey="actual_cash_inr"
-              stroke="#14B8A6"
-              strokeWidth={2.2}
+              stroke="#F59E0B"
+              strokeWidth={2.4}
               fillOpacity={1}
               fill="url(#actualAreaGrad)"
               name="Actual Cash"
@@ -274,11 +274,11 @@ export default function ActualVsForecastChart({
       <div className="flex flex-wrap items-center justify-between text-xs text-slate-400 pt-2 border-t border-navy-800/60">
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1.5">
-            <span className="w-3 h-0.5 bg-teal-400"></span>
+            <span className="w-3 h-0.5 bg-amber-500"></span>
             <span>2025 Actuals</span>
           </div>
           <div className="flex items-center gap-1.5">
-            <span className="w-3 h-0.5 border-t-2 border-dashed border-amber-400"></span>
+            <span className="w-3 h-0.5 border-t-2 border-dashed border-amber-300"></span>
             <span>90-Day Forward Forecast</span>
           </div>
           <div className="flex items-center gap-1.5">

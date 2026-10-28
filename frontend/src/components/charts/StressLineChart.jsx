@@ -36,7 +36,7 @@ function CustomStressTooltip({ active, payload, label }) {
         )}
 
         <div className="space-y-1">
-          <div className="flex justify-between items-center text-teal-400 font-mono">
+          <div className="flex justify-between items-center text-amber-400 font-mono">
             <span>Baseline Cash:</span>
             <span className="font-semibold">{formatINR(item.baselineCash)}</span>
           </div>
@@ -132,11 +132,11 @@ export default function StressLineChart({
             onClick={() => setShowBaseline(!showBaseline)}
             className={`px-2.5 py-1 rounded text-[11px] font-medium border transition flex items-center gap-1.5 ${
               showBaseline
-                ? "bg-teal-500/15 text-teal-300 border-teal-500/30"
+                ? "bg-amber-500/15 text-amber-300 border-amber-500/30"
                 : "bg-navy-950 text-slate-500 border-navy-800 line-through"
             }`}
           >
-            <span className="h-2 w-2 rounded-full bg-teal-400" />
+            <span className="h-2 w-2 rounded-full bg-amber-400" />
             Baseline Case
           </button>
 
@@ -192,8 +192,8 @@ export default function StressLineChart({
           >
             <defs>
               <linearGradient id="baselineGradient" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#14B8A6" stopOpacity={0.25} />
-                <stop offset="95%" stopColor="#14B8A6" stopOpacity={0.0} />
+                <stop offset="5%" stopColor="#F59E0B" stopOpacity={0.25} />
+                <stop offset="95%" stopColor="#F59E0B" stopOpacity={0.0} />
               </linearGradient>
               <linearGradient id="stressedGradient" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="5%" stopColor="#F43F5E" stopOpacity={0.25} />
@@ -203,7 +203,7 @@ export default function StressLineChart({
 
             <CartesianGrid
               strokeDasharray="3 3"
-              stroke="#1E293B"
+              stroke="#212635"
               vertical={false}
               opacity={0.6}
             />
@@ -253,11 +253,11 @@ export default function StressLineChart({
                 type="monotone"
                 dataKey="baselineCash"
                 name="Baseline Cash"
-                stroke="#2DD4BF"
+                stroke="#F59E0B"
                 strokeWidth={2.5}
                 fill="url(#baselineGradient)"
                 dot={false}
-                activeDot={{ r: 5, stroke: "#2DD4BF", strokeWidth: 2, fill: "#0B1120" }}
+                activeDot={{ r: 5, stroke: "#FBBF24", strokeWidth: 2, fill: "#08090D" }}
               />
             )}
 

@@ -16,16 +16,16 @@ function AppContent() {
   const { isDark } = useTheme();
 
   const titles = {
-    overview: "Corporate Liquidity Executive Command Center",
-    cashflow: "Cash Flow Dynamics & 90-Day Forecast",
-    receivables: "Working Capital Management (AR & AP)",
-    stress: "Real-Time Cash Flow Stress Testing Engine",
+    overview: "QELITRA — Corporate Liquidity Executive Command Center",
+    cashflow: "QELITRA — Cash Flow Dynamics & 90-Day Forecast",
+    receivables: "QELITRA — Working Capital Management (AR & AP)",
+    stress: "QELITRA — Real-Time Cash Flow Stress Testing Engine",
   };
 
   return (
     <div
       className={`flex h-screen overflow-hidden font-sans transition-colors duration-300 ${
-        isDark ? "bg-[#070B14] text-slate-100" : "bg-slate-900 text-slate-100"
+        isDark ? "bg-[#08090D] text-slate-100" : "bg-[#141722] text-slate-100"
       }`}
     >
       {/* Sidebar Navigation */}
@@ -34,7 +34,7 @@ function AppContent() {
       {/* Main Content Area */}
       <div className="flex-1 flex flex-col min-w-0 overflow-hidden">
         {/* Sticky Header with Title and Refresh */}
-        <Header pageTitle={titles[activeTab] || "Liquidity Command Center"} />
+        <Header pageTitle={titles[activeTab] || "QELITRA — Liquidity Command Center"} />
 
         {/* Global Filter Bar (shared across all pages) */}
         <FilterBar />
@@ -43,7 +43,7 @@ function AppContent() {
         <TabNav activeTab={activeTab} setActiveTab={setActiveTab} />
 
         {/* Dynamic Page Content with smooth transition */}
-        <main className="flex-1 overflow-y-auto p-4 sm:p-6 bg-gradient-to-b from-[#070B14] via-[#0B1120] to-[#070B14]">
+        <main className="flex-1 overflow-y-auto p-4 sm:p-6 bg-gradient-to-b from-[#08090D] via-[#101219] to-[#08090D]">
           <div className="max-w-7xl mx-auto space-y-6 transition-opacity duration-200">
             {activeTab === "overview" && (
               <div className="animate-fade-in">

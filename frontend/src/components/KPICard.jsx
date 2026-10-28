@@ -4,7 +4,7 @@ import { TrendingUp, TrendingDown, Minus } from "lucide-react";
 /**
  * Renders a mini SVG sparkline path inside the card
  */
-function MiniSparkline({ data = [], color = "#14B8A6", height = 24, width = 72 }) {
+function MiniSparkline({ data = [], color = "#F59E0B", height = 24, width = 72 }) {
   if (!data || data.length < 2) return null;
 
   const min = Math.min(...data);
@@ -65,11 +65,18 @@ export default function KPICard({
 
   const colorMap = {
     teal: {
-      border: "hover:border-teal-500/40",
-      badge: "bg-teal-500/10 text-teal-400 border-teal-500/20",
-      sparkline: "#14B8A6",
-      iconBg: "bg-teal-500/10 text-teal-400",
-      indicator: "bg-teal-400"
+      border: "hover:border-amber-500/40",
+      badge: "bg-amber-500/15 text-amber-300 border-amber-500/30",
+      sparkline: "#F59E0B",
+      iconBg: "bg-amber-500/15 text-amber-400",
+      indicator: "bg-amber-400"
+    },
+    gold: {
+      border: "hover:border-amber-500/40",
+      badge: "bg-amber-500/15 text-amber-300 border-amber-500/30",
+      sparkline: "#F59E0B",
+      iconBg: "bg-amber-500/15 text-amber-400",
+      indicator: "bg-amber-400"
     },
     emerald: {
       border: "hover:border-emerald-500/40",
@@ -120,7 +127,7 @@ export default function KPICard({
   return (
     <div className={`bg-navy-900/70 backdrop-blur-sm border border-navy-800 rounded-xl p-4 transition-all duration-200 ${theme.border} relative overflow-hidden group flex flex-col justify-between shadow-sm shadow-navy-950/40`}>
       {/* Glow accent */}
-      <div className="absolute top-0 right-0 h-20 w-20 bg-gradient-to-bl from-teal-500/5 to-transparent rounded-bl-3xl pointer-events-none group-hover:from-teal-500/10 transition-all" />
+      <div className="absolute top-0 right-0 h-20 w-20 bg-gradient-to-bl from-amber-500/10 to-transparent rounded-bl-3xl pointer-events-none group-hover:from-amber-500/20 transition-all" />
 
       <div>
         <div className="flex items-center justify-between">

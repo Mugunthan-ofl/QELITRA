@@ -21,14 +21,14 @@ function CustomScenarioTooltip({ active, payload }) {
     return (
       <div className="bg-navy-950/95 border border-navy-700 p-3.5 rounded-xl shadow-2xl backdrop-blur-md text-xs space-y-1.5 min-w-[220px]">
         <div className="flex items-center justify-between border-b border-navy-800 pb-1 font-mono">
-          <span className="font-bold text-teal-400">{data.scenario_id}</span>
+          <span className="font-bold text-amber-400">{data.scenario_id}</span>
           <span className="text-slate-300 font-sans font-medium">{data.scenario_name}</span>
         </div>
 
         <div className="space-y-1 pt-1 font-mono text-[11px]">
           <div className="flex justify-between text-slate-400">
             <span>Inflow Reduction:</span>
-            <span className="text-teal-400 font-bold">-{data.inflow_reduction_pct}%</span>
+            <span className="text-amber-400 font-bold">-{data.inflow_reduction_pct}%</span>
           </div>
           <div className="flex justify-between text-slate-400">
             <span>Outflow Increase:</span>
@@ -108,7 +108,7 @@ export default function ScenarioComparisonChart({
       {/* Header and Toggle Controls */}
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-navy-800 pb-3">
         <div className="flex items-center gap-2">
-          <div className="p-1 rounded bg-teal-500/10 text-teal-400">
+          <div className="p-1 rounded bg-amber-500/15 text-amber-400">
             <BarChart3 className="h-4 w-4" />
           </div>
           <div>
@@ -128,7 +128,7 @@ export default function ScenarioComparisonChart({
               onClick={() => setRankingMetric("ending_cash")}
               className={`px-3 py-1 rounded-md text-xs font-semibold transition ${
                 rankingMetric === "ending_cash"
-                  ? "bg-teal-500 text-navy-950 shadow-sm"
+                  ? "bg-amber-500 text-navy-950 font-bold shadow-sm"
                   : "text-slate-400 hover:text-white"
               }`}
             >
@@ -139,7 +139,7 @@ export default function ScenarioComparisonChart({
               onClick={() => setRankingMetric("minimum_cash")}
               className={`px-3 py-1 rounded-md text-xs font-semibold transition ${
                 rankingMetric === "minimum_cash"
-                  ? "bg-teal-500 text-navy-950 shadow-sm"
+                  ? "bg-amber-500 text-navy-950 font-bold shadow-sm"
                   : "text-slate-400 hover:text-white"
               }`}
             >
@@ -151,7 +151,7 @@ export default function ScenarioComparisonChart({
 
       {/* Interactive Helper Banner */}
       <div className="flex items-center justify-between text-[11px] text-slate-400 px-1">
-        <div className="flex items-center gap-1.5 text-teal-400">
+        <div className="flex items-center gap-1.5 text-amber-400">
           <MousePointerClick className="h-3.5 w-3.5" />
           <span>Click any bar to load that scenario into the interactive fine-tuning panel</span>
         </div>
@@ -186,7 +186,7 @@ export default function ScenarioComparisonChart({
           >
             <CartesianGrid
               strokeDasharray="3 3"
-              stroke="#1E293B"
+              stroke="#212635"
               vertical={false}
               opacity={0.6}
             />
@@ -237,8 +237,8 @@ export default function ScenarioComparisonChart({
                     key={`cell-${entry.scenario_id}`}
                     fill={entry.color}
                     opacity={isSelected ? 1 : 0.85}
-                    stroke={isSelected ? "#FFFFFF" : "transparent"}
-                    strokeWidth={isSelected ? 2 : 0}
+                    stroke={isSelected ? "#F59E0B" : "transparent"}
+                    strokeWidth={isSelected ? 2.5 : 0}
                   />
                 );
               })}

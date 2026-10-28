@@ -77,7 +77,7 @@ export default function CashTrendChart({
       {/* Chart Header & Toggles */}
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-navy-800 pb-3">
         <div className="flex items-center gap-2">
-          <LineChartIcon className="h-4 w-4 text-teal-400" />
+          <LineChartIcon className="h-4 w-4 text-amber-400" />
           <h3 className="text-sm font-semibold text-white">{title}</h3>
           <span className="text-xs text-slate-400 font-mono">({data.length} Days)</span>
         </div>
@@ -88,7 +88,7 @@ export default function CashTrendChart({
             onClick={() => setShowRaw(!showRaw)}
             className={`px-2 py-0.5 rounded text-[11px] font-medium border transition ${
               showRaw
-                ? "bg-teal-500/10 text-teal-300 border-teal-500/30"
+                ? "bg-amber-500/15 text-amber-300 border-amber-500/30"
                 : "bg-navy-950 text-slate-500 border-navy-800 line-through"
             }`}
           >
@@ -133,12 +133,12 @@ export default function CashTrendChart({
           <ComposedChart data={data} margin={{ top: 10, right: 10, left: 10, bottom: 0 }}>
             <defs>
               <linearGradient id="cashGradient" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#14B8A6" stopOpacity={0.35} />
-                <stop offset="95%" stopColor="#14B8A6" stopOpacity={0.0} />
+                <stop offset="5%" stopColor="#F59E0B" stopOpacity={0.35} />
+                <stop offset="95%" stopColor="#F59E0B" stopOpacity={0.0} />
               </linearGradient>
             </defs>
 
-            <CartesianGrid strokeDasharray="3 3" stroke="#1E2D4A" vertical={false} opacity={0.6} />
+            <CartesianGrid strokeDasharray="3 3" stroke="#212635" vertical={false} opacity={0.6} />
 
             <XAxis
               dataKey="date"
@@ -189,10 +189,10 @@ export default function CashTrendChart({
                 type="monotone"
                 dataKey="closing_cash_balance_inr"
                 name="Closing Cash"
-                stroke="#14B8A6"
+                stroke="#F59E0B"
                 strokeWidth={2}
                 fill="url(#cashGradient)"
-                activeDot={{ r: 5, fill: "#2DD4BF" }}
+                activeDot={{ r: 5, fill: "#FBBF24" }}
               />
             )}
 

@@ -83,12 +83,12 @@ export default function AboutDataModal({ isOpen, onClose }) {
         {/* Modal Header */}
         <div className="flex items-center justify-between p-5 border-b border-navy-800 bg-navy-950/60">
           <div className="flex items-center gap-3">
-            <div className="p-2 rounded-xl bg-teal-500/10 border border-teal-500/20 text-teal-400">
+            <div className="p-2 rounded-xl bg-amber-500/10 border border-amber-500/20 text-amber-400">
               <Database className="h-5 w-5" />
             </div>
             <div>
               <h3 className="text-base font-bold text-white tracking-wide">
-                About LiquidityPulse & Dataset Inventory
+                About QELITRA & Dataset Inventory
               </h3>
               <p className="text-xs text-slate-400 font-mono">
                 Corporate Treasury Intelligence & Interactive Solvency Engine
@@ -110,7 +110,7 @@ export default function AboutDataModal({ isOpen, onClose }) {
           {/* Architecture Banner */}
           <div className="p-4 rounded-xl bg-navy-950/80 border border-navy-800 space-y-2">
             <div className="flex items-center justify-between">
-              <span className="text-[10px] font-bold uppercase tracking-wider text-teal-400 flex items-center gap-1.5 font-mono">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-amber-400 flex items-center gap-1.5 font-mono">
                 <Cpu className="h-3.5 w-3.5" />
                 Computation Architecture
               </span>
@@ -120,7 +120,7 @@ export default function AboutDataModal({ isOpen, onClose }) {
             </div>
             <p className="text-slate-300 leading-relaxed">
               All financial analytics, liquidity KPIs, rolling averages, deterministic stress simulations, and stochastic Monte Carlo iterations run strictly on the{" "}
-              <strong className="text-white">Python backend</strong> (<code className="text-teal-400">backend/core/</code>). The React frontend acts as a presentation and control layer, sending parameters and displaying verified results.
+              <strong className="text-white">Python backend</strong> (<code className="text-amber-400">backend/core/</code>). The React frontend acts as a presentation and control layer, sending parameters and displaying verified results.
             </p>
           </div>
 
@@ -128,7 +128,7 @@ export default function AboutDataModal({ isOpen, onClose }) {
           <div className="space-y-3">
             <div className="flex items-center justify-between">
               <h4 className="text-xs font-bold uppercase tracking-wider text-slate-400 flex items-center gap-2">
-                <FileSpreadsheet className="h-4 w-4 text-teal-400" />
+                <FileSpreadsheet className="h-4 w-4 text-amber-400" />
                 Underlying Corporate Datasets (data/ directory)
               </h4>
               <span className="text-[10px] text-slate-500 font-mono">6 Packaged Files</span>
@@ -138,7 +138,7 @@ export default function AboutDataModal({ isOpen, onClose }) {
               {datasets.map((ds, i) => (
                 <div
                   key={i}
-                  className="p-3.5 rounded-xl bg-navy-850/70 border border-navy-800 hover:border-teal-500/30 transition-all space-y-2"
+                  className="p-3.5 rounded-xl bg-navy-850/70 border border-navy-800 hover:border-amber-500/30 transition-all space-y-2"
                 >
                   <div className="flex items-start justify-between gap-2">
                     <span className="font-mono font-semibold text-white text-[11px] truncate" title={ds.name}>
@@ -188,7 +188,7 @@ export default function AboutDataModal({ isOpen, onClose }) {
           <button
             type="button"
             onClick={onClose}
-            className="px-4 py-1.5 rounded-lg bg-teal-500 hover:bg-teal-400 text-navy-950 font-semibold text-xs transition"
+            className="px-4 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-navy-950 font-bold text-xs transition"
           >
             Close Panel
           </button>

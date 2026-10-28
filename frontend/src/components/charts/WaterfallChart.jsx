@@ -75,14 +75,14 @@ export default function WaterfallChart({
     },
     increasing: {
       marker: {
-        color: "#14B8A6", // Teal for inflows
-        line: { color: "#0D9488", width: 1 }
+        color: "#10B981", // Emerald for positive inflows
+        line: { color: "#059669", width: 1 }
       }
     },
     totals: {
       marker: {
-        color: "#3B82F6", // Blue for opening / closing
-        line: { color: "#2563EB", width: 1 }
+        color: "#F59E0B", // Champagne Gold for opening / closing totals
+        line: { color: "#D97706", width: 1 }
       }
     },
     hoverinfo: "x+y+text",
