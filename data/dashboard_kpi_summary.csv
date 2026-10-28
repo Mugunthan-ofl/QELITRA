@@ -1,0 +1,2 @@
+company_id,currency,historical_days,transaction_count,invoice_count,forecast_days,stress_scenario_count,latest_closing_cash_inr,historical_total_inflow_inr,historical_total_outflow_inr,historical_net_cash_flow_inr,receivables_outstanding_inr,payables_outstanding_inr,minimum_required_cash_inr
+COMP001,INR,365,1460,1000,90,22,8088600.00,33837100.00,28248500.00,5588600.00,29597000.00,28872375.00,750000.00

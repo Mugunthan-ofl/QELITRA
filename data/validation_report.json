@@ -1,0 +1,21 @@
+{
+  "data_type": "synthetic demonstration data",
+  "missing_values_across_primary_datasets": 0,
+  "cash_position_rows": 365,
+  "transaction_rows": 1460,
+  "invoice_rows": 1000,
+  "forecast_rows": 90,
+  "stress_scenario_rows": 22,
+  "unique_ids": {
+    "transaction_id": true,
+    "invoice_id": true,
+    "scenario_id": true
+  },
+  "checks": {
+    "daily_cash_balance_arithmetic": true,
+    "transaction_inflows_reconcile": true,
+    "transaction_outflows_reconcile": true,
+    "invoice_outstanding_arithmetic": true,
+    "forecast_balance_arithmetic": true
+  }
+}

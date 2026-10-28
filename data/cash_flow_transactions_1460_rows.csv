@@ -1,0 +1,1461 @@
+transaction_id,company_id,transaction_date,transaction_type,category,description,amount_inr,payment_status,expected_payment_date,counterparty_id
+TXN00001,COMP001,2025-01-01,inflow,Customer receipts,Synthetic customer receipts transaction,38300.00,Received,2025-01-07,PARTNER008
+TXN00002,COMP001,2025-01-01,inflow,Service revenue,Synthetic service revenue transaction,57700.00,Received,2025-01-03,PARTNER014
+TXN00003,COMP001,2025-01-01,outflow,Supplier payment,Synthetic supplier payment transaction,33200.00,Paid,2025-01-01,PARTNER038
+TXN00004,COMP001,2025-01-01,outflow,Utilities,Synthetic utilities transaction,44400.00,Paid,2025-01-06,PARTNER023
+TXN00005,COMP001,2025-01-02,inflow,Product sales,Synthetic product sales transaction,62700.00,Received,2025-01-04,PARTNER014
+TXN00006,COMP001,2025-01-02,inflow,Contract payment,Synthetic contract payment transaction,44400.00,Received,2025-01-09,PARTNER038
+TXN00007,COMP001,2025-01-02,outflow,Payroll,Synthetic payroll transaction,35700.00,Paid,2025-01-07,PARTNER050
+TXN00008,COMP001,2025-01-02,outflow,Tax,Synthetic tax transaction,61000.00,Paid,2025-01-07,PARTNER032
+TXN00009,COMP001,2025-01-03,inflow,Service revenue,Synthetic service revenue transaction,40800.00,Received,2025-01-10,PARTNER001
+TXN00010,COMP001,2025-01-03,inflow,Other income,Synthetic other income transaction,67500.00,Received,2025-01-06,PARTNER044
+TXN00011,COMP001,2025-01-03,outflow,Rent,Synthetic rent transaction,32000.00,Paid,2025-01-04,PARTNER039
+TXN00012,COMP001,2025-01-03,outflow,Software,Synthetic software transaction,49800.00,Paid,2025-01-08,PARTNER031
+TXN00013,COMP001,2025-01-04,inflow,Contract payment,Synthetic contract payment transaction,24200.00,Received,2025-01-06,PARTNER036
+TXN00014,COMP001,2025-01-04,inflow,Customer receipts,Synthetic customer receipts transaction,34800.00,Received,2025-01-08,PARTNER034
+TXN00015,COMP001,2025-01-04,outflow,Utilities,Synthetic utilities transaction,31500.00,Paid,2025-01-07,PARTNER002
+TXN00016,COMP001,2025-01-04,outflow,Logistics,Synthetic logistics transaction,33800.00,Paid,2025-01-10,PARTNER005
+TXN00017,COMP001,2025-01-05,inflow,Other income,Synthetic other income transaction,21600.00,Received,2025-01-08,PARTNER002
+TXN00018,COMP001,2025-01-05,inflow,Product sales,Synthetic product sales transaction,16300.00,Received,2025-01-05,PARTNER003
+TXN00019,COMP001,2025-01-05,outflow,Tax,Synthetic tax transaction,44400.00,Paid,2025-01-05,PARTNER011
+TXN00020,COMP001,2025-01-05,outflow,Marketing,Synthetic marketing transaction,50900.00,Paid,2025-01-08,PARTNER033
+TXN00021,COMP001,2025-01-06,inflow,Customer receipts,Synthetic customer receipts transaction,33200.00,Received,2025-01-08,PARTNER028
+TXN00022,COMP001,2025-01-06,inflow,Service revenue,Synthetic service revenue transaction,52300.00,Received,2025-01-07,PARTNER025
+TXN00023,COMP001,2025-01-06,outflow,Software,Synthetic software transaction,53300.00,Paid,2025-01-07,PARTNER002
+TXN00024,COMP001,2025-01-06,outflow,Supplier payment,Synthetic supplier payment transaction,34100.00,Paid,2025-01-06,PARTNER006
+TXN00025,COMP001,2025-01-07,inflow,Product sales,Synthetic product sales transaction,29700.00,Received,2025-01-09,PARTNER033
+TXN00026,COMP001,2025-01-07,inflow,Contract payment,Synthetic contract payment transaction,51200.00,Received,2025-01-07,PARTNER007
+TXN00027,COMP001,2025-01-07,outflow,Logistics,Synthetic logistics transaction,33400.00,Paid,2025-01-07,PARTNER031
+TXN00028,COMP001,2025-01-07,outflow,Payroll,Synthetic payroll transaction,35400.00,Paid,2025-01-07,PARTNER037
+TXN00029,COMP001,2025-01-08,inflow,Service revenue,Synthetic service revenue transaction,41300.00,Received,2025-01-09,PARTNER012
+TXN00030,COMP001,2025-01-08,inflow,Other income,Synthetic other income transaction,57900.00,Received,2025-01-13,PARTNER031
+TXN00031,COMP001,2025-01-08,outflow,Marketing,Synthetic marketing transaction,42000.00,Paid,2025-01-08,PARTNER047
+TXN00032,COMP001,2025-01-08,outflow,Rent,Synthetic rent transaction,23100.00,Paid,2025-01-10,PARTNER001
+TXN00033,COMP001,2025-01-09,inflow,Contract payment,Synthetic contract payment transaction,71000.00,Received,2025-01-09,PARTNER034
+TXN00034,COMP001,2025-01-09,inflow,Customer receipts,Synthetic customer receipts transaction,66800.00,Received,2025-01-15,PARTNER018
+TXN00035,COMP001,2025-01-09,outflow,Supplier payment,Synthetic supplier payment transaction,50600.00,Paid,2025-01-16,PARTNER010
+TXN00036,COMP001,2025-01-09,outflow,Utilities,Synthetic utilities transaction,45300.00,Paid,2025-01-10,PARTNER032
+TXN00037,COMP001,2025-01-10,inflow,Other income,Synthetic other income transaction,38000.00,Received,2025-01-16,PARTNER024
+TXN00038,COMP001,2025-01-10,inflow,Product sales,Synthetic product sales transaction,39600.00,Received,2025-01-10,PARTNER026
+TXN00039,COMP001,2025-01-10,outflow,Payroll,Synthetic payroll transaction,52700.00,Paid,2025-01-10,PARTNER007
+TXN00040,COMP001,2025-01-10,outflow,Tax,Synthetic tax transaction,39400.00,Paid,2025-01-13,PARTNER014
+TXN00041,COMP001,2025-01-11,inflow,Customer receipts,Synthetic customer receipts transaction,37000.00,Received,2025-01-15,PARTNER018
+TXN00042,COMP001,2025-01-11,inflow,Service revenue,Synthetic service revenue transaction,21600.00,Received,2025-01-18,PARTNER009
+TXN00043,COMP001,2025-01-11,outflow,Rent,Synthetic rent transaction,43400.00,Paid,2025-01-16,PARTNER003
+TXN00044,COMP001,2025-01-11,outflow,Software,Synthetic software transaction,45500.00,Paid,2025-01-11,PARTNER016
+TXN00045,COMP001,2025-01-12,inflow,Product sales,Synthetic product sales transaction,24700.00,Received,2025-01-12,PARTNER037
+TXN00046,COMP001,2025-01-12,inflow,Contract payment,Synthetic contract payment transaction,34900.00,Received,2025-01-17,PARTNER037
+TXN00047,COMP001,2025-01-12,outflow,Utilities,Synthetic utilities transaction,46500.00,Paid,2025-01-17,PARTNER043
+TXN00048,COMP001,2025-01-12,outflow,Logistics,Synthetic logistics transaction,39700.00,Paid,2025-01-15,PARTNER013
+TXN00049,COMP001,2025-01-13,inflow,Service revenue,Synthetic service revenue transaction,60300.00,Received,2025-01-20,PARTNER045
+TXN00050,COMP001,2025-01-13,inflow,Other income,Synthetic other income transaction,55100.00,Received,2025-01-19,PARTNER042
+TXN00051,COMP001,2025-01-13,outflow,Tax,Synthetic tax transaction,43900.00,Paid,2025-01-20,PARTNER003
+TXN00052,COMP001,2025-01-13,outflow,Marketing,Synthetic marketing transaction,31600.00,Paid,2025-01-14,PARTNER047
+TXN00053,COMP001,2025-01-14,inflow,Contract payment,Synthetic contract payment transaction,51100.00,Received,2025-01-21,PARTNER005
+TXN00054,COMP001,2025-01-14,inflow,Customer receipts,Synthetic customer receipts transaction,42700.00,Received,2025-01-15,PARTNER022
+TXN00055,COMP001,2025-01-14,outflow,Software,Synthetic software transaction,23300.00,Paid,2025-01-17,PARTNER002
+TXN00056,COMP001,2025-01-14,outflow,Supplier payment,Synthetic supplier payment transaction,41600.00,Paid,2025-01-14,PARTNER038
+TXN00057,COMP001,2025-01-15,inflow,Other income,Synthetic other income transaction,44600.00,Received,2025-01-22,PARTNER024
+TXN00058,COMP001,2025-01-15,inflow,Product sales,Synthetic product sales transaction,49600.00,Received,2025-01-15,PARTNER031
+TXN00059,COMP001,2025-01-15,outflow,Logistics,Synthetic logistics transaction,24500.00,Paid,2025-01-22,PARTNER029
+TXN00060,COMP001,2025-01-15,outflow,Payroll,Synthetic payroll transaction,36600.00,Paid,2025-01-15,PARTNER026
+TXN00061,COMP001,2025-01-16,inflow,Customer receipts,Synthetic customer receipts transaction,37000.00,Received,2025-01-22,PARTNER035
+TXN00062,COMP001,2025-01-16,inflow,Service revenue,Synthetic service revenue transaction,44200.00,Received,2025-01-19,PARTNER026
+TXN00063,COMP001,2025-01-16,outflow,Marketing,Synthetic marketing transaction,40400.00,Paid,2025-01-22,PARTNER035
+TXN00064,COMP001,2025-01-16,outflow,Rent,Synthetic rent transaction,22200.00,Paid,2025-01-21,PARTNER010
+TXN00065,COMP001,2025-01-17,inflow,Product sales,Synthetic product sales transaction,53200.00,Received,2025-01-24,PARTNER042
+TXN00066,COMP001,2025-01-17,inflow,Contract payment,Synthetic contract payment transaction,35100.00,Received,2025-01-23,PARTNER025
+TXN00067,COMP001,2025-01-17,outflow,Supplier payment,Synthetic supplier payment transaction,27900.00,Paid,2025-01-20,PARTNER002
+TXN00068,COMP001,2025-01-17,outflow,Utilities,Synthetic utilities transaction,24800.00,Paid,2025-01-17,PARTNER002
+TXN00069,COMP001,2025-01-18,inflow,Service revenue,Synthetic service revenue transaction,38500.00,Received,2025-01-20,PARTNER001
+TXN00070,COMP001,2025-01-18,inflow,Other income,Synthetic other income transaction,23400.00,Received,2025-01-25,PARTNER023
+TXN00071,COMP001,2025-01-18,outflow,Payroll,Synthetic payroll transaction,26500.00,Paid,2025-01-22,PARTNER001
+TXN00072,COMP001,2025-01-18,outflow,Tax,Synthetic tax transaction,47600.00,Paid,2025-01-25,PARTNER028
+TXN00073,COMP001,2025-01-19,inflow,Contract payment,Synthetic contract payment transaction,36900.00,Received,2025-01-22,PARTNER048
+TXN00074,COMP001,2025-01-19,inflow,Customer receipts,Synthetic customer receipts transaction,52000.00,Received,2025-01-19,PARTNER010
+TXN00075,COMP001,2025-01-19,outflow,Rent,Synthetic rent transaction,25100.00,Paid,2025-01-21,PARTNER008
+TXN00076,COMP001,2025-01-19,outflow,Software,Synthetic software transaction,37200.00,Paid,2025-01-20,PARTNER039
+TXN00077,COMP001,2025-01-20,inflow,Other income,Synthetic other income transaction,57000.00,Received,2025-01-25,PARTNER016
+TXN00078,COMP001,2025-01-20,inflow,Product sales,Synthetic product sales transaction,64100.00,Received,2025-01-27,PARTNER046
+TXN00079,COMP001,2025-01-20,outflow,Utilities,Synthetic utilities transaction,36200.00,Paid,2025-01-26,PARTNER001
+TXN00080,COMP001,2025-01-20,outflow,Logistics,Synthetic logistics transaction,20400.00,Paid,2025-01-25,PARTNER042
+TXN00081,COMP001,2025-01-21,inflow,Customer receipts,Synthetic customer receipts transaction,33800.00,Received,2025-01-22,PARTNER027
+TXN00082,COMP001,2025-01-21,inflow,Service revenue,Synthetic service revenue transaction,54800.00,Received,2025-01-27,PARTNER033
+TXN00083,COMP001,2025-01-21,outflow,Tax,Synthetic tax transaction,36900.00,Paid,2025-01-21,PARTNER046
+TXN00084,COMP001,2025-01-21,outflow,Marketing,Synthetic marketing transaction,37600.00,Paid,2025-01-28,PARTNER011
+TXN00085,COMP001,2025-01-22,inflow,Product sales,Synthetic product sales transaction,65200.00,Received,2025-01-28,PARTNER035
+TXN00086,COMP001,2025-01-22,inflow,Contract payment,Synthetic contract payment transaction,46300.00,Received,2025-01-22,PARTNER028
+TXN00087,COMP001,2025-01-22,outflow,Software,Synthetic software transaction,42200.00,Paid,2025-01-25,PARTNER048
+TXN00088,COMP001,2025-01-22,outflow,Supplier payment,Synthetic supplier payment transaction,32700.00,Paid,2025-01-26,PARTNER032
+TXN00089,COMP001,2025-01-23,inflow,Service revenue,Synthetic service revenue transaction,43600.00,Received,2025-01-28,PARTNER031
+TXN00090,COMP001,2025-01-23,inflow,Other income,Synthetic other income transaction,35900.00,Received,2025-01-23,PARTNER035
+TXN00091,COMP001,2025-01-23,outflow,Logistics,Synthetic logistics transaction,52100.00,Paid,2025-01-26,PARTNER017
+TXN00092,COMP001,2025-01-23,outflow,Payroll,Synthetic payroll transaction,55300.00,Paid,2025-01-24,PARTNER033
+TXN00093,COMP001,2025-01-24,inflow,Contract payment,Synthetic contract payment transaction,55800.00,Received,2025-01-29,PARTNER047
+TXN00094,COMP001,2025-01-24,inflow,Customer receipts,Synthetic customer receipts transaction,45900.00,Received,2025-01-31,PARTNER010
+TXN00095,COMP001,2025-01-24,outflow,Marketing,Synthetic marketing transaction,26000.00,Paid,2025-01-31,PARTNER019
+TXN00096,COMP001,2025-01-24,outflow,Rent,Synthetic rent transaction,47700.00,Paid,2025-01-27,PARTNER027
+TXN00097,COMP001,2025-01-25,inflow,Other income,Synthetic other income transaction,25600.00,Received,2025-02-01,PARTNER044
+TXN00098,COMP001,2025-01-25,inflow,Product sales,Synthetic product sales transaction,26800.00,Received,2025-01-28,PARTNER037
+TXN00099,COMP001,2025-01-25,outflow,Supplier payment,Synthetic supplier payment transaction,60000.00,Paid,2025-01-26,PARTNER036
+TXN00100,COMP001,2025-01-25,outflow,Utilities,Synthetic utilities transaction,39400.00,Paid,2025-01-25,PARTNER045
+TXN00101,COMP001,2025-01-26,inflow,Customer receipts,Synthetic customer receipts transaction,29800.00,Received,2025-01-26,PARTNER048
+TXN00102,COMP001,2025-01-26,inflow,Service revenue,Synthetic service revenue transaction,54500.00,Received,2025-01-27,PARTNER001
+TXN00103,COMP001,2025-01-26,outflow,Payroll,Synthetic payroll transaction,29300.00,Paid,2025-01-29,PARTNER026
+TXN00104,COMP001,2025-01-26,outflow,Tax,Synthetic tax transaction,48700.00,Paid,2025-01-26,PARTNER025
+TXN00105,COMP001,2025-01-27,inflow,Product sales,Synthetic product sales transaction,31800.00,Received,2025-01-28,PARTNER015
+TXN00106,COMP001,2025-01-27,inflow,Contract payment,Synthetic contract payment transaction,46100.00,Received,2025-02-01,PARTNER040
+TXN00107,COMP001,2025-01-27,outflow,Rent,Synthetic rent transaction,39600.00,Paid,2025-02-01,PARTNER042
+TXN00108,COMP001,2025-01-27,outflow,Software,Synthetic software transaction,46000.00,Paid,2025-01-29,PARTNER010
+TXN00109,COMP001,2025-01-28,inflow,Service revenue,Synthetic service revenue transaction,42700.00,Received,2025-01-28,PARTNER032
+TXN00110,COMP001,2025-01-28,inflow,Other income,Synthetic other income transaction,65500.00,Received,2025-02-02,PARTNER038
+TXN00111,COMP001,2025-01-28,outflow,Utilities,Synthetic utilities transaction,35700.00,Paid,2025-02-04,PARTNER024
+TXN00112,COMP001,2025-01-28,outflow,Logistics,Synthetic logistics transaction,47200.00,Paid,2025-01-28,PARTNER034
+TXN00113,COMP001,2025-01-29,inflow,Contract payment,Synthetic contract payment transaction,40200.00,Received,2025-01-31,PARTNER046
+TXN00114,COMP001,2025-01-29,inflow,Customer receipts,Synthetic customer receipts transaction,73800.00,Received,2025-01-30,PARTNER023
+TXN00115,COMP001,2025-01-29,outflow,Tax,Synthetic tax transaction,46700.00,Paid,2025-01-29,PARTNER033
+TXN00116,COMP001,2025-01-29,outflow,Marketing,Synthetic marketing transaction,25900.00,Paid,2025-02-05,PARTNER050
+TXN00117,COMP001,2025-01-30,inflow,Other income,Synthetic other income transaction,42000.00,Received,2025-01-31,PARTNER015
+TXN00118,COMP001,2025-01-30,inflow,Product sales,Synthetic product sales transaction,66900.00,Received,2025-02-04,PARTNER012
+TXN00119,COMP001,2025-01-30,outflow,Software,Synthetic software transaction,36900.00,Paid,2025-02-02,PARTNER023
+TXN00120,COMP001,2025-01-30,outflow,Supplier payment,Synthetic supplier payment transaction,47700.00,Paid,2025-02-02,PARTNER026
+TXN00121,COMP001,2025-01-31,inflow,Customer receipts,Synthetic customer receipts transaction,53500.00,Received,2025-02-07,PARTNER020
+TXN00122,COMP001,2025-01-31,inflow,Service revenue,Synthetic service revenue transaction,38000.00,Received,2025-02-07,PARTNER017
+TXN00123,COMP001,2025-01-31,outflow,Logistics,Synthetic logistics transaction,34700.00,Paid,2025-02-04,PARTNER033
+TXN00124,COMP001,2025-01-31,outflow,Payroll,Synthetic payroll transaction,60000.00,Paid,2025-02-06,PARTNER043
+TXN00125,COMP001,2025-02-01,inflow,Product sales,Synthetic product sales transaction,64400.00,Received,2025-02-01,PARTNER034
+TXN00126,COMP001,2025-02-01,inflow,Contract payment,Synthetic contract payment transaction,38700.00,Received,2025-02-03,PARTNER022
+TXN00127,COMP001,2025-02-01,outflow,Marketing,Synthetic marketing transaction,37200.00,Paid,2025-02-08,PARTNER028
+TXN00128,COMP001,2025-02-01,outflow,Rent,Synthetic rent transaction,52800.00,Paid,2025-02-03,PARTNER030
+TXN00129,COMP001,2025-02-02,inflow,Service revenue,Synthetic service revenue transaction,42800.00,Received,2025-02-02,PARTNER036
+TXN00130,COMP001,2025-02-02,inflow,Other income,Synthetic other income transaction,26200.00,Received,2025-02-06,PARTNER035
+TXN00131,COMP001,2025-02-02,outflow,Supplier payment,Synthetic supplier payment transaction,53200.00,Paid,2025-02-06,PARTNER036
+TXN00132,COMP001,2025-02-02,outflow,Utilities,Synthetic utilities transaction,32900.00,Paid,2025-02-02,PARTNER018
+TXN00133,COMP001,2025-02-03,inflow,Contract payment,Synthetic contract payment transaction,74000.00,Received,2025-02-07,PARTNER020
+TXN00134,COMP001,2025-02-03,inflow,Customer receipts,Synthetic customer receipts transaction,45200.00,Received,2025-02-04,PARTNER006
+TXN00135,COMP001,2025-02-03,outflow,Payroll,Synthetic payroll transaction,46100.00,Paid,2025-02-09,PARTNER030
+TXN00136,COMP001,2025-02-03,outflow,Tax,Synthetic tax transaction,31600.00,Paid,2025-02-03,PARTNER011
+TXN00137,COMP001,2025-02-04,inflow,Other income,Synthetic other income transaction,58400.00,Received,2025-02-08,PARTNER001
+TXN00138,COMP001,2025-02-04,inflow,Product sales,Synthetic product sales transaction,76000.00,Received,2025-02-05,PARTNER022
+TXN00139,COMP001,2025-02-04,outflow,Rent,Synthetic rent transaction,65600.00,Paid,2025-02-11,PARTNER043
+TXN00140,COMP001,2025-02-04,outflow,Software,Synthetic software transaction,41000.00,Paid,2025-02-11,PARTNER036
+TXN00141,COMP001,2025-02-05,inflow,Customer receipts,Synthetic customer receipts transaction,43100.00,Received,2025-02-06,PARTNER030
+TXN00142,COMP001,2025-02-05,inflow,Service revenue,Synthetic service revenue transaction,52000.00,Received,2025-02-05,PARTNER006
+TXN00143,COMP001,2025-02-05,outflow,Utilities,Synthetic utilities transaction,26600.00,Paid,2025-02-05,PARTNER028
+TXN00144,COMP001,2025-02-05,outflow,Logistics,Synthetic logistics transaction,48000.00,Paid,2025-02-06,PARTNER019
+TXN00145,COMP001,2025-02-06,inflow,Product sales,Synthetic product sales transaction,71100.00,Received,2025-02-06,PARTNER021
+TXN00146,COMP001,2025-02-06,inflow,Contract payment,Synthetic contract payment transaction,50100.00,Received,2025-02-11,PARTNER013
+TXN00147,COMP001,2025-02-06,outflow,Tax,Synthetic tax transaction,40800.00,Paid,2025-02-11,PARTNER026
+TXN00148,COMP001,2025-02-06,outflow,Marketing,Synthetic marketing transaction,36400.00,Paid,2025-02-06,PARTNER017
+TXN00149,COMP001,2025-02-07,inflow,Service revenue,Synthetic service revenue transaction,58800.00,Received,2025-02-07,PARTNER010
+TXN00150,COMP001,2025-02-07,inflow,Other income,Synthetic other income transaction,57400.00,Received,2025-02-09,PARTNER006
+TXN00151,COMP001,2025-02-07,outflow,Software,Synthetic software transaction,35400.00,Paid,2025-02-11,PARTNER002
+TXN00152,COMP001,2025-02-07,outflow,Supplier payment,Synthetic supplier payment transaction,55100.00,Paid,2025-02-09,PARTNER049
+TXN00153,COMP001,2025-02-08,inflow,Contract payment,Synthetic contract payment transaction,29200.00,Received,2025-02-14,PARTNER022
+TXN00154,COMP001,2025-02-08,inflow,Customer receipts,Synthetic customer receipts transaction,37500.00,Received,2025-02-15,PARTNER003
+TXN00155,COMP001,2025-02-08,outflow,Logistics,Synthetic logistics transaction,44500.00,Paid,2025-02-08,PARTNER004
+TXN00156,COMP001,2025-02-08,outflow,Payroll,Synthetic payroll transaction,35600.00,Paid,2025-02-11,PARTNER004
+TXN00157,COMP001,2025-02-09,inflow,Other income,Synthetic other income transaction,62600.00,Received,2025-02-15,PARTNER047
+TXN00158,COMP001,2025-02-09,inflow,Product sales,Synthetic product sales transaction,41200.00,Received,2025-02-13,PARTNER015
+TXN00159,COMP001,2025-02-09,outflow,Marketing,Synthetic marketing transaction,54400.00,Paid,2025-02-12,PARTNER016
+TXN00160,COMP001,2025-02-09,outflow,Rent,Synthetic rent transaction,43400.00,Paid,2025-02-13,PARTNER003
+TXN00161,COMP001,2025-02-10,inflow,Customer receipts,Synthetic customer receipts transaction,68900.00,Received,2025-02-12,PARTNER015
+TXN00162,COMP001,2025-02-10,inflow,Service revenue,Synthetic service revenue transaction,71600.00,Received,2025-02-12,PARTNER025
+TXN00163,COMP001,2025-02-10,outflow,Supplier payment,Synthetic supplier payment transaction,54100.00,Paid,2025-02-17,PARTNER003
+TXN00164,COMP001,2025-02-10,outflow,Utilities,Synthetic utilities transaction,38600.00,Paid,2025-02-15,PARTNER020
+TXN00165,COMP001,2025-02-11,inflow,Product sales,Synthetic product sales transaction,83300.00,Received,2025-02-13,PARTNER028
+TXN00166,COMP001,2025-02-11,inflow,Contract payment,Synthetic contract payment transaction,52100.00,Received,2025-02-17,PARTNER025
+TXN00167,COMP001,2025-02-11,outflow,Payroll,Synthetic payroll transaction,44100.00,Paid,2025-02-11,PARTNER009
+TXN00168,COMP001,2025-02-11,outflow,Tax,Synthetic tax transaction,33300.00,Paid,2025-02-15,PARTNER034
+TXN00169,COMP001,2025-02-12,inflow,Service revenue,Synthetic service revenue transaction,38300.00,Received,2025-02-12,PARTNER033
+TXN00170,COMP001,2025-02-12,inflow,Other income,Synthetic other income transaction,51500.00,Received,2025-02-13,PARTNER012
+TXN00171,COMP001,2025-02-12,outflow,Rent,Synthetic rent transaction,36700.00,Paid,2025-02-18,PARTNER014
+TXN00172,COMP001,2025-02-12,outflow,Software,Synthetic software transaction,43900.00,Paid,2025-02-15,PARTNER043
+TXN00173,COMP001,2025-02-13,inflow,Contract payment,Synthetic contract payment transaction,63300.00,Received,2025-02-17,PARTNER006
+TXN00174,COMP001,2025-02-13,inflow,Customer receipts,Synthetic customer receipts transaction,74400.00,Received,2025-02-20,PARTNER028
+TXN00175,COMP001,2025-02-13,outflow,Utilities,Synthetic utilities transaction,27400.00,Paid,2025-02-16,PARTNER038
+TXN00176,COMP001,2025-02-13,outflow,Logistics,Synthetic logistics transaction,20800.00,Paid,2025-02-16,PARTNER042
+TXN00177,COMP001,2025-02-14,inflow,Other income,Synthetic other income transaction,61500.00,Received,2025-02-20,PARTNER004
+TXN00178,COMP001,2025-02-14,inflow,Product sales,Synthetic product sales transaction,74300.00,Received,2025-02-15,PARTNER042
+TXN00179,COMP001,2025-02-14,outflow,Tax,Synthetic tax transaction,43400.00,Paid,2025-02-19,PARTNER031
+TXN00180,COMP001,2025-02-14,outflow,Marketing,Synthetic marketing transaction,37700.00,Paid,2025-02-15,PARTNER017
+TXN00181,COMP001,2025-02-15,inflow,Customer receipts,Synthetic customer receipts transaction,36500.00,Received,2025-02-15,PARTNER026
+TXN00182,COMP001,2025-02-15,inflow,Service revenue,Synthetic service revenue transaction,27300.00,Received,2025-02-15,PARTNER044
+TXN00183,COMP001,2025-02-15,outflow,Software,Synthetic software transaction,39500.00,Paid,2025-02-21,PARTNER013
+TXN00184,COMP001,2025-02-15,outflow,Supplier payment,Synthetic supplier payment transaction,26300.00,Paid,2025-02-16,PARTNER042
+TXN00185,COMP001,2025-02-16,inflow,Product sales,Synthetic product sales transaction,34800.00,Received,2025-02-22,PARTNER028
+TXN00186,COMP001,2025-02-16,inflow,Contract payment,Synthetic contract payment transaction,18800.00,Received,2025-02-20,PARTNER019
+TXN00187,COMP001,2025-02-16,outflow,Logistics,Synthetic logistics transaction,43300.00,Paid,2025-02-21,PARTNER050
+TXN00188,COMP001,2025-02-16,outflow,Payroll,Synthetic payroll transaction,48400.00,Paid,2025-02-17,PARTNER027
+TXN00189,COMP001,2025-02-17,inflow,Service revenue,Synthetic service revenue transaction,57100.00,Received,2025-02-21,PARTNER031
+TXN00190,COMP001,2025-02-17,inflow,Other income,Synthetic other income transaction,45100.00,Received,2025-02-20,PARTNER023
+TXN00191,COMP001,2025-02-17,outflow,Marketing,Synthetic marketing transaction,36300.00,Paid,2025-02-24,PARTNER033
+TXN00192,COMP001,2025-02-17,outflow,Rent,Synthetic rent transaction,32900.00,Paid,2025-02-24,PARTNER003
+TXN00193,COMP001,2025-02-18,inflow,Contract payment,Synthetic contract payment transaction,79600.00,Received,2025-02-20,PARTNER033
+TXN00194,COMP001,2025-02-18,inflow,Customer receipts,Synthetic customer receipts transaction,46100.00,Received,2025-02-24,PARTNER047
+TXN00195,COMP001,2025-02-18,outflow,Supplier payment,Synthetic supplier payment transaction,25000.00,Paid,2025-02-23,PARTNER001
+TXN00196,COMP001,2025-02-18,outflow,Utilities,Synthetic utilities transaction,28100.00,Paid,2025-02-24,PARTNER012
+TXN00197,COMP001,2025-02-19,inflow,Other income,Synthetic other income transaction,32300.00,Received,2025-02-20,PARTNER020
+TXN00198,COMP001,2025-02-19,inflow,Product sales,Synthetic product sales transaction,36200.00,Received,2025-02-19,PARTNER020
+TXN00199,COMP001,2025-02-19,outflow,Payroll,Synthetic payroll transaction,31600.00,Paid,2025-02-21,PARTNER028
+TXN00200,COMP001,2025-02-19,outflow,Tax,Synthetic tax transaction,28600.00,Paid,2025-02-21,PARTNER036
+TXN00201,COMP001,2025-02-20,inflow,Customer receipts,Synthetic customer receipts transaction,72700.00,Received,2025-02-26,PARTNER005
+TXN00202,COMP001,2025-02-20,inflow,Service revenue,Synthetic service revenue transaction,68900.00,Received,2025-02-23,PARTNER023
+TXN00203,COMP001,2025-02-20,outflow,Rent,Synthetic rent transaction,49300.00,Paid,2025-02-22,PARTNER007
+TXN00204,COMP001,2025-02-20,outflow,Software,Synthetic software transaction,33500.00,Paid,2025-02-24,PARTNER009
+TXN00205,COMP001,2025-02-21,inflow,Product sales,Synthetic product sales transaction,62700.00,Received,2025-02-23,PARTNER012
+TXN00206,COMP001,2025-02-21,inflow,Contract payment,Synthetic contract payment transaction,41900.00,Received,2025-02-26,PARTNER009
+TXN00207,COMP001,2025-02-21,outflow,Utilities,Synthetic utilities transaction,41900.00,Paid,2025-02-21,PARTNER031
+TXN00208,COMP001,2025-02-21,outflow,Logistics,Synthetic logistics transaction,31500.00,Paid,2025-02-25,PARTNER035
+TXN00209,COMP001,2025-02-22,inflow,Service revenue,Synthetic service revenue transaction,36100.00,Received,2025-02-22,PARTNER040
+TXN00210,COMP001,2025-02-22,inflow,Other income,Synthetic other income transaction,22300.00,Received,2025-02-26,PARTNER009
+TXN00211,COMP001,2025-02-22,outflow,Tax,Synthetic tax transaction,39200.00,Paid,2025-02-24,PARTNER031
+TXN00212,COMP001,2025-02-22,outflow,Marketing,Synthetic marketing transaction,29500.00,Paid,2025-02-22,PARTNER010
+TXN00213,COMP001,2025-02-23,inflow,Contract payment,Synthetic contract payment transaction,19600.00,Received,2025-02-23,PARTNER008
+TXN00214,COMP001,2025-02-23,inflow,Customer receipts,Synthetic customer receipts transaction,25500.00,Received,2025-02-23,PARTNER028
+TXN00215,COMP001,2025-02-23,outflow,Software,Synthetic software transaction,42400.00,Paid,2025-03-01,PARTNER035
+TXN00216,COMP001,2025-02-23,outflow,Supplier payment,Synthetic supplier payment transaction,34300.00,Paid,2025-02-27,PARTNER025
+TXN00217,COMP001,2025-02-24,inflow,Other income,Synthetic other income transaction,43400.00,Received,2025-03-01,PARTNER042
+TXN00218,COMP001,2025-02-24,inflow,Product sales,Synthetic product sales transaction,40500.00,Received,2025-03-03,PARTNER037
+TXN00219,COMP001,2025-02-24,outflow,Logistics,Synthetic logistics transaction,36200.00,Paid,2025-03-03,PARTNER033
+TXN00220,COMP001,2025-02-24,outflow,Payroll,Synthetic payroll transaction,52400.00,Paid,2025-03-03,PARTNER036
+TXN00221,COMP001,2025-02-25,inflow,Customer receipts,Synthetic customer receipts transaction,43800.00,Received,2025-03-04,PARTNER048
+TXN00222,COMP001,2025-02-25,inflow,Service revenue,Synthetic service revenue transaction,28600.00,Received,2025-03-04,PARTNER018
+TXN00223,COMP001,2025-02-25,outflow,Marketing,Synthetic marketing transaction,26900.00,Paid,2025-03-02,PARTNER024
+TXN00224,COMP001,2025-02-25,outflow,Rent,Synthetic rent transaction,41100.00,Paid,2025-02-26,PARTNER034
+TXN00225,COMP001,2025-02-26,inflow,Product sales,Synthetic product sales transaction,43200.00,Received,2025-03-03,PARTNER002
+TXN00226,COMP001,2025-02-26,inflow,Contract payment,Synthetic contract payment transaction,77800.00,Received,2025-03-04,PARTNER019
+TXN00227,COMP001,2025-02-26,outflow,Supplier payment,Synthetic supplier payment transaction,35000.00,Paid,2025-03-04,PARTNER047
+TXN00228,COMP001,2025-02-26,outflow,Utilities,Synthetic utilities transaction,43200.00,Paid,2025-03-02,PARTNER032
+TXN00229,COMP001,2025-02-27,inflow,Service revenue,Synthetic service revenue transaction,63400.00,Received,2025-03-05,PARTNER004
+TXN00230,COMP001,2025-02-27,inflow,Other income,Synthetic other income transaction,38700.00,Received,2025-03-04,PARTNER028
+TXN00231,COMP001,2025-02-27,outflow,Payroll,Synthetic payroll transaction,33700.00,Paid,2025-03-06,PARTNER034
+TXN00232,COMP001,2025-02-27,outflow,Tax,Synthetic tax transaction,46100.00,Paid,2025-03-01,PARTNER005
+TXN00233,COMP001,2025-02-28,inflow,Contract payment,Synthetic contract payment transaction,56500.00,Received,2025-03-04,PARTNER018
+TXN00234,COMP001,2025-02-28,inflow,Customer receipts,Synthetic customer receipts transaction,56800.00,Received,2025-03-04,PARTNER008
+TXN00235,COMP001,2025-02-28,outflow,Rent,Synthetic rent transaction,50200.00,Paid,2025-03-05,PARTNER048
+TXN00236,COMP001,2025-02-28,outflow,Software,Synthetic software transaction,27500.00,Paid,2025-03-04,PARTNER043
+TXN00237,COMP001,2025-03-01,inflow,Other income,Synthetic other income transaction,46000.00,Received,2025-03-07,PARTNER019
+TXN00238,COMP001,2025-03-01,inflow,Product sales,Synthetic product sales transaction,25100.00,Received,2025-03-05,PARTNER002
+TXN00239,COMP001,2025-03-01,outflow,Utilities,Synthetic utilities transaction,34000.00,Paid,2025-03-05,PARTNER035
+TXN00240,COMP001,2025-03-01,outflow,Logistics,Synthetic logistics transaction,36100.00,Paid,2025-03-04,PARTNER002
+TXN00241,COMP001,2025-03-02,inflow,Customer receipts,Synthetic customer receipts transaction,32600.00,Received,2025-03-03,PARTNER042
+TXN00242,COMP001,2025-03-02,inflow,Service revenue,Synthetic service revenue transaction,35800.00,Received,2025-03-04,PARTNER041
+TXN00243,COMP001,2025-03-02,outflow,Tax,Synthetic tax transaction,44300.00,Paid,2025-03-02,PARTNER035
+TXN00244,COMP001,2025-03-02,outflow,Marketing,Synthetic marketing transaction,52800.00,Paid,2025-03-03,PARTNER033
+TXN00245,COMP001,2025-03-03,inflow,Product sales,Synthetic product sales transaction,64400.00,Received,2025-03-10,PARTNER015
+TXN00246,COMP001,2025-03-03,inflow,Contract payment,Synthetic contract payment transaction,60300.00,Received,2025-03-04,PARTNER038
+TXN00247,COMP001,2025-03-03,outflow,Software,Synthetic software transaction,46400.00,Paid,2025-03-04,PARTNER015
+TXN00248,COMP001,2025-03-03,outflow,Supplier payment,Synthetic supplier payment transaction,25600.00,Paid,2025-03-07,PARTNER037
+TXN00249,COMP001,2025-03-04,inflow,Service revenue,Synthetic service revenue transaction,54800.00,Received,2025-03-06,PARTNER046
+TXN00250,COMP001,2025-03-04,inflow,Other income,Synthetic other income transaction,59400.00,Received,2025-03-04,PARTNER044
+TXN00251,COMP001,2025-03-04,outflow,Logistics,Synthetic logistics transaction,38000.00,Paid,2025-03-05,PARTNER017
+TXN00252,COMP001,2025-03-04,outflow,Payroll,Synthetic payroll transaction,27500.00,Paid,2025-03-07,PARTNER042
+TXN00253,COMP001,2025-03-05,inflow,Contract payment,Synthetic contract payment transaction,71300.00,Received,2025-03-05,PARTNER016
+TXN00254,COMP001,2025-03-05,inflow,Customer receipts,Synthetic customer receipts transaction,53300.00,Received,2025-03-07,PARTNER018
+TXN00255,COMP001,2025-03-05,outflow,Marketing,Synthetic marketing transaction,41000.00,Paid,2025-03-07,PARTNER035
+TXN00256,COMP001,2025-03-05,outflow,Rent,Synthetic rent transaction,29800.00,Paid,2025-03-06,PARTNER004
+TXN00257,COMP001,2025-03-06,inflow,Other income,Synthetic other income transaction,36200.00,Received,2025-03-11,PARTNER041
+TXN00258,COMP001,2025-03-06,inflow,Product sales,Synthetic product sales transaction,53400.00,Received,2025-03-11,PARTNER008
+TXN00259,COMP001,2025-03-06,outflow,Supplier payment,Synthetic supplier payment transaction,36700.00,Paid,2025-03-06,PARTNER044
+TXN00260,COMP001,2025-03-06,outflow,Utilities,Synthetic utilities transaction,30600.00,Paid,2025-03-08,PARTNER024
+TXN00261,COMP001,2025-03-07,inflow,Customer receipts,Synthetic customer receipts transaction,56100.00,Received,2025-03-11,PARTNER029
+TXN00262,COMP001,2025-03-07,inflow,Service revenue,Synthetic service revenue transaction,71000.00,Received,2025-03-07,PARTNER040
+TXN00263,COMP001,2025-03-07,outflow,Payroll,Synthetic payroll transaction,25600.00,Paid,2025-03-10,PARTNER017
+TXN00264,COMP001,2025-03-07,outflow,Tax,Synthetic tax transaction,47200.00,Paid,2025-03-13,PARTNER036
+TXN00265,COMP001,2025-03-08,inflow,Product sales,Synthetic product sales transaction,32400.00,Received,2025-03-11,PARTNER013
+TXN00266,COMP001,2025-03-08,inflow,Contract payment,Synthetic contract payment transaction,45600.00,Received,2025-03-12,PARTNER009
+TXN00267,COMP001,2025-03-08,outflow,Rent,Synthetic rent transaction,48000.00,Paid,2025-03-09,PARTNER035
+TXN00268,COMP001,2025-03-08,outflow,Software,Synthetic software transaction,35400.00,Paid,2025-03-14,PARTNER003
+TXN00269,COMP001,2025-03-09,inflow,Service revenue,Synthetic service revenue transaction,20700.00,Received,2025-03-12,PARTNER047
+TXN00270,COMP001,2025-03-09,inflow,Other income,Synthetic other income transaction,36000.00,Received,2025-03-11,PARTNER045
+TXN00271,COMP001,2025-03-09,outflow,Utilities,Synthetic utilities transaction,39700.00,Paid,2025-03-14,PARTNER027
+TXN00272,COMP001,2025-03-09,outflow,Logistics,Synthetic logistics transaction,24500.00,Paid,2025-03-09,PARTNER010
+TXN00273,COMP001,2025-03-10,inflow,Contract payment,Synthetic contract payment transaction,98300.00,Received,2025-03-15,PARTNER014
+TXN00274,COMP001,2025-03-10,inflow,Customer receipts,Synthetic customer receipts transaction,66400.00,Received,2025-03-10,PARTNER032
+TXN00275,COMP001,2025-03-10,outflow,Tax,Synthetic tax transaction,27200.00,Paid,2025-03-14,PARTNER027
+TXN00276,COMP001,2025-03-10,outflow,Marketing,Synthetic marketing transaction,38000.00,Paid,2025-03-11,PARTNER027
+TXN00277,COMP001,2025-03-11,inflow,Other income,Synthetic other income transaction,44300.00,Received,2025-03-14,PARTNER041
+TXN00278,COMP001,2025-03-11,inflow,Product sales,Synthetic product sales transaction,61500.00,Received,2025-03-13,PARTNER046
+TXN00279,COMP001,2025-03-11,outflow,Software,Synthetic software transaction,23400.00,Paid,2025-03-13,PARTNER018
+TXN00280,COMP001,2025-03-11,outflow,Supplier payment,Synthetic supplier payment transaction,41500.00,Paid,2025-03-17,PARTNER037
+TXN00281,COMP001,2025-03-12,inflow,Customer receipts,Synthetic customer receipts transaction,59100.00,Received,2025-03-17,PARTNER050
+TXN00282,COMP001,2025-03-12,inflow,Service revenue,Synthetic service revenue transaction,85800.00,Received,2025-03-16,PARTNER009
+TXN00283,COMP001,2025-03-12,outflow,Logistics,Synthetic logistics transaction,48800.00,Paid,2025-03-14,PARTNER012
+TXN00284,COMP001,2025-03-12,outflow,Payroll,Synthetic payroll transaction,54800.00,Paid,2025-03-14,PARTNER008
+TXN00285,COMP001,2025-03-13,inflow,Product sales,Synthetic product sales transaction,36400.00,Received,2025-03-17,PARTNER050
+TXN00286,COMP001,2025-03-13,inflow,Contract payment,Synthetic contract payment transaction,62500.00,Received,2025-03-20,PARTNER010
+TXN00287,COMP001,2025-03-13,outflow,Marketing,Synthetic marketing transaction,32100.00,Paid,2025-03-19,PARTNER016
+TXN00288,COMP001,2025-03-13,outflow,Rent,Synthetic rent transaction,28600.00,Paid,2025-03-20,PARTNER039
+TXN00289,COMP001,2025-03-14,inflow,Service revenue,Synthetic service revenue transaction,38000.00,Received,2025-03-15,PARTNER041
+TXN00290,COMP001,2025-03-14,inflow,Other income,Synthetic other income transaction,62800.00,Received,2025-03-16,PARTNER047
+TXN00291,COMP001,2025-03-14,outflow,Supplier payment,Synthetic supplier payment transaction,34200.00,Paid,2025-03-18,PARTNER027
+TXN00292,COMP001,2025-03-14,outflow,Utilities,Synthetic utilities transaction,31900.00,Paid,2025-03-14,PARTNER037
+TXN00293,COMP001,2025-03-15,inflow,Contract payment,Synthetic contract payment transaction,36300.00,Received,2025-03-15,PARTNER022
+TXN00294,COMP001,2025-03-15,inflow,Customer receipts,Synthetic customer receipts transaction,31600.00,Received,2025-03-19,PARTNER038
+TXN00295,COMP001,2025-03-15,outflow,Payroll,Synthetic payroll transaction,32700.00,Paid,2025-03-20,PARTNER026
+TXN00296,COMP001,2025-03-15,outflow,Tax,Synthetic tax transaction,46800.00,Paid,2025-03-20,PARTNER043
+TXN00297,COMP001,2025-03-16,inflow,Other income,Synthetic other income transaction,39700.00,Received,2025-03-22,PARTNER018
+TXN00298,COMP001,2025-03-16,inflow,Product sales,Synthetic product sales transaction,40800.00,Received,2025-03-20,PARTNER042
+TXN00299,COMP001,2025-03-16,outflow,Rent,Synthetic rent transaction,29600.00,Paid,2025-03-19,PARTNER015
+TXN00300,COMP001,2025-03-16,outflow,Software,Synthetic software transaction,34300.00,Paid,2025-03-18,PARTNER038
+TXN00301,COMP001,2025-03-17,inflow,Customer receipts,Synthetic customer receipts transaction,53600.00,Received,2025-03-22,PARTNER013
+TXN00302,COMP001,2025-03-17,inflow,Service revenue,Synthetic service revenue transaction,48400.00,Received,2025-03-17,PARTNER032
+TXN00303,COMP001,2025-03-17,outflow,Utilities,Synthetic utilities transaction,42100.00,Paid,2025-03-17,PARTNER010
+TXN00304,COMP001,2025-03-17,outflow,Logistics,Synthetic logistics transaction,44500.00,Paid,2025-03-17,PARTNER014
+TXN00305,COMP001,2025-03-18,inflow,Product sales,Synthetic product sales transaction,48900.00,Received,2025-03-19,PARTNER001
+TXN00306,COMP001,2025-03-18,inflow,Contract payment,Synthetic contract payment transaction,49500.00,Received,2025-03-21,PARTNER021
+TXN00307,COMP001,2025-03-18,outflow,Tax,Synthetic tax transaction,44800.00,Paid,2025-03-18,PARTNER034
+TXN00308,COMP001,2025-03-18,outflow,Marketing,Synthetic marketing transaction,28000.00,Paid,2025-03-23,PARTNER046
+TXN00309,COMP001,2025-03-19,inflow,Service revenue,Synthetic service revenue transaction,43500.00,Received,2025-03-19,PARTNER041
+TXN00310,COMP001,2025-03-19,inflow,Other income,Synthetic other income transaction,42700.00,Received,2025-03-19,PARTNER005
+TXN00311,COMP001,2025-03-19,outflow,Software,Synthetic software transaction,36500.00,Paid,2025-03-23,PARTNER027
+TXN00312,COMP001,2025-03-19,outflow,Supplier payment,Synthetic supplier payment transaction,23600.00,Paid,2025-03-26,PARTNER037
+TXN00313,COMP001,2025-03-20,inflow,Contract payment,Synthetic contract payment transaction,54300.00,Received,2025-03-20,PARTNER010
+TXN00314,COMP001,2025-03-20,inflow,Customer receipts,Synthetic customer receipts transaction,46700.00,Received,2025-03-20,PARTNER030
+TXN00315,COMP001,2025-03-20,outflow,Logistics,Synthetic logistics transaction,39100.00,Paid,2025-03-25,PARTNER034
+TXN00316,COMP001,2025-03-20,outflow,Payroll,Synthetic payroll transaction,54500.00,Paid,2025-03-25,PARTNER016
+TXN00317,COMP001,2025-03-21,inflow,Other income,Synthetic other income transaction,49200.00,Received,2025-03-24,PARTNER008
+TXN00318,COMP001,2025-03-21,inflow,Product sales,Synthetic product sales transaction,58200.00,Received,2025-03-23,PARTNER012
+TXN00319,COMP001,2025-03-21,outflow,Marketing,Synthetic marketing transaction,49400.00,Paid,2025-03-24,PARTNER010
+TXN00320,COMP001,2025-03-21,outflow,Rent,Synthetic rent transaction,32300.00,Paid,2025-03-26,PARTNER040
+TXN00321,COMP001,2025-03-22,inflow,Customer receipts,Synthetic customer receipts transaction,45300.00,Received,2025-03-28,PARTNER009
+TXN00322,COMP001,2025-03-22,inflow,Service revenue,Synthetic service revenue transaction,40900.00,Received,2025-03-24,PARTNER043
+TXN00323,COMP001,2025-03-22,outflow,Supplier payment,Synthetic supplier payment transaction,46100.00,Paid,2025-03-23,PARTNER049
+TXN00324,COMP001,2025-03-22,outflow,Utilities,Synthetic utilities transaction,28600.00,Paid,2025-03-28,PARTNER024
+TXN00325,COMP001,2025-03-23,inflow,Product sales,Synthetic product sales transaction,36300.00,Received,2025-03-23,PARTNER022
+TXN00326,COMP001,2025-03-23,inflow,Contract payment,Synthetic contract payment transaction,33000.00,Received,2025-03-29,PARTNER029
+TXN00327,COMP001,2025-03-23,outflow,Payroll,Synthetic payroll transaction,36400.00,Paid,2025-03-24,PARTNER026
+TXN00328,COMP001,2025-03-23,outflow,Tax,Synthetic tax transaction,34100.00,Paid,2025-03-24,PARTNER014
+TXN00329,COMP001,2025-03-24,inflow,Service revenue,Synthetic service revenue transaction,63000.00,Received,2025-03-24,PARTNER042
+TXN00330,COMP001,2025-03-24,inflow,Other income,Synthetic other income transaction,56000.00,Received,2025-03-28,PARTNER029
+TXN00331,COMP001,2025-03-24,outflow,Rent,Synthetic rent transaction,44700.00,Paid,2025-03-27,PARTNER015
+TXN00332,COMP001,2025-03-24,outflow,Software,Synthetic software transaction,56500.00,Paid,2025-03-26,PARTNER014
+TXN00333,COMP001,2025-03-25,inflow,Contract payment,Synthetic contract payment transaction,33600.00,Received,2025-03-27,PARTNER034
+TXN00334,COMP001,2025-03-25,inflow,Customer receipts,Synthetic customer receipts transaction,53400.00,Received,2025-03-27,PARTNER042
+TXN00335,COMP001,2025-03-25,outflow,Utilities,Synthetic utilities transaction,32200.00,Paid,2025-03-28,PARTNER050
+TXN00336,COMP001,2025-03-25,outflow,Logistics,Synthetic logistics transaction,47900.00,Paid,2025-03-29,PARTNER049
+TXN00337,COMP001,2025-03-26,inflow,Other income,Synthetic other income transaction,44200.00,Received,2025-03-31,PARTNER009
+TXN00338,COMP001,2025-03-26,inflow,Product sales,Synthetic product sales transaction,41300.00,Received,2025-03-30,PARTNER019
+TXN00339,COMP001,2025-03-26,outflow,Tax,Synthetic tax transaction,23900.00,Paid,2025-03-26,PARTNER028
+TXN00340,COMP001,2025-03-26,outflow,Marketing,Synthetic marketing transaction,32300.00,Paid,2025-03-27,PARTNER033
+TXN00341,COMP001,2025-03-27,inflow,Customer receipts,Synthetic customer receipts transaction,59500.00,Received,2025-04-02,PARTNER028
+TXN00342,COMP001,2025-03-27,inflow,Service revenue,Synthetic service revenue transaction,77900.00,Received,2025-03-31,PARTNER037
+TXN00343,COMP001,2025-03-27,outflow,Software,Synthetic software transaction,29400.00,Paid,2025-03-31,PARTNER008
+TXN00344,COMP001,2025-03-27,outflow,Supplier payment,Synthetic supplier payment transaction,23900.00,Paid,2025-04-02,PARTNER041
+TXN00345,COMP001,2025-03-28,inflow,Product sales,Synthetic product sales transaction,48100.00,Received,2025-04-02,PARTNER008
+TXN00346,COMP001,2025-03-28,inflow,Contract payment,Synthetic contract payment transaction,65800.00,Received,2025-04-01,PARTNER029
+TXN00347,COMP001,2025-03-28,outflow,Logistics,Synthetic logistics transaction,49300.00,Paid,2025-04-04,PARTNER031
+TXN00348,COMP001,2025-03-28,outflow,Payroll,Synthetic payroll transaction,29500.00,Paid,2025-03-29,PARTNER038
+TXN00349,COMP001,2025-03-29,inflow,Service revenue,Synthetic service revenue transaction,44200.00,Received,2025-04-05,PARTNER024
+TXN00350,COMP001,2025-03-29,inflow,Other income,Synthetic other income transaction,54800.00,Received,2025-03-30,PARTNER034
+TXN00351,COMP001,2025-03-29,outflow,Marketing,Synthetic marketing transaction,36200.00,Paid,2025-03-30,PARTNER030
+TXN00352,COMP001,2025-03-29,outflow,Rent,Synthetic rent transaction,28100.00,Paid,2025-04-05,PARTNER024
+TXN00353,COMP001,2025-03-30,inflow,Contract payment,Synthetic contract payment transaction,35400.00,Received,2025-04-05,PARTNER014
+TXN00354,COMP001,2025-03-30,inflow,Customer receipts,Synthetic customer receipts transaction,46500.00,Received,2025-04-05,PARTNER034
+TXN00355,COMP001,2025-03-30,outflow,Supplier payment,Synthetic supplier payment transaction,31800.00,Paid,2025-04-01,PARTNER007
+TXN00356,COMP001,2025-03-30,outflow,Utilities,Synthetic utilities transaction,27300.00,Paid,2025-03-30,PARTNER027
+TXN00357,COMP001,2025-03-31,inflow,Other income,Synthetic other income transaction,47600.00,Received,2025-04-07,PARTNER041
+TXN00358,COMP001,2025-03-31,inflow,Product sales,Synthetic product sales transaction,41500.00,Received,2025-03-31,PARTNER014
+TXN00359,COMP001,2025-03-31,outflow,Payroll,Synthetic payroll transaction,43200.00,Paid,2025-04-06,PARTNER012
+TXN00360,COMP001,2025-03-31,outflow,Tax,Synthetic tax transaction,41400.00,Paid,2025-04-01,PARTNER012
+TXN00361,COMP001,2025-04-01,inflow,Customer receipts,Synthetic customer receipts transaction,47800.00,Received,2025-04-02,PARTNER019
+TXN00362,COMP001,2025-04-01,inflow,Service revenue,Synthetic service revenue transaction,74000.00,Received,2025-04-03,PARTNER035
+TXN00363,COMP001,2025-04-01,outflow,Rent,Synthetic rent transaction,25600.00,Paid,2025-04-07,PARTNER010
+TXN00364,COMP001,2025-04-01,outflow,Software,Synthetic software transaction,19000.00,Paid,2025-04-04,PARTNER043
+TXN00365,COMP001,2025-04-02,inflow,Product sales,Synthetic product sales transaction,54500.00,Received,2025-04-03,PARTNER024
+TXN00366,COMP001,2025-04-02,inflow,Contract payment,Synthetic contract payment transaction,37500.00,Received,2025-04-06,PARTNER049
+TXN00367,COMP001,2025-04-02,outflow,Utilities,Synthetic utilities transaction,66700.00,Paid,2025-04-04,PARTNER036
+TXN00368,COMP001,2025-04-02,outflow,Logistics,Synthetic logistics transaction,37100.00,Paid,2025-04-07,PARTNER024
+TXN00369,COMP001,2025-04-03,inflow,Service revenue,Synthetic service revenue transaction,53000.00,Received,2025-04-05,PARTNER040
+TXN00370,COMP001,2025-04-03,inflow,Other income,Synthetic other income transaction,56900.00,Received,2025-04-10,PARTNER002
+TXN00371,COMP001,2025-04-03,outflow,Tax,Synthetic tax transaction,25000.00,Paid,2025-04-09,PARTNER019
+TXN00372,COMP001,2025-04-03,outflow,Marketing,Synthetic marketing transaction,43900.00,Paid,2025-04-10,PARTNER009
+TXN00373,COMP001,2025-04-04,inflow,Contract payment,Synthetic contract payment transaction,61400.00,Received,2025-04-09,PARTNER046
+TXN00374,COMP001,2025-04-04,inflow,Customer receipts,Synthetic customer receipts transaction,39600.00,Received,2025-04-11,PARTNER005
+TXN00375,COMP001,2025-04-04,outflow,Software,Synthetic software transaction,29900.00,Paid,2025-04-05,PARTNER048
+TXN00376,COMP001,2025-04-04,outflow,Supplier payment,Synthetic supplier payment transaction,52300.00,Paid,2025-04-11,PARTNER033
+TXN00377,COMP001,2025-04-05,inflow,Other income,Synthetic other income transaction,47200.00,Received,2025-04-10,PARTNER043
+TXN00378,COMP001,2025-04-05,inflow,Product sales,Synthetic product sales transaction,52000.00,Received,2025-04-08,PARTNER047
+TXN00379,COMP001,2025-04-05,outflow,Logistics,Synthetic logistics transaction,42500.00,Paid,2025-04-10,PARTNER049
+TXN00380,COMP001,2025-04-05,outflow,Payroll,Synthetic payroll transaction,47300.00,Paid,2025-04-11,PARTNER030
+TXN00381,COMP001,2025-04-06,inflow,Customer receipts,Synthetic customer receipts transaction,48700.00,Received,2025-04-10,PARTNER012
+TXN00382,COMP001,2025-04-06,inflow,Service revenue,Synthetic service revenue transaction,28500.00,Received,2025-04-10,PARTNER048
+TXN00383,COMP001,2025-04-06,outflow,Marketing,Synthetic marketing transaction,29000.00,Paid,2025-04-13,PARTNER015
+TXN00384,COMP001,2025-04-06,outflow,Rent,Synthetic rent transaction,47600.00,Paid,2025-04-10,PARTNER038
+TXN00385,COMP001,2025-04-07,inflow,Product sales,Synthetic product sales transaction,41500.00,Received,2025-04-11,PARTNER029
+TXN00386,COMP001,2025-04-07,inflow,Contract payment,Synthetic contract payment transaction,70600.00,Received,2025-04-08,PARTNER014
+TXN00387,COMP001,2025-04-07,outflow,Supplier payment,Synthetic supplier payment transaction,25600.00,Paid,2025-04-07,PARTNER004
+TXN00388,COMP001,2025-04-07,outflow,Utilities,Synthetic utilities transaction,36200.00,Paid,2025-04-12,PARTNER009
+TXN00389,COMP001,2025-04-08,inflow,Service revenue,Synthetic service revenue transaction,71700.00,Received,2025-04-13,PARTNER043
+TXN00390,COMP001,2025-04-08,inflow,Other income,Synthetic other income transaction,62800.00,Received,2025-04-14,PARTNER029
+TXN00391,COMP001,2025-04-08,outflow,Payroll,Synthetic payroll transaction,51500.00,Paid,2025-04-09,PARTNER035
+TXN00392,COMP001,2025-04-08,outflow,Tax,Synthetic tax transaction,58000.00,Paid,2025-04-10,PARTNER022
+TXN00393,COMP001,2025-04-09,inflow,Contract payment,Synthetic contract payment transaction,61600.00,Received,2025-04-12,PARTNER017
+TXN00394,COMP001,2025-04-09,inflow,Customer receipts,Synthetic customer receipts transaction,63200.00,Received,2025-04-09,PARTNER050
+TXN00395,COMP001,2025-04-09,outflow,Rent,Synthetic rent transaction,30400.00,Paid,2025-04-10,PARTNER009
+TXN00396,COMP001,2025-04-09,outflow,Software,Synthetic software transaction,24400.00,Paid,2025-04-14,PARTNER047
+TXN00397,COMP001,2025-04-10,inflow,Other income,Synthetic other income transaction,62700.00,Received,2025-04-17,PARTNER014
+TXN00398,COMP001,2025-04-10,inflow,Product sales,Synthetic product sales transaction,51100.00,Received,2025-04-10,PARTNER050
+TXN00399,COMP001,2025-04-10,outflow,Utilities,Synthetic utilities transaction,35300.00,Paid,2025-04-14,PARTNER016
+TXN00400,COMP001,2025-04-10,outflow,Logistics,Synthetic logistics transaction,46000.00,Paid,2025-04-13,PARTNER010
+TXN00401,COMP001,2025-04-11,inflow,Customer receipts,Synthetic customer receipts transaction,67300.00,Received,2025-04-15,PARTNER002
+TXN00402,COMP001,2025-04-11,inflow,Service revenue,Synthetic service revenue transaction,66100.00,Received,2025-04-12,PARTNER049
+TXN00403,COMP001,2025-04-11,outflow,Tax,Synthetic tax transaction,36800.00,Paid,2025-04-15,PARTNER050
+TXN00404,COMP001,2025-04-11,outflow,Marketing,Synthetic marketing transaction,33600.00,Paid,2025-04-15,PARTNER040
+TXN00405,COMP001,2025-04-12,inflow,Product sales,Synthetic product sales transaction,46600.00,Received,2025-04-16,PARTNER049
+TXN00406,COMP001,2025-04-12,inflow,Contract payment,Synthetic contract payment transaction,39800.00,Received,2025-04-18,PARTNER034
+TXN00407,COMP001,2025-04-12,outflow,Software,Synthetic software transaction,44100.00,Paid,2025-04-16,PARTNER045
+TXN00408,COMP001,2025-04-12,outflow,Supplier payment,Synthetic supplier payment transaction,34600.00,Paid,2025-04-17,PARTNER024
+TXN00409,COMP001,2025-04-13,inflow,Service revenue,Synthetic service revenue transaction,42700.00,Received,2025-04-14,PARTNER030
+TXN00410,COMP001,2025-04-13,inflow,Other income,Synthetic other income transaction,26200.00,Received,2025-04-19,PARTNER019
+TXN00411,COMP001,2025-04-13,outflow,Logistics,Synthetic logistics transaction,37400.00,Paid,2025-04-13,PARTNER033
+TXN00412,COMP001,2025-04-13,outflow,Payroll,Synthetic payroll transaction,32300.00,Paid,2025-04-15,PARTNER027
+TXN00413,COMP001,2025-04-14,inflow,Contract payment,Synthetic contract payment transaction,57100.00,Received,2025-04-17,PARTNER021
+TXN00414,COMP001,2025-04-14,inflow,Customer receipts,Synthetic customer receipts transaction,60300.00,Received,2025-04-21,PARTNER042
+TXN00415,COMP001,2025-04-14,outflow,Marketing,Synthetic marketing transaction,37100.00,Paid,2025-04-19,PARTNER003
+TXN00416,COMP001,2025-04-14,outflow,Rent,Synthetic rent transaction,44400.00,Paid,2025-04-16,PARTNER037
+TXN00417,COMP001,2025-04-15,inflow,Other income,Synthetic other income transaction,69100.00,Received,2025-04-20,PARTNER022
+TXN00418,COMP001,2025-04-15,inflow,Product sales,Synthetic product sales transaction,41700.00,Received,2025-04-15,PARTNER005
+TXN00419,COMP001,2025-04-15,outflow,Supplier payment,Synthetic supplier payment transaction,41900.00,Paid,2025-04-19,PARTNER002
+TXN00420,COMP001,2025-04-15,outflow,Utilities,Synthetic utilities transaction,32300.00,Paid,2025-04-17,PARTNER031
+TXN00421,COMP001,2025-04-16,inflow,Customer receipts,Synthetic customer receipts transaction,78000.00,Received,2025-04-23,PARTNER033
+TXN00422,COMP001,2025-04-16,inflow,Service revenue,Synthetic service revenue transaction,51900.00,Received,2025-04-19,PARTNER006
+TXN00423,COMP001,2025-04-16,outflow,Payroll,Synthetic payroll transaction,32800.00,Paid,2025-04-16,PARTNER023
+TXN00424,COMP001,2025-04-16,outflow,Tax,Synthetic tax transaction,54200.00,Paid,2025-04-19,PARTNER025
+TXN00425,COMP001,2025-04-17,inflow,Product sales,Synthetic product sales transaction,43800.00,Received,2025-04-23,PARTNER017
+TXN00426,COMP001,2025-04-17,inflow,Contract payment,Synthetic contract payment transaction,77900.00,Received,2025-04-24,PARTNER015
+TXN00427,COMP001,2025-04-17,outflow,Rent,Synthetic rent transaction,41300.00,Paid,2025-04-17,PARTNER046
+TXN00428,COMP001,2025-04-17,outflow,Software,Synthetic software transaction,63300.00,Paid,2025-04-18,PARTNER020
+TXN00429,COMP001,2025-04-18,inflow,Service revenue,Synthetic service revenue transaction,63900.00,Received,2025-04-25,PARTNER015
+TXN00430,COMP001,2025-04-18,inflow,Other income,Synthetic other income transaction,51300.00,Received,2025-04-18,PARTNER021
+TXN00431,COMP001,2025-04-18,outflow,Utilities,Synthetic utilities transaction,46300.00,Paid,2025-04-23,PARTNER047
+TXN00432,COMP001,2025-04-18,outflow,Logistics,Synthetic logistics transaction,66600.00,Paid,2025-04-23,PARTNER019
+TXN00433,COMP001,2025-04-19,inflow,Contract payment,Synthetic contract payment transaction,50700.00,Received,2025-04-22,PARTNER048
+TXN00434,COMP001,2025-04-19,inflow,Customer receipts,Synthetic customer receipts transaction,38000.00,Received,2025-04-21,PARTNER034
+TXN00435,COMP001,2025-04-19,outflow,Tax,Synthetic tax transaction,25900.00,Paid,2025-04-21,PARTNER011
+TXN00436,COMP001,2025-04-19,outflow,Marketing,Synthetic marketing transaction,44100.00,Paid,2025-04-24,PARTNER001
+TXN00437,COMP001,2025-04-20,inflow,Other income,Synthetic other income transaction,54100.00,Received,2025-04-26,PARTNER027
+TXN00438,COMP001,2025-04-20,inflow,Product sales,Synthetic product sales transaction,49700.00,Received,2025-04-23,PARTNER049
+TXN00439,COMP001,2025-04-20,outflow,Software,Synthetic software transaction,57800.00,Paid,2025-04-25,PARTNER025
+TXN00440,COMP001,2025-04-20,outflow,Supplier payment,Synthetic supplier payment transaction,31800.00,Paid,2025-04-26,PARTNER022
+TXN00441,COMP001,2025-04-21,inflow,Customer receipts,Synthetic customer receipts transaction,57700.00,Received,2025-04-21,PARTNER034
+TXN00442,COMP001,2025-04-21,inflow,Service revenue,Synthetic service revenue transaction,35700.00,Received,2025-04-23,PARTNER011
+TXN00443,COMP001,2025-04-21,outflow,Logistics,Synthetic logistics transaction,51200.00,Paid,2025-04-24,PARTNER004
+TXN00444,COMP001,2025-04-21,outflow,Payroll,Synthetic payroll transaction,39600.00,Paid,2025-04-21,PARTNER007
+TXN00445,COMP001,2025-04-22,inflow,Product sales,Synthetic product sales transaction,40400.00,Received,2025-04-28,PARTNER048
+TXN00446,COMP001,2025-04-22,inflow,Contract payment,Synthetic contract payment transaction,42200.00,Received,2025-04-29,PARTNER037
+TXN00447,COMP001,2025-04-22,outflow,Marketing,Synthetic marketing transaction,40300.00,Paid,2025-04-29,PARTNER043
+TXN00448,COMP001,2025-04-22,outflow,Rent,Synthetic rent transaction,30900.00,Paid,2025-04-26,PARTNER013
+TXN00449,COMP001,2025-04-23,inflow,Service revenue,Synthetic service revenue transaction,66300.00,Received,2025-04-29,PARTNER038
+TXN00450,COMP001,2025-04-23,inflow,Other income,Synthetic other income transaction,40800.00,Received,2025-04-27,PARTNER019
+TXN00451,COMP001,2025-04-23,outflow,Supplier payment,Synthetic supplier payment transaction,28100.00,Paid,2025-04-30,PARTNER031
+TXN00452,COMP001,2025-04-23,outflow,Utilities,Synthetic utilities transaction,40600.00,Paid,2025-04-24,PARTNER023
+TXN00453,COMP001,2025-04-24,inflow,Contract payment,Synthetic contract payment transaction,43800.00,Received,2025-04-30,PARTNER036
+TXN00454,COMP001,2025-04-24,inflow,Customer receipts,Synthetic customer receipts transaction,65700.00,Received,2025-04-30,PARTNER042
+TXN00455,COMP001,2025-04-24,outflow,Payroll,Synthetic payroll transaction,43600.00,Paid,2025-04-25,PARTNER024
+TXN00456,COMP001,2025-04-24,outflow,Tax,Synthetic tax transaction,41900.00,Paid,2025-04-24,PARTNER042
+TXN00457,COMP001,2025-04-25,inflow,Other income,Synthetic other income transaction,66000.00,Received,2025-04-30,PARTNER041
+TXN00458,COMP001,2025-04-25,inflow,Product sales,Synthetic product sales transaction,54900.00,Received,2025-05-02,PARTNER033
+TXN00459,COMP001,2025-04-25,outflow,Rent,Synthetic rent transaction,42700.00,Paid,2025-04-27,PARTNER036
+TXN00460,COMP001,2025-04-25,outflow,Software,Synthetic software transaction,37300.00,Paid,2025-04-26,PARTNER025
+TXN00461,COMP001,2025-04-26,inflow,Customer receipts,Synthetic customer receipts transaction,46700.00,Received,2025-05-03,PARTNER029
+TXN00462,COMP001,2025-04-26,inflow,Service revenue,Synthetic service revenue transaction,42000.00,Received,2025-04-29,PARTNER041
+TXN00463,COMP001,2025-04-26,outflow,Utilities,Synthetic utilities transaction,51700.00,Paid,2025-05-02,PARTNER035
+TXN00464,COMP001,2025-04-26,outflow,Logistics,Synthetic logistics transaction,47700.00,Paid,2025-04-30,PARTNER006
+TXN00465,COMP001,2025-04-27,inflow,Product sales,Synthetic product sales transaction,43500.00,Received,2025-04-30,PARTNER013
+TXN00466,COMP001,2025-04-27,inflow,Contract payment,Synthetic contract payment transaction,51000.00,Received,2025-04-30,PARTNER021
+TXN00467,COMP001,2025-04-27,outflow,Tax,Synthetic tax transaction,44400.00,Paid,2025-04-30,PARTNER032
+TXN00468,COMP001,2025-04-27,outflow,Marketing,Synthetic marketing transaction,49100.00,Paid,2025-05-02,PARTNER050
+TXN00469,COMP001,2025-04-28,inflow,Service revenue,Synthetic service revenue transaction,46200.00,Received,2025-05-03,PARTNER006
+TXN00470,COMP001,2025-04-28,inflow,Other income,Synthetic other income transaction,58600.00,Received,2025-05-05,PARTNER021
+TXN00471,COMP001,2025-04-28,outflow,Software,Synthetic software transaction,36900.00,Paid,2025-04-29,PARTNER003
+TXN00472,COMP001,2025-04-28,outflow,Supplier payment,Synthetic supplier payment transaction,64000.00,Paid,2025-05-01,PARTNER043
+TXN00473,COMP001,2025-04-29,inflow,Contract payment,Synthetic contract payment transaction,51800.00,Received,2025-05-05,PARTNER031
+TXN00474,COMP001,2025-04-29,inflow,Customer receipts,Synthetic customer receipts transaction,81300.00,Received,2025-05-02,PARTNER010
+TXN00475,COMP001,2025-04-29,outflow,Logistics,Synthetic logistics transaction,40700.00,Paid,2025-05-01,PARTNER016
+TXN00476,COMP001,2025-04-29,outflow,Payroll,Synthetic payroll transaction,58200.00,Paid,2025-05-04,PARTNER047
+TXN00477,COMP001,2025-04-30,inflow,Other income,Synthetic other income transaction,50300.00,Received,2025-04-30,PARTNER041
+TXN00478,COMP001,2025-04-30,inflow,Product sales,Synthetic product sales transaction,33900.00,Received,2025-05-05,PARTNER016
+TXN00479,COMP001,2025-04-30,outflow,Marketing,Synthetic marketing transaction,46500.00,Paid,2025-05-03,PARTNER041
+TXN00480,COMP001,2025-04-30,outflow,Rent,Synthetic rent transaction,70300.00,Paid,2025-05-06,PARTNER021
+TXN00481,COMP001,2025-05-01,inflow,Customer receipts,Synthetic customer receipts transaction,63300.00,Received,2025-05-08,PARTNER014
+TXN00482,COMP001,2025-05-01,inflow,Service revenue,Synthetic service revenue transaction,51600.00,Received,2025-05-06,PARTNER015
+TXN00483,COMP001,2025-05-01,outflow,Supplier payment,Synthetic supplier payment transaction,31800.00,Paid,2025-05-06,PARTNER012
+TXN00484,COMP001,2025-05-01,outflow,Utilities,Synthetic utilities transaction,44400.00,Paid,2025-05-06,PARTNER050
+TXN00485,COMP001,2025-05-02,inflow,Product sales,Synthetic product sales transaction,94100.00,Received,2025-05-07,PARTNER002
+TXN00486,COMP001,2025-05-02,inflow,Contract payment,Synthetic contract payment transaction,58800.00,Received,2025-05-09,PARTNER018
+TXN00487,COMP001,2025-05-02,outflow,Payroll,Synthetic payroll transaction,42000.00,Paid,2025-05-06,PARTNER048
+TXN00488,COMP001,2025-05-02,outflow,Tax,Synthetic tax transaction,42000.00,Paid,2025-05-03,PARTNER022
+TXN00489,COMP001,2025-05-03,inflow,Service revenue,Synthetic service revenue transaction,43200.00,Received,2025-05-09,PARTNER030
+TXN00490,COMP001,2025-05-03,inflow,Other income,Synthetic other income transaction,27000.00,Received,2025-05-08,PARTNER043
+TXN00491,COMP001,2025-05-03,outflow,Rent,Synthetic rent transaction,25800.00,Paid,2025-05-08,PARTNER031
+TXN00492,COMP001,2025-05-03,outflow,Software,Synthetic software transaction,46400.00,Paid,2025-05-10,PARTNER030
+TXN00493,COMP001,2025-05-04,inflow,Contract payment,Synthetic contract payment transaction,24500.00,Received,2025-05-05,PARTNER037
+TXN00494,COMP001,2025-05-04,inflow,Customer receipts,Synthetic customer receipts transaction,36500.00,Received,2025-05-05,PARTNER049
+TXN00495,COMP001,2025-05-04,outflow,Utilities,Synthetic utilities transaction,30900.00,Paid,2025-05-09,PARTNER032
+TXN00496,COMP001,2025-05-04,outflow,Logistics,Synthetic logistics transaction,41600.00,Paid,2025-05-11,PARTNER010
+TXN00497,COMP001,2025-05-05,inflow,Other income,Synthetic other income transaction,60100.00,Received,2025-05-09,PARTNER034
+TXN00498,COMP001,2025-05-05,inflow,Product sales,Synthetic product sales transaction,57600.00,Received,2025-05-05,PARTNER008
+TXN00499,COMP001,2025-05-05,outflow,Tax,Synthetic tax transaction,49300.00,Paid,2025-05-09,PARTNER015
+TXN00500,COMP001,2025-05-05,outflow,Marketing,Synthetic marketing transaction,30200.00,Paid,2025-05-12,PARTNER013
+TXN00501,COMP001,2025-05-06,inflow,Customer receipts,Synthetic customer receipts transaction,68800.00,Received,2025-05-12,PARTNER042
+TXN00502,COMP001,2025-05-06,inflow,Service revenue,Synthetic service revenue transaction,63500.00,Received,2025-05-10,PARTNER047
+TXN00503,COMP001,2025-05-06,outflow,Software,Synthetic software transaction,47200.00,Paid,2025-05-12,PARTNER016
+TXN00504,COMP001,2025-05-06,outflow,Supplier payment,Synthetic supplier payment transaction,34200.00,Paid,2025-05-13,PARTNER006
+TXN00505,COMP001,2025-05-07,inflow,Product sales,Synthetic product sales transaction,44200.00,Received,2025-05-09,PARTNER043
+TXN00506,COMP001,2025-05-07,inflow,Contract payment,Synthetic contract payment transaction,78300.00,Received,2025-05-14,PARTNER022
+TXN00507,COMP001,2025-05-07,outflow,Logistics,Synthetic logistics transaction,36900.00,Paid,2025-05-08,PARTNER009
+TXN00508,COMP001,2025-05-07,outflow,Payroll,Synthetic payroll transaction,35900.00,Paid,2025-05-08,PARTNER027
+TXN00509,COMP001,2025-05-08,inflow,Service revenue,Synthetic service revenue transaction,44700.00,Received,2025-05-14,PARTNER027
+TXN00510,COMP001,2025-05-08,inflow,Other income,Synthetic other income transaction,38900.00,Received,2025-05-08,PARTNER038
+TXN00511,COMP001,2025-05-08,outflow,Marketing,Synthetic marketing transaction,26800.00,Paid,2025-05-10,PARTNER045
+TXN00512,COMP001,2025-05-08,outflow,Rent,Synthetic rent transaction,42400.00,Paid,2025-05-15,PARTNER047
+TXN00513,COMP001,2025-05-09,inflow,Contract payment,Synthetic contract payment transaction,55800.00,Received,2025-05-11,PARTNER048
+TXN00514,COMP001,2025-05-09,inflow,Customer receipts,Synthetic customer receipts transaction,39900.00,Received,2025-05-13,PARTNER043
+TXN00515,COMP001,2025-05-09,outflow,Supplier payment,Synthetic supplier payment transaction,40900.00,Paid,2025-05-11,PARTNER014
+TXN00516,COMP001,2025-05-09,outflow,Utilities,Synthetic utilities transaction,51100.00,Paid,2025-05-10,PARTNER007
+TXN00517,COMP001,2025-05-10,inflow,Other income,Synthetic other income transaction,46800.00,Received,2025-05-12,PARTNER014
+TXN00518,COMP001,2025-05-10,inflow,Product sales,Synthetic product sales transaction,40500.00,Received,2025-05-12,PARTNER032
+TXN00519,COMP001,2025-05-10,outflow,Payroll,Synthetic payroll transaction,33900.00,Paid,2025-05-12,PARTNER014
+TXN00520,COMP001,2025-05-10,outflow,Tax,Synthetic tax transaction,21900.00,Paid,2025-05-16,PARTNER010
+TXN00521,COMP001,2025-05-11,inflow,Customer receipts,Synthetic customer receipts transaction,43100.00,Received,2025-05-11,PARTNER013
+TXN00522,COMP001,2025-05-11,inflow,Service revenue,Synthetic service revenue transaction,50100.00,Received,2025-05-11,PARTNER024
+TXN00523,COMP001,2025-05-11,outflow,Rent,Synthetic rent transaction,22500.00,Paid,2025-05-12,PARTNER049
+TXN00524,COMP001,2025-05-11,outflow,Software,Synthetic software transaction,33800.00,Paid,2025-05-18,PARTNER041
+TXN00525,COMP001,2025-05-12,inflow,Product sales,Synthetic product sales transaction,61900.00,Received,2025-05-13,PARTNER027
+TXN00526,COMP001,2025-05-12,inflow,Contract payment,Synthetic contract payment transaction,73900.00,Received,2025-05-19,PARTNER044
+TXN00527,COMP001,2025-05-12,outflow,Utilities,Synthetic utilities transaction,34500.00,Paid,2025-05-15,PARTNER050
+TXN00528,COMP001,2025-05-12,outflow,Logistics,Synthetic logistics transaction,36200.00,Paid,2025-05-15,PARTNER044
+TXN00529,COMP001,2025-05-13,inflow,Service revenue,Synthetic service revenue transaction,61100.00,Received,2025-05-19,PARTNER010
+TXN00530,COMP001,2025-05-13,inflow,Other income,Synthetic other income transaction,59700.00,Received,2025-05-16,PARTNER037
+TXN00531,COMP001,2025-05-13,outflow,Tax,Synthetic tax transaction,43500.00,Paid,2025-05-16,PARTNER025
+TXN00532,COMP001,2025-05-13,outflow,Marketing,Synthetic marketing transaction,34600.00,Paid,2025-05-14,PARTNER009
+TXN00533,COMP001,2025-05-14,inflow,Contract payment,Synthetic contract payment transaction,56900.00,Received,2025-05-19,PARTNER011
+TXN00534,COMP001,2025-05-14,inflow,Customer receipts,Synthetic customer receipts transaction,64000.00,Received,2025-05-16,PARTNER025
+TXN00535,COMP001,2025-05-14,outflow,Software,Synthetic software transaction,26300.00,Paid,2025-05-20,PARTNER047
+TXN00536,COMP001,2025-05-14,outflow,Supplier payment,Synthetic supplier payment transaction,42600.00,Paid,2025-05-16,PARTNER014
+TXN00537,COMP001,2025-05-15,inflow,Other income,Synthetic other income transaction,64900.00,Received,2025-05-16,PARTNER030
+TXN00538,COMP001,2025-05-15,inflow,Product sales,Synthetic product sales transaction,47600.00,Received,2025-05-16,PARTNER013
+TXN00539,COMP001,2025-05-15,outflow,Logistics,Synthetic logistics transaction,31000.00,Paid,2025-05-17,PARTNER009
+TXN00540,COMP001,2025-05-15,outflow,Payroll,Synthetic payroll transaction,53300.00,Paid,2025-05-15,PARTNER010
+TXN00541,COMP001,2025-05-16,inflow,Customer receipts,Synthetic customer receipts transaction,46000.00,Received,2025-05-21,PARTNER012
+TXN00542,COMP001,2025-05-16,inflow,Service revenue,Synthetic service revenue transaction,30800.00,Received,2025-05-17,PARTNER032
+TXN00543,COMP001,2025-05-16,outflow,Marketing,Synthetic marketing transaction,25500.00,Paid,2025-05-21,PARTNER050
+TXN00544,COMP001,2025-05-16,outflow,Rent,Synthetic rent transaction,47000.00,Paid,2025-05-19,PARTNER048
+TXN00545,COMP001,2025-05-17,inflow,Product sales,Synthetic product sales transaction,70500.00,Received,2025-05-20,PARTNER050
+TXN00546,COMP001,2025-05-17,inflow,Contract payment,Synthetic contract payment transaction,62700.00,Received,2025-05-19,PARTNER014
+TXN00547,COMP001,2025-05-17,outflow,Supplier payment,Synthetic supplier payment transaction,23700.00,Paid,2025-05-24,PARTNER038
+TXN00548,COMP001,2025-05-17,outflow,Utilities,Synthetic utilities transaction,26400.00,Paid,2025-05-17,PARTNER027
+TXN00549,COMP001,2025-05-18,inflow,Service revenue,Synthetic service revenue transaction,38200.00,Received,2025-05-25,PARTNER030
+TXN00550,COMP001,2025-05-18,inflow,Other income,Synthetic other income transaction,26600.00,Received,2025-05-23,PARTNER019
+TXN00551,COMP001,2025-05-18,outflow,Payroll,Synthetic payroll transaction,21600.00,Paid,2025-05-22,PARTNER043
+TXN00552,COMP001,2025-05-18,outflow,Tax,Synthetic tax transaction,28800.00,Paid,2025-05-24,PARTNER015
+TXN00553,COMP001,2025-05-19,inflow,Contract payment,Synthetic contract payment transaction,46700.00,Received,2025-05-19,PARTNER008
+TXN00554,COMP001,2025-05-19,inflow,Customer receipts,Synthetic customer receipts transaction,54300.00,Received,2025-05-22,PARTNER025
+TXN00555,COMP001,2025-05-19,outflow,Rent,Synthetic rent transaction,53900.00,Paid,2025-05-26,PARTNER030
+TXN00556,COMP001,2025-05-19,outflow,Software,Synthetic software transaction,36300.00,Paid,2025-05-20,PARTNER006
+TXN00557,COMP001,2025-05-20,inflow,Other income,Synthetic other income transaction,58000.00,Received,2025-05-21,PARTNER026
+TXN00558,COMP001,2025-05-20,inflow,Product sales,Synthetic product sales transaction,51900.00,Received,2025-05-26,PARTNER003
+TXN00559,COMP001,2025-05-20,outflow,Utilities,Synthetic utilities transaction,38100.00,Paid,2025-05-27,PARTNER048
+TXN00560,COMP001,2025-05-20,outflow,Logistics,Synthetic logistics transaction,58300.00,Paid,2025-05-27,PARTNER046
+TXN00561,COMP001,2025-05-21,inflow,Customer receipts,Synthetic customer receipts transaction,33200.00,Received,2025-05-25,PARTNER030
+TXN00562,COMP001,2025-05-21,inflow,Service revenue,Synthetic service revenue transaction,54900.00,Received,2025-05-24,PARTNER049
+TXN00563,COMP001,2025-05-21,outflow,Tax,Synthetic tax transaction,39300.00,Paid,2025-05-25,PARTNER005
+TXN00564,COMP001,2025-05-21,outflow,Marketing,Synthetic marketing transaction,36100.00,Paid,2025-05-22,PARTNER003
+TXN00565,COMP001,2025-05-22,inflow,Product sales,Synthetic product sales transaction,41500.00,Received,2025-05-29,PARTNER023
+TXN00566,COMP001,2025-05-22,inflow,Contract payment,Synthetic contract payment transaction,70000.00,Received,2025-05-25,PARTNER014
+TXN00567,COMP001,2025-05-22,outflow,Software,Synthetic software transaction,42800.00,Paid,2025-05-22,PARTNER039
+TXN00568,COMP001,2025-05-22,outflow,Supplier payment,Synthetic supplier payment transaction,42800.00,Paid,2025-05-24,PARTNER029
+TXN00569,COMP001,2025-05-23,inflow,Service revenue,Synthetic service revenue transaction,64900.00,Received,2025-05-25,PARTNER005
+TXN00570,COMP001,2025-05-23,inflow,Other income,Synthetic other income transaction,36100.00,Received,2025-05-27,PARTNER039
+TXN00571,COMP001,2025-05-23,outflow,Logistics,Synthetic logistics transaction,38900.00,Paid,2025-05-25,PARTNER042
+TXN00572,COMP001,2025-05-23,outflow,Payroll,Synthetic payroll transaction,41200.00,Paid,2025-05-23,PARTNER023
+TXN00573,COMP001,2025-05-24,inflow,Contract payment,Synthetic contract payment transaction,35600.00,Received,2025-05-31,PARTNER019
+TXN00574,COMP001,2025-05-24,inflow,Customer receipts,Synthetic customer receipts transaction,42600.00,Received,2025-05-30,PARTNER023
+TXN00575,COMP001,2025-05-24,outflow,Marketing,Synthetic marketing transaction,29800.00,Paid,2025-05-28,PARTNER029
+TXN00576,COMP001,2025-05-24,outflow,Rent,Synthetic rent transaction,31500.00,Paid,2025-05-30,PARTNER006
+TXN00577,COMP001,2025-05-25,inflow,Other income,Synthetic other income transaction,20400.00,Received,2025-05-26,PARTNER024
+TXN00578,COMP001,2025-05-25,inflow,Product sales,Synthetic product sales transaction,19700.00,Received,2025-05-25,PARTNER050
+TXN00579,COMP001,2025-05-25,outflow,Supplier payment,Synthetic supplier payment transaction,43200.00,Paid,2025-06-01,PARTNER021
+TXN00580,COMP001,2025-05-25,outflow,Utilities,Synthetic utilities transaction,37200.00,Paid,2025-06-01,PARTNER045
+TXN00581,COMP001,2025-05-26,inflow,Customer receipts,Synthetic customer receipts transaction,61800.00,Received,2025-05-27,PARTNER005
+TXN00582,COMP001,2025-05-26,inflow,Service revenue,Synthetic service revenue transaction,39900.00,Received,2025-05-31,PARTNER015
+TXN00583,COMP001,2025-05-26,outflow,Payroll,Synthetic payroll transaction,52600.00,Paid,2025-05-27,PARTNER016
+TXN00584,COMP001,2025-05-26,outflow,Tax,Synthetic tax transaction,37400.00,Paid,2025-05-27,PARTNER002
+TXN00585,COMP001,2025-05-27,inflow,Product sales,Synthetic product sales transaction,80600.00,Received,2025-05-27,PARTNER007
+TXN00586,COMP001,2025-05-27,inflow,Contract payment,Synthetic contract payment transaction,55200.00,Received,2025-06-01,PARTNER040
+TXN00587,COMP001,2025-05-27,outflow,Rent,Synthetic rent transaction,32000.00,Paid,2025-05-28,PARTNER020
+TXN00588,COMP001,2025-05-27,outflow,Software,Synthetic software transaction,52200.00,Paid,2025-06-01,PARTNER044
+TXN00589,COMP001,2025-05-28,inflow,Service revenue,Synthetic service revenue transaction,65500.00,Received,2025-06-02,PARTNER019
+TXN00590,COMP001,2025-05-28,inflow,Other income,Synthetic other income transaction,56800.00,Received,2025-06-03,PARTNER023
+TXN00591,COMP001,2025-05-28,outflow,Utilities,Synthetic utilities transaction,31600.00,Paid,2025-06-01,PARTNER033
+TXN00592,COMP001,2025-05-28,outflow,Logistics,Synthetic logistics transaction,47400.00,Paid,2025-05-28,PARTNER049
+TXN00593,COMP001,2025-05-29,inflow,Contract payment,Synthetic contract payment transaction,42100.00,Received,2025-06-03,PARTNER049
+TXN00594,COMP001,2025-05-29,inflow,Customer receipts,Synthetic customer receipts transaction,72500.00,Received,2025-06-03,PARTNER016
+TXN00595,COMP001,2025-05-29,outflow,Tax,Synthetic tax transaction,53600.00,Paid,2025-05-30,PARTNER050
+TXN00596,COMP001,2025-05-29,outflow,Marketing,Synthetic marketing transaction,35000.00,Paid,2025-06-01,PARTNER016
+TXN00597,COMP001,2025-05-30,inflow,Other income,Synthetic other income transaction,49600.00,Received,2025-06-02,PARTNER004
+TXN00598,COMP001,2025-05-30,inflow,Product sales,Synthetic product sales transaction,37000.00,Received,2025-06-03,PARTNER045
+TXN00599,COMP001,2025-05-30,outflow,Software,Synthetic software transaction,42100.00,Paid,2025-06-06,PARTNER030
+TXN00600,COMP001,2025-05-30,outflow,Supplier payment,Synthetic supplier payment transaction,30200.00,Paid,2025-05-31,PARTNER040
+TXN00601,COMP001,2025-05-31,inflow,Customer receipts,Synthetic customer receipts transaction,34400.00,Received,2025-06-06,PARTNER001
+TXN00602,COMP001,2025-05-31,inflow,Service revenue,Synthetic service revenue transaction,19000.00,Received,2025-06-02,PARTNER009
+TXN00603,COMP001,2025-05-31,outflow,Logistics,Synthetic logistics transaction,41000.00,Paid,2025-05-31,PARTNER027
+TXN00604,COMP001,2025-05-31,outflow,Payroll,Synthetic payroll transaction,40300.00,Paid,2025-06-03,PARTNER048
+TXN00605,COMP001,2025-06-01,inflow,Product sales,Synthetic product sales transaction,51000.00,Received,2025-06-02,PARTNER001
+TXN00606,COMP001,2025-06-01,inflow,Contract payment,Synthetic contract payment transaction,28800.00,Received,2025-06-05,PARTNER007
+TXN00607,COMP001,2025-06-01,outflow,Marketing,Synthetic marketing transaction,29900.00,Paid,2025-06-02,PARTNER006
+TXN00608,COMP001,2025-06-01,outflow,Rent,Synthetic rent transaction,44600.00,Paid,2025-06-03,PARTNER041
+TXN00609,COMP001,2025-06-02,inflow,Service revenue,Synthetic service revenue transaction,57600.00,Received,2025-06-05,PARTNER005
+TXN00610,COMP001,2025-06-02,inflow,Other income,Synthetic other income transaction,36400.00,Received,2025-06-07,PARTNER034
+TXN00611,COMP001,2025-06-02,outflow,Supplier payment,Synthetic supplier payment transaction,34100.00,Paid,2025-06-06,PARTNER028
+TXN00612,COMP001,2025-06-02,outflow,Utilities,Synthetic utilities transaction,21300.00,Paid,2025-06-06,PARTNER011
+TXN00613,COMP001,2025-06-03,inflow,Contract payment,Synthetic contract payment transaction,66200.00,Received,2025-06-03,PARTNER012
+TXN00614,COMP001,2025-06-03,inflow,Customer receipts,Synthetic customer receipts transaction,66800.00,Received,2025-06-05,PARTNER001
+TXN00615,COMP001,2025-06-03,outflow,Payroll,Synthetic payroll transaction,30800.00,Paid,2025-06-09,PARTNER018
+TXN00616,COMP001,2025-06-03,outflow,Tax,Synthetic tax transaction,52000.00,Paid,2025-06-04,PARTNER013
+TXN00617,COMP001,2025-06-04,inflow,Other income,Synthetic other income transaction,42600.00,Received,2025-06-06,PARTNER005
+TXN00618,COMP001,2025-06-04,inflow,Product sales,Synthetic product sales transaction,71400.00,Received,2025-06-05,PARTNER009
+TXN00619,COMP001,2025-06-04,outflow,Rent,Synthetic rent transaction,31200.00,Paid,2025-06-06,PARTNER027
+TXN00620,COMP001,2025-06-04,outflow,Software,Synthetic software transaction,25700.00,Paid,2025-06-08,PARTNER020
+TXN00621,COMP001,2025-06-05,inflow,Customer receipts,Synthetic customer receipts transaction,56100.00,Received,2025-06-12,PARTNER012
+TXN00622,COMP001,2025-06-05,inflow,Service revenue,Synthetic service revenue transaction,67100.00,Received,2025-06-05,PARTNER005
+TXN00623,COMP001,2025-06-05,outflow,Utilities,Synthetic utilities transaction,32000.00,Paid,2025-06-10,PARTNER002
+TXN00624,COMP001,2025-06-05,outflow,Logistics,Synthetic logistics transaction,39600.00,Paid,2025-06-10,PARTNER018
+TXN00625,COMP001,2025-06-06,inflow,Product sales,Synthetic product sales transaction,68800.00,Received,2025-06-12,PARTNER039
+TXN00626,COMP001,2025-06-06,inflow,Contract payment,Synthetic contract payment transaction,40600.00,Received,2025-06-11,PARTNER015
+TXN00627,COMP001,2025-06-06,outflow,Tax,Synthetic tax transaction,43000.00,Paid,2025-06-11,PARTNER028
+TXN00628,COMP001,2025-06-06,outflow,Marketing,Synthetic marketing transaction,33900.00,Paid,2025-06-12,PARTNER014
+TXN00629,COMP001,2025-06-07,inflow,Service revenue,Synthetic service revenue transaction,26100.00,Received,2025-06-08,PARTNER023
+TXN00630,COMP001,2025-06-07,inflow,Other income,Synthetic other income transaction,41100.00,Received,2025-06-14,PARTNER025
+TXN00631,COMP001,2025-06-07,outflow,Software,Synthetic software transaction,42800.00,Paid,2025-06-08,PARTNER041
+TXN00632,COMP001,2025-06-07,outflow,Supplier payment,Synthetic supplier payment transaction,29700.00,Paid,2025-06-11,PARTNER009
+TXN00633,COMP001,2025-06-08,inflow,Contract payment,Synthetic contract payment transaction,32700.00,Received,2025-06-15,PARTNER008
+TXN00634,COMP001,2025-06-08,inflow,Customer receipts,Synthetic customer receipts transaction,44700.00,Received,2025-06-15,PARTNER044
+TXN00635,COMP001,2025-06-08,outflow,Logistics,Synthetic logistics transaction,29100.00,Paid,2025-06-09,PARTNER003
+TXN00636,COMP001,2025-06-08,outflow,Payroll,Synthetic payroll transaction,41500.00,Paid,2025-06-13,PARTNER038
+TXN00637,COMP001,2025-06-09,inflow,Other income,Synthetic other income transaction,54000.00,Received,2025-06-11,PARTNER041
+TXN00638,COMP001,2025-06-09,inflow,Product sales,Synthetic product sales transaction,77900.00,Received,2025-06-15,PARTNER047
+TXN00639,COMP001,2025-06-09,outflow,Marketing,Synthetic marketing transaction,35000.00,Paid,2025-06-13,PARTNER018
+TXN00640,COMP001,2025-06-09,outflow,Rent,Synthetic rent transaction,42100.00,Paid,2025-06-15,PARTNER011
+TXN00641,COMP001,2025-06-10,inflow,Customer receipts,Synthetic customer receipts transaction,43100.00,Received,2025-06-14,PARTNER044
+TXN00642,COMP001,2025-06-10,inflow,Service revenue,Synthetic service revenue transaction,36900.00,Received,2025-06-10,PARTNER008
+TXN00643,COMP001,2025-06-10,outflow,Supplier payment,Synthetic supplier payment transaction,36700.00,Paid,2025-06-12,PARTNER013
+TXN00644,COMP001,2025-06-10,outflow,Utilities,Synthetic utilities transaction,33300.00,Paid,2025-06-17,PARTNER037
+TXN00645,COMP001,2025-06-11,inflow,Product sales,Synthetic product sales transaction,47100.00,Received,2025-06-14,PARTNER002
+TXN00646,COMP001,2025-06-11,inflow,Contract payment,Synthetic contract payment transaction,45000.00,Received,2025-06-11,PARTNER001
+TXN00647,COMP001,2025-06-11,outflow,Payroll,Synthetic payroll transaction,42300.00,Paid,2025-06-18,PARTNER019
+TXN00648,COMP001,2025-06-11,outflow,Tax,Synthetic tax transaction,36300.00,Paid,2025-06-15,PARTNER003
+TXN00649,COMP001,2025-06-12,inflow,Service revenue,Synthetic service revenue transaction,45900.00,Received,2025-06-17,PARTNER028
+TXN00650,COMP001,2025-06-12,inflow,Other income,Synthetic other income transaction,70600.00,Received,2025-06-14,PARTNER033
+TXN00651,COMP001,2025-06-12,outflow,Rent,Synthetic rent transaction,23700.00,Paid,2025-06-19,PARTNER020
+TXN00652,COMP001,2025-06-12,outflow,Software,Synthetic software transaction,42200.00,Paid,2025-06-17,PARTNER008
+TXN00653,COMP001,2025-06-13,inflow,Contract payment,Synthetic contract payment transaction,35700.00,Received,2025-06-15,PARTNER037
+TXN00654,COMP001,2025-06-13,inflow,Customer receipts,Synthetic customer receipts transaction,38500.00,Received,2025-06-13,PARTNER026
+TXN00655,COMP001,2025-06-13,outflow,Utilities,Synthetic utilities transaction,46600.00,Paid,2025-06-14,PARTNER017
+TXN00656,COMP001,2025-06-13,outflow,Logistics,Synthetic logistics transaction,32900.00,Paid,2025-06-17,PARTNER007
+TXN00657,COMP001,2025-06-14,inflow,Other income,Synthetic other income transaction,25400.00,Received,2025-06-18,PARTNER018
+TXN00658,COMP001,2025-06-14,inflow,Product sales,Synthetic product sales transaction,36500.00,Received,2025-06-19,PARTNER032
+TXN00659,COMP001,2025-06-14,outflow,Tax,Synthetic tax transaction,41700.00,Paid,2025-06-14,PARTNER019
+TXN00660,COMP001,2025-06-14,outflow,Marketing,Synthetic marketing transaction,29000.00,Paid,2025-06-21,PARTNER029
+TXN00661,COMP001,2025-06-15,inflow,Customer receipts,Synthetic customer receipts transaction,28800.00,Received,2025-06-21,PARTNER013
+TXN00662,COMP001,2025-06-15,inflow,Service revenue,Synthetic service revenue transaction,31300.00,Received,2025-06-22,PARTNER003
+TXN00663,COMP001,2025-06-15,outflow,Software,Synthetic software transaction,30700.00,Paid,2025-06-21,PARTNER008
+TXN00664,COMP001,2025-06-15,outflow,Supplier payment,Synthetic supplier payment transaction,51100.00,Paid,2025-06-22,PARTNER031
+TXN00665,COMP001,2025-06-16,inflow,Product sales,Synthetic product sales transaction,41400.00,Received,2025-06-23,PARTNER031
+TXN00666,COMP001,2025-06-16,inflow,Contract payment,Synthetic contract payment transaction,70200.00,Received,2025-06-16,PARTNER006
+TXN00667,COMP001,2025-06-16,outflow,Logistics,Synthetic logistics transaction,34800.00,Paid,2025-06-22,PARTNER003
+TXN00668,COMP001,2025-06-16,outflow,Payroll,Synthetic payroll transaction,32500.00,Paid,2025-06-23,PARTNER029
+TXN00669,COMP001,2025-06-17,inflow,Service revenue,Synthetic service revenue transaction,48600.00,Received,2025-06-19,PARTNER035
+TXN00670,COMP001,2025-06-17,inflow,Other income,Synthetic other income transaction,51800.00,Received,2025-06-21,PARTNER041
+TXN00671,COMP001,2025-06-17,outflow,Marketing,Synthetic marketing transaction,35200.00,Paid,2025-06-18,PARTNER050
+TXN00672,COMP001,2025-06-17,outflow,Rent,Synthetic rent transaction,48800.00,Paid,2025-06-23,PARTNER020
+TXN00673,COMP001,2025-06-18,inflow,Contract payment,Synthetic contract payment transaction,57700.00,Received,2025-06-21,PARTNER002
+TXN00674,COMP001,2025-06-18,inflow,Customer receipts,Synthetic customer receipts transaction,45100.00,Received,2025-06-18,PARTNER023
+TXN00675,COMP001,2025-06-18,outflow,Supplier payment,Synthetic supplier payment transaction,39500.00,Paid,2025-06-20,PARTNER007
+TXN00676,COMP001,2025-06-18,outflow,Utilities,Synthetic utilities transaction,61900.00,Paid,2025-06-25,PARTNER038
+TXN00677,COMP001,2025-06-19,inflow,Other income,Synthetic other income transaction,68400.00,Received,2025-06-26,PARTNER046
+TXN00678,COMP001,2025-06-19,inflow,Product sales,Synthetic product sales transaction,54100.00,Received,2025-06-26,PARTNER008
+TXN00679,COMP001,2025-06-19,outflow,Payroll,Synthetic payroll transaction,29800.00,Paid,2025-06-21,PARTNER033
+TXN00680,COMP001,2025-06-19,outflow,Tax,Synthetic tax transaction,33200.00,Paid,2025-06-19,PARTNER017
+TXN00681,COMP001,2025-06-20,inflow,Customer receipts,Synthetic customer receipts transaction,37000.00,Received,2025-06-20,PARTNER031
+TXN00682,COMP001,2025-06-20,inflow,Service revenue,Synthetic service revenue transaction,36700.00,Received,2025-06-26,PARTNER046
+TXN00683,COMP001,2025-06-20,outflow,Rent,Synthetic rent transaction,32600.00,Paid,2025-06-23,PARTNER022
+TXN00684,COMP001,2025-06-20,outflow,Software,Synthetic software transaction,27600.00,Paid,2025-06-23,PARTNER005
+TXN00685,COMP001,2025-06-21,inflow,Product sales,Synthetic product sales transaction,36400.00,Received,2025-06-28,PARTNER033
+TXN00686,COMP001,2025-06-21,inflow,Contract payment,Synthetic contract payment transaction,20700.00,Received,2025-06-23,PARTNER025
+TXN00687,COMP001,2025-06-21,outflow,Utilities,Synthetic utilities transaction,34800.00,Paid,2025-06-25,PARTNER009
+TXN00688,COMP001,2025-06-21,outflow,Logistics,Synthetic logistics transaction,36800.00,Paid,2025-06-23,PARTNER001
+TXN00689,COMP001,2025-06-22,inflow,Service revenue,Synthetic service revenue transaction,51500.00,Received,2025-06-28,PARTNER003
+TXN00690,COMP001,2025-06-22,inflow,Other income,Synthetic other income transaction,29800.00,Received,2025-06-24,PARTNER018
+TXN00691,COMP001,2025-06-22,outflow,Tax,Synthetic tax transaction,24500.00,Paid,2025-06-25,PARTNER034
+TXN00692,COMP001,2025-06-22,outflow,Marketing,Synthetic marketing transaction,44500.00,Paid,2025-06-27,PARTNER047
+TXN00693,COMP001,2025-06-23,inflow,Contract payment,Synthetic contract payment transaction,54300.00,Received,2025-06-23,PARTNER009
+TXN00694,COMP001,2025-06-23,inflow,Customer receipts,Synthetic customer receipts transaction,49200.00,Received,2025-06-27,PARTNER041
+TXN00695,COMP001,2025-06-23,outflow,Software,Synthetic software transaction,36400.00,Paid,2025-06-25,PARTNER039
+TXN00696,COMP001,2025-06-23,outflow,Supplier payment,Synthetic supplier payment transaction,25900.00,Paid,2025-06-29,PARTNER008
+TXN00697,COMP001,2025-06-24,inflow,Other income,Synthetic other income transaction,50700.00,Received,2025-06-27,PARTNER003
+TXN00698,COMP001,2025-06-24,inflow,Product sales,Synthetic product sales transaction,63400.00,Received,2025-06-25,PARTNER026
+TXN00699,COMP001,2025-06-24,outflow,Logistics,Synthetic logistics transaction,38200.00,Paid,2025-06-26,PARTNER018
+TXN00700,COMP001,2025-06-24,outflow,Payroll,Synthetic payroll transaction,25100.00,Paid,2025-07-01,PARTNER031
+TXN00701,COMP001,2025-06-25,inflow,Customer receipts,Synthetic customer receipts transaction,64100.00,Received,2025-06-27,PARTNER020
+TXN00702,COMP001,2025-06-25,inflow,Service revenue,Synthetic service revenue transaction,37900.00,Received,2025-07-02,PARTNER034
+TXN00703,COMP001,2025-06-25,outflow,Marketing,Synthetic marketing transaction,34000.00,Paid,2025-06-27,PARTNER005
+TXN00704,COMP001,2025-06-25,outflow,Rent,Synthetic rent transaction,34600.00,Paid,2025-06-29,PARTNER026
+TXN00705,COMP001,2025-06-26,inflow,Product sales,Synthetic product sales transaction,25200.00,Received,2025-06-29,PARTNER043
+TXN00706,COMP001,2025-06-26,inflow,Contract payment,Synthetic contract payment transaction,39300.00,Received,2025-07-02,PARTNER031
+TXN00707,COMP001,2025-06-26,outflow,Supplier payment,Synthetic supplier payment transaction,36400.00,Paid,2025-06-30,PARTNER015
+TXN00708,COMP001,2025-06-26,outflow,Utilities,Synthetic utilities transaction,36200.00,Paid,2025-06-28,PARTNER024
+TXN00709,COMP001,2025-06-27,inflow,Service revenue,Synthetic service revenue transaction,50100.00,Received,2025-07-04,PARTNER005
+TXN00710,COMP001,2025-06-27,inflow,Other income,Synthetic other income transaction,56300.00,Received,2025-06-30,PARTNER043
+TXN00711,COMP001,2025-06-27,outflow,Payroll,Synthetic payroll transaction,54000.00,Paid,2025-07-04,PARTNER025
+TXN00712,COMP001,2025-06-27,outflow,Tax,Synthetic tax transaction,37100.00,Paid,2025-07-04,PARTNER046
+TXN00713,COMP001,2025-06-28,inflow,Contract payment,Synthetic contract payment transaction,18500.00,Received,2025-07-01,PARTNER029
+TXN00714,COMP001,2025-06-28,inflow,Customer receipts,Synthetic customer receipts transaction,26100.00,Received,2025-07-05,PARTNER038
+TXN00715,COMP001,2025-06-28,outflow,Rent,Synthetic rent transaction,33700.00,Paid,2025-06-28,PARTNER044
+TXN00716,COMP001,2025-06-28,outflow,Software,Synthetic software transaction,61300.00,Paid,2025-06-28,PARTNER041
+TXN00717,COMP001,2025-06-29,inflow,Other income,Synthetic other income transaction,43600.00,Received,2025-06-29,PARTNER004
+TXN00718,COMP001,2025-06-29,inflow,Product sales,Synthetic product sales transaction,41200.00,Received,2025-07-04,PARTNER049
+TXN00719,COMP001,2025-06-29,outflow,Utilities,Synthetic utilities transaction,27400.00,Paid,2025-07-06,PARTNER043
+TXN00720,COMP001,2025-06-29,outflow,Logistics,Synthetic logistics transaction,49600.00,Paid,2025-07-04,PARTNER014
+TXN00721,COMP001,2025-06-30,inflow,Customer receipts,Synthetic customer receipts transaction,47200.00,Received,2025-07-06,PARTNER041
+TXN00722,COMP001,2025-06-30,inflow,Service revenue,Synthetic service revenue transaction,65100.00,Received,2025-07-07,PARTNER001
+TXN00723,COMP001,2025-06-30,outflow,Tax,Synthetic tax transaction,36200.00,Paid,2025-07-06,PARTNER045
+TXN00724,COMP001,2025-06-30,outflow,Marketing,Synthetic marketing transaction,22600.00,Paid,2025-07-01,PARTNER015
+TXN00725,COMP001,2025-07-01,inflow,Product sales,Synthetic product sales transaction,37300.00,Received,2025-07-04,PARTNER034
+TXN00726,COMP001,2025-07-01,inflow,Contract payment,Synthetic contract payment transaction,61100.00,Received,2025-07-04,PARTNER013
+TXN00727,COMP001,2025-07-01,outflow,Software,Synthetic software transaction,44500.00,Paid,2025-07-08,PARTNER007
+TXN00728,COMP001,2025-07-01,outflow,Supplier payment,Synthetic supplier payment transaction,36600.00,Paid,2025-07-07,PARTNER033
+TXN00729,COMP001,2025-07-02,inflow,Service revenue,Synthetic service revenue transaction,48800.00,Received,2025-07-05,PARTNER041
+TXN00730,COMP001,2025-07-02,inflow,Other income,Synthetic other income transaction,54900.00,Received,2025-07-06,PARTNER014
+TXN00731,COMP001,2025-07-02,outflow,Logistics,Synthetic logistics transaction,55300.00,Paid,2025-07-04,PARTNER046
+TXN00732,COMP001,2025-07-02,outflow,Payroll,Synthetic payroll transaction,41600.00,Paid,2025-07-03,PARTNER038
+TXN00733,COMP001,2025-07-03,inflow,Contract payment,Synthetic contract payment transaction,58700.00,Received,2025-07-05,PARTNER016
+TXN00734,COMP001,2025-07-03,inflow,Customer receipts,Synthetic customer receipts transaction,76000.00,Received,2025-07-07,PARTNER026
+TXN00735,COMP001,2025-07-03,outflow,Marketing,Synthetic marketing transaction,31100.00,Paid,2025-07-03,PARTNER020
+TXN00736,COMP001,2025-07-03,outflow,Rent,Synthetic rent transaction,22300.00,Paid,2025-07-03,PARTNER006
+TXN00737,COMP001,2025-07-04,inflow,Other income,Synthetic other income transaction,49700.00,Received,2025-07-04,PARTNER027
+TXN00738,COMP001,2025-07-04,inflow,Product sales,Synthetic product sales transaction,91600.00,Received,2025-07-04,PARTNER036
+TXN00739,COMP001,2025-07-04,outflow,Supplier payment,Synthetic supplier payment transaction,39100.00,Paid,2025-07-10,PARTNER037
+TXN00740,COMP001,2025-07-04,outflow,Utilities,Synthetic utilities transaction,54700.00,Paid,2025-07-08,PARTNER024
+TXN00741,COMP001,2025-07-05,inflow,Customer receipts,Synthetic customer receipts transaction,32100.00,Received,2025-07-08,PARTNER049
+TXN00742,COMP001,2025-07-05,inflow,Service revenue,Synthetic service revenue transaction,22300.00,Received,2025-07-06,PARTNER038
+TXN00743,COMP001,2025-07-05,outflow,Payroll,Synthetic payroll transaction,29100.00,Paid,2025-07-05,PARTNER006
+TXN00744,COMP001,2025-07-05,outflow,Tax,Synthetic tax transaction,48600.00,Paid,2025-07-05,PARTNER007
+TXN00745,COMP001,2025-07-06,inflow,Product sales,Synthetic product sales transaction,50400.00,Received,2025-07-08,PARTNER037
+TXN00746,COMP001,2025-07-06,inflow,Contract payment,Synthetic contract payment transaction,33900.00,Received,2025-07-13,PARTNER044
+TXN00747,COMP001,2025-07-06,outflow,Rent,Synthetic rent transaction,32700.00,Paid,2025-07-10,PARTNER016
+TXN00748,COMP001,2025-07-06,outflow,Software,Synthetic software transaction,46600.00,Paid,2025-07-06,PARTNER023
+TXN00749,COMP001,2025-07-07,inflow,Service revenue,Synthetic service revenue transaction,49000.00,Received,2025-07-07,PARTNER048
+TXN00750,COMP001,2025-07-07,inflow,Other income,Synthetic other income transaction,69000.00,Received,2025-07-11,PARTNER031
+TXN00751,COMP001,2025-07-07,outflow,Utilities,Synthetic utilities transaction,47100.00,Paid,2025-07-09,PARTNER028
+TXN00752,COMP001,2025-07-07,outflow,Logistics,Synthetic logistics transaction,43600.00,Paid,2025-07-07,PARTNER032
+TXN00753,COMP001,2025-07-08,inflow,Contract payment,Synthetic contract payment transaction,45600.00,Received,2025-07-15,PARTNER050
+TXN00754,COMP001,2025-07-08,inflow,Customer receipts,Synthetic customer receipts transaction,52400.00,Received,2025-07-10,PARTNER001
+TXN00755,COMP001,2025-07-08,outflow,Tax,Synthetic tax transaction,45900.00,Paid,2025-07-08,PARTNER007
+TXN00756,COMP001,2025-07-08,outflow,Marketing,Synthetic marketing transaction,46600.00,Paid,2025-07-12,PARTNER008
+TXN00757,COMP001,2025-07-09,inflow,Other income,Synthetic other income transaction,39900.00,Received,2025-07-14,PARTNER046
+TXN00758,COMP001,2025-07-09,inflow,Product sales,Synthetic product sales transaction,65200.00,Received,2025-07-13,PARTNER023
+TXN00759,COMP001,2025-07-09,outflow,Software,Synthetic software transaction,45900.00,Paid,2025-07-13,PARTNER045
+TXN00760,COMP001,2025-07-09,outflow,Supplier payment,Synthetic supplier payment transaction,32300.00,Paid,2025-07-14,PARTNER019
+TXN00761,COMP001,2025-07-10,inflow,Customer receipts,Synthetic customer receipts transaction,36400.00,Received,2025-07-17,PARTNER023
+TXN00762,COMP001,2025-07-10,inflow,Service revenue,Synthetic service revenue transaction,54000.00,Received,2025-07-15,PARTNER011
+TXN00763,COMP001,2025-07-10,outflow,Logistics,Synthetic logistics transaction,31700.00,Paid,2025-07-14,PARTNER006
+TXN00764,COMP001,2025-07-10,outflow,Payroll,Synthetic payroll transaction,55600.00,Paid,2025-07-14,PARTNER047
+TXN00765,COMP001,2025-07-11,inflow,Product sales,Synthetic product sales transaction,53400.00,Received,2025-07-16,PARTNER040
+TXN00766,COMP001,2025-07-11,inflow,Contract payment,Synthetic contract payment transaction,67900.00,Received,2025-07-12,PARTNER019
+TXN00767,COMP001,2025-07-11,outflow,Marketing,Synthetic marketing transaction,42800.00,Paid,2025-07-11,PARTNER005
+TXN00768,COMP001,2025-07-11,outflow,Rent,Synthetic rent transaction,35600.00,Paid,2025-07-13,PARTNER017
+TXN00769,COMP001,2025-07-12,inflow,Service revenue,Synthetic service revenue transaction,44800.00,Received,2025-07-13,PARTNER043
+TXN00770,COMP001,2025-07-12,inflow,Other income,Synthetic other income transaction,33300.00,Received,2025-07-15,PARTNER005
+TXN00771,COMP001,2025-07-12,outflow,Supplier payment,Synthetic supplier payment transaction,52400.00,Paid,2025-07-18,PARTNER029
+TXN00772,COMP001,2025-07-12,outflow,Utilities,Synthetic utilities transaction,50400.00,Paid,2025-07-19,PARTNER011
+TXN00773,COMP001,2025-07-13,inflow,Contract payment,Synthetic contract payment transaction,37600.00,Received,2025-07-16,PARTNER016
+TXN00774,COMP001,2025-07-13,inflow,Customer receipts,Synthetic customer receipts transaction,22100.00,Received,2025-07-15,PARTNER028
+TXN00775,COMP001,2025-07-13,outflow,Payroll,Synthetic payroll transaction,38000.00,Paid,2025-07-18,PARTNER014
+TXN00776,COMP001,2025-07-13,outflow,Tax,Synthetic tax transaction,20600.00,Paid,2025-07-20,PARTNER043
+TXN00777,COMP001,2025-07-14,inflow,Other income,Synthetic other income transaction,38500.00,Received,2025-07-18,PARTNER009
+TXN00778,COMP001,2025-07-14,inflow,Product sales,Synthetic product sales transaction,36100.00,Received,2025-07-20,PARTNER039
+TXN00779,COMP001,2025-07-14,outflow,Rent,Synthetic rent transaction,48300.00,Paid,2025-07-19,PARTNER005
+TXN00780,COMP001,2025-07-14,outflow,Software,Synthetic software transaction,39500.00,Paid,2025-07-16,PARTNER013
+TXN00781,COMP001,2025-07-15,inflow,Customer receipts,Synthetic customer receipts transaction,31000.00,Received,2025-07-17,PARTNER040
+TXN00782,COMP001,2025-07-15,inflow,Service revenue,Synthetic service revenue transaction,55200.00,Received,2025-07-19,PARTNER025
+TXN00783,COMP001,2025-07-15,outflow,Utilities,Synthetic utilities transaction,49700.00,Paid,2025-07-16,PARTNER024
+TXN00784,COMP001,2025-07-15,outflow,Logistics,Synthetic logistics transaction,32900.00,Paid,2025-07-22,PARTNER004
+TXN00785,COMP001,2025-07-16,inflow,Product sales,Synthetic product sales transaction,53700.00,Received,2025-07-20,PARTNER017
+TXN00786,COMP001,2025-07-16,inflow,Contract payment,Synthetic contract payment transaction,50100.00,Received,2025-07-21,PARTNER018
+TXN00787,COMP001,2025-07-16,outflow,Tax,Synthetic tax transaction,36700.00,Paid,2025-07-17,PARTNER018
+TXN00788,COMP001,2025-07-16,outflow,Marketing,Synthetic marketing transaction,23000.00,Paid,2025-07-21,PARTNER018
+TXN00789,COMP001,2025-07-17,inflow,Service revenue,Synthetic service revenue transaction,72900.00,Received,2025-07-17,PARTNER046
+TXN00790,COMP001,2025-07-17,inflow,Other income,Synthetic other income transaction,41400.00,Received,2025-07-19,PARTNER042
+TXN00791,COMP001,2025-07-17,outflow,Software,Synthetic software transaction,38400.00,Paid,2025-07-22,PARTNER042
+TXN00792,COMP001,2025-07-17,outflow,Supplier payment,Synthetic supplier payment transaction,47500.00,Paid,2025-07-24,PARTNER005
+TXN00793,COMP001,2025-07-18,inflow,Contract payment,Synthetic contract payment transaction,53100.00,Received,2025-07-18,PARTNER033
+TXN00794,COMP001,2025-07-18,inflow,Customer receipts,Synthetic customer receipts transaction,54300.00,Received,2025-07-24,PARTNER012
+TXN00795,COMP001,2025-07-18,outflow,Logistics,Synthetic logistics transaction,32800.00,Paid,2025-07-21,PARTNER043
+TXN00796,COMP001,2025-07-18,outflow,Payroll,Synthetic payroll transaction,49700.00,Paid,2025-07-22,PARTNER024
+TXN00797,COMP001,2025-07-19,inflow,Other income,Synthetic other income transaction,23000.00,Received,2025-07-21,PARTNER009
+TXN00798,COMP001,2025-07-19,inflow,Product sales,Synthetic product sales transaction,27700.00,Received,2025-07-25,PARTNER005
+TXN00799,COMP001,2025-07-19,outflow,Marketing,Synthetic marketing transaction,45600.00,Paid,2025-07-25,PARTNER003
+TXN00800,COMP001,2025-07-19,outflow,Rent,Synthetic rent transaction,42800.00,Paid,2025-07-20,PARTNER006
+TXN00801,COMP001,2025-07-20,inflow,Customer receipts,Synthetic customer receipts transaction,32100.00,Received,2025-07-21,PARTNER016
+TXN00802,COMP001,2025-07-20,inflow,Service revenue,Synthetic service revenue transaction,32600.00,Received,2025-07-22,PARTNER040
+TXN00803,COMP001,2025-07-20,outflow,Supplier payment,Synthetic supplier payment transaction,42300.00,Paid,2025-07-27,PARTNER016
+TXN00804,COMP001,2025-07-20,outflow,Utilities,Synthetic utilities transaction,49600.00,Paid,2025-07-27,PARTNER026
+TXN00805,COMP001,2025-07-21,inflow,Product sales,Synthetic product sales transaction,47900.00,Received,2025-07-28,PARTNER035
+TXN00806,COMP001,2025-07-21,inflow,Contract payment,Synthetic contract payment transaction,41800.00,Received,2025-07-24,PARTNER029
+TXN00807,COMP001,2025-07-21,outflow,Payroll,Synthetic payroll transaction,43400.00,Paid,2025-07-25,PARTNER037
+TXN00808,COMP001,2025-07-21,outflow,Tax,Synthetic tax transaction,41400.00,Paid,2025-07-25,PARTNER009
+TXN00809,COMP001,2025-07-22,inflow,Service revenue,Synthetic service revenue transaction,40300.00,Received,2025-07-27,PARTNER002
+TXN00810,COMP001,2025-07-22,inflow,Other income,Synthetic other income transaction,60100.00,Received,2025-07-27,PARTNER027
+TXN00811,COMP001,2025-07-22,outflow,Rent,Synthetic rent transaction,29300.00,Paid,2025-07-24,PARTNER013
+TXN00812,COMP001,2025-07-22,outflow,Software,Synthetic software transaction,34600.00,Paid,2025-07-25,PARTNER016
+TXN00813,COMP001,2025-07-23,inflow,Contract payment,Synthetic contract payment transaction,52200.00,Received,2025-07-23,PARTNER022
+TXN00814,COMP001,2025-07-23,inflow,Customer receipts,Synthetic customer receipts transaction,38000.00,Received,2025-07-29,PARTNER023
+TXN00815,COMP001,2025-07-23,outflow,Utilities,Synthetic utilities transaction,32900.00,Paid,2025-07-30,PARTNER001
+TXN00816,COMP001,2025-07-23,outflow,Logistics,Synthetic logistics transaction,20200.00,Paid,2025-07-30,PARTNER013
+TXN00817,COMP001,2025-07-24,inflow,Other income,Synthetic other income transaction,41400.00,Received,2025-07-31,PARTNER007
+TXN00818,COMP001,2025-07-24,inflow,Product sales,Synthetic product sales transaction,36400.00,Received,2025-07-26,PARTNER008
+TXN00819,COMP001,2025-07-24,outflow,Tax,Synthetic tax transaction,26800.00,Paid,2025-07-28,PARTNER044
+TXN00820,COMP001,2025-07-24,outflow,Marketing,Synthetic marketing transaction,39700.00,Paid,2025-07-31,PARTNER047
+TXN00821,COMP001,2025-07-25,inflow,Customer receipts,Synthetic customer receipts transaction,46400.00,Received,2025-07-26,PARTNER011
+TXN00822,COMP001,2025-07-25,inflow,Service revenue,Synthetic service revenue transaction,54900.00,Received,2025-07-27,PARTNER015
+TXN00823,COMP001,2025-07-25,outflow,Software,Synthetic software transaction,39700.00,Paid,2025-07-26,PARTNER044
+TXN00824,COMP001,2025-07-25,outflow,Supplier payment,Synthetic supplier payment transaction,50700.00,Paid,2025-08-01,PARTNER038
+TXN00825,COMP001,2025-07-26,inflow,Product sales,Synthetic product sales transaction,38000.00,Received,2025-08-01,PARTNER027
+TXN00826,COMP001,2025-07-26,inflow,Contract payment,Synthetic contract payment transaction,30600.00,Received,2025-08-02,PARTNER042
+TXN00827,COMP001,2025-07-26,outflow,Logistics,Synthetic logistics transaction,40400.00,Paid,2025-07-26,PARTNER028
+TXN00828,COMP001,2025-07-26,outflow,Payroll,Synthetic payroll transaction,34200.00,Paid,2025-08-01,PARTNER009
+TXN00829,COMP001,2025-07-27,inflow,Service revenue,Synthetic service revenue transaction,30000.00,Received,2025-07-27,PARTNER050
+TXN00830,COMP001,2025-07-27,inflow,Other income,Synthetic other income transaction,50700.00,Received,2025-07-29,PARTNER024
+TXN00831,COMP001,2025-07-27,outflow,Marketing,Synthetic marketing transaction,34200.00,Paid,2025-08-03,PARTNER015
+TXN00832,COMP001,2025-07-27,outflow,Rent,Synthetic rent transaction,29300.00,Paid,2025-07-30,PARTNER047
+TXN00833,COMP001,2025-07-28,inflow,Contract payment,Synthetic contract payment transaction,73400.00,Received,2025-08-03,PARTNER007
+TXN00834,COMP001,2025-07-28,inflow,Customer receipts,Synthetic customer receipts transaction,45600.00,Received,2025-07-29,PARTNER007
+TXN00835,COMP001,2025-07-28,outflow,Supplier payment,Synthetic supplier payment transaction,34700.00,Paid,2025-07-29,PARTNER032
+TXN00836,COMP001,2025-07-28,outflow,Utilities,Synthetic utilities transaction,41700.00,Paid,2025-08-04,PARTNER049
+TXN00837,COMP001,2025-07-29,inflow,Other income,Synthetic other income transaction,49100.00,Received,2025-07-30,PARTNER018
+TXN00838,COMP001,2025-07-29,inflow,Product sales,Synthetic product sales transaction,32700.00,Received,2025-08-01,PARTNER010
+TXN00839,COMP001,2025-07-29,outflow,Payroll,Synthetic payroll transaction,28400.00,Paid,2025-07-29,PARTNER004
+TXN00840,COMP001,2025-07-29,outflow,Tax,Synthetic tax transaction,28900.00,Paid,2025-08-04,PARTNER019
+TXN00841,COMP001,2025-07-30,inflow,Customer receipts,Synthetic customer receipts transaction,35900.00,Received,2025-08-06,PARTNER032
+TXN00842,COMP001,2025-07-30,inflow,Service revenue,Synthetic service revenue transaction,61000.00,Received,2025-08-04,PARTNER031
+TXN00843,COMP001,2025-07-30,outflow,Rent,Synthetic rent transaction,63200.00,Paid,2025-08-03,PARTNER020
+TXN00844,COMP001,2025-07-30,outflow,Software,Synthetic software transaction,45400.00,Paid,2025-08-02,PARTNER009
+TXN00845,COMP001,2025-07-31,inflow,Product sales,Synthetic product sales transaction,43800.00,Received,2025-08-03,PARTNER009
+TXN00846,COMP001,2025-07-31,inflow,Contract payment,Synthetic contract payment transaction,42300.00,Received,2025-08-01,PARTNER044
+TXN00847,COMP001,2025-07-31,outflow,Utilities,Synthetic utilities transaction,46300.00,Paid,2025-08-07,PARTNER017
+TXN00848,COMP001,2025-07-31,outflow,Logistics,Synthetic logistics transaction,53500.00,Paid,2025-08-06,PARTNER041
+TXN00849,COMP001,2025-08-01,inflow,Service revenue,Synthetic service revenue transaction,43300.00,Received,2025-08-01,PARTNER013
+TXN00850,COMP001,2025-08-01,inflow,Other income,Synthetic other income transaction,72700.00,Received,2025-08-04,PARTNER040
+TXN00851,COMP001,2025-08-01,outflow,Tax,Synthetic tax transaction,34500.00,Paid,2025-08-08,PARTNER004
+TXN00852,COMP001,2025-08-01,outflow,Marketing,Synthetic marketing transaction,59900.00,Paid,2025-08-06,PARTNER048
+TXN00853,COMP001,2025-08-02,inflow,Contract payment,Synthetic contract payment transaction,43800.00,Received,2025-08-05,PARTNER009
+TXN00854,COMP001,2025-08-02,inflow,Customer receipts,Synthetic customer receipts transaction,32000.00,Received,2025-08-07,PARTNER047
+TXN00855,COMP001,2025-08-02,outflow,Software,Synthetic software transaction,38400.00,Paid,2025-08-02,PARTNER026
+TXN00856,COMP001,2025-08-02,outflow,Supplier payment,Synthetic supplier payment transaction,44000.00,Paid,2025-08-06,PARTNER046
+TXN00857,COMP001,2025-08-03,inflow,Other income,Synthetic other income transaction,28200.00,Received,2025-08-03,PARTNER040
+TXN00858,COMP001,2025-08-03,inflow,Product sales,Synthetic product sales transaction,20100.00,Received,2025-08-04,PARTNER041
+TXN00859,COMP001,2025-08-03,outflow,Logistics,Synthetic logistics transaction,44800.00,Paid,2025-08-05,PARTNER031
+TXN00860,COMP001,2025-08-03,outflow,Payroll,Synthetic payroll transaction,42300.00,Paid,2025-08-06,PARTNER018
+TXN00861,COMP001,2025-08-04,inflow,Customer receipts,Synthetic customer receipts transaction,33800.00,Received,2025-08-10,PARTNER047
+TXN00862,COMP001,2025-08-04,inflow,Service revenue,Synthetic service revenue transaction,55700.00,Received,2025-08-08,PARTNER025
+TXN00863,COMP001,2025-08-04,outflow,Marketing,Synthetic marketing transaction,42300.00,Paid,2025-08-10,PARTNER046
+TXN00864,COMP001,2025-08-04,outflow,Rent,Synthetic rent transaction,60500.00,Paid,2025-08-06,PARTNER028
+TXN00865,COMP001,2025-08-05,inflow,Product sales,Synthetic product sales transaction,37400.00,Received,2025-08-06,PARTNER011
+TXN00866,COMP001,2025-08-05,inflow,Contract payment,Synthetic contract payment transaction,40300.00,Received,2025-08-08,PARTNER017
+TXN00867,COMP001,2025-08-05,outflow,Supplier payment,Synthetic supplier payment transaction,47300.00,Paid,2025-08-11,PARTNER028
+TXN00868,COMP001,2025-08-05,outflow,Utilities,Synthetic utilities transaction,37500.00,Paid,2025-08-05,PARTNER028
+TXN00869,COMP001,2025-08-06,inflow,Service revenue,Synthetic service revenue transaction,53100.00,Received,2025-08-10,PARTNER036
+TXN00870,COMP001,2025-08-06,inflow,Other income,Synthetic other income transaction,43000.00,Received,2025-08-12,PARTNER023
+TXN00871,COMP001,2025-08-06,outflow,Payroll,Synthetic payroll transaction,33000.00,Paid,2025-08-12,PARTNER013
+TXN00872,COMP001,2025-08-06,outflow,Tax,Synthetic tax transaction,42600.00,Paid,2025-08-08,PARTNER041
+TXN00873,COMP001,2025-08-07,inflow,Contract payment,Synthetic contract payment transaction,40500.00,Received,2025-08-13,PARTNER002
+TXN00874,COMP001,2025-08-07,inflow,Customer receipts,Synthetic customer receipts transaction,65600.00,Received,2025-08-09,PARTNER019
+TXN00875,COMP001,2025-08-07,outflow,Rent,Synthetic rent transaction,42900.00,Paid,2025-08-12,PARTNER004
+TXN00876,COMP001,2025-08-07,outflow,Software,Synthetic software transaction,33500.00,Paid,2025-08-13,PARTNER014
+TXN00877,COMP001,2025-08-08,inflow,Other income,Synthetic other income transaction,43400.00,Received,2025-08-12,PARTNER042
+TXN00878,COMP001,2025-08-08,inflow,Product sales,Synthetic product sales transaction,71500.00,Received,2025-08-10,PARTNER050
+TXN00879,COMP001,2025-08-08,outflow,Utilities,Synthetic utilities transaction,40700.00,Paid,2025-08-08,PARTNER046
+TXN00880,COMP001,2025-08-08,outflow,Logistics,Synthetic logistics transaction,35500.00,Paid,2025-08-12,PARTNER049
+TXN00881,COMP001,2025-08-09,inflow,Customer receipts,Synthetic customer receipts transaction,18700.00,Received,2025-08-12,PARTNER012
+TXN00882,COMP001,2025-08-09,inflow,Service revenue,Synthetic service revenue transaction,25000.00,Received,2025-08-13,PARTNER035
+TXN00883,COMP001,2025-08-09,outflow,Tax,Synthetic tax transaction,58200.00,Paid,2025-08-12,PARTNER030
+TXN00884,COMP001,2025-08-09,outflow,Marketing,Synthetic marketing transaction,45400.00,Paid,2025-08-16,PARTNER009
+TXN00885,COMP001,2025-08-10,inflow,Product sales,Synthetic product sales transaction,64100.00,Received,2025-08-10,PARTNER013
+TXN00886,COMP001,2025-08-10,inflow,Contract payment,Synthetic contract payment transaction,46700.00,Received,2025-08-17,PARTNER015
+TXN00887,COMP001,2025-08-10,outflow,Software,Synthetic software transaction,34000.00,Paid,2025-08-16,PARTNER033
+TXN00888,COMP001,2025-08-10,outflow,Supplier payment,Synthetic supplier payment transaction,29900.00,Paid,2025-08-15,PARTNER028
+TXN00889,COMP001,2025-08-11,inflow,Service revenue,Synthetic service revenue transaction,63300.00,Received,2025-08-11,PARTNER045
+TXN00890,COMP001,2025-08-11,inflow,Other income,Synthetic other income transaction,55600.00,Received,2025-08-16,PARTNER012
+TXN00891,COMP001,2025-08-11,outflow,Logistics,Synthetic logistics transaction,34800.00,Paid,2025-08-15,PARTNER041
+TXN00892,COMP001,2025-08-11,outflow,Payroll,Synthetic payroll transaction,33800.00,Paid,2025-08-14,PARTNER019
+TXN00893,COMP001,2025-08-12,inflow,Contract payment,Synthetic contract payment transaction,39700.00,Received,2025-08-12,PARTNER007
+TXN00894,COMP001,2025-08-12,inflow,Customer receipts,Synthetic customer receipts transaction,49000.00,Received,2025-08-16,PARTNER022
+TXN00895,COMP001,2025-08-12,outflow,Marketing,Synthetic marketing transaction,33800.00,Paid,2025-08-15,PARTNER038
+TXN00896,COMP001,2025-08-12,outflow,Rent,Synthetic rent transaction,48500.00,Paid,2025-08-13,PARTNER014
+TXN00897,COMP001,2025-08-13,inflow,Other income,Synthetic other income transaction,30800.00,Received,2025-08-19,PARTNER028
+TXN00898,COMP001,2025-08-13,inflow,Product sales,Synthetic product sales transaction,38800.00,Received,2025-08-17,PARTNER019
+TXN00899,COMP001,2025-08-13,outflow,Supplier payment,Synthetic supplier payment transaction,33600.00,Paid,2025-08-14,PARTNER025
+TXN00900,COMP001,2025-08-13,outflow,Utilities,Synthetic utilities transaction,32300.00,Paid,2025-08-18,PARTNER022
+TXN00901,COMP001,2025-08-14,inflow,Customer receipts,Synthetic customer receipts transaction,66500.00,Received,2025-08-16,PARTNER041
+TXN00902,COMP001,2025-08-14,inflow,Service revenue,Synthetic service revenue transaction,59000.00,Received,2025-08-15,PARTNER022
+TXN00903,COMP001,2025-08-14,outflow,Payroll,Synthetic payroll transaction,57500.00,Paid,2025-08-19,PARTNER016
+TXN00904,COMP001,2025-08-14,outflow,Tax,Synthetic tax transaction,46800.00,Paid,2025-08-19,PARTNER022
+TXN00905,COMP001,2025-08-15,inflow,Product sales,Synthetic product sales transaction,44400.00,Received,2025-08-21,PARTNER036
+TXN00906,COMP001,2025-08-15,inflow,Contract payment,Synthetic contract payment transaction,42000.00,Received,2025-08-17,PARTNER041
+TXN00907,COMP001,2025-08-15,outflow,Rent,Synthetic rent transaction,34200.00,Paid,2025-08-22,PARTNER030
+TXN00908,COMP001,2025-08-15,outflow,Software,Synthetic software transaction,24200.00,Paid,2025-08-17,PARTNER007
+TXN00909,COMP001,2025-08-16,inflow,Service revenue,Synthetic service revenue transaction,30000.00,Received,2025-08-20,PARTNER030
+TXN00910,COMP001,2025-08-16,inflow,Other income,Synthetic other income transaction,20500.00,Received,2025-08-17,PARTNER009
+TXN00911,COMP001,2025-08-16,outflow,Utilities,Synthetic utilities transaction,32100.00,Paid,2025-08-19,PARTNER014
+TXN00912,COMP001,2025-08-16,outflow,Logistics,Synthetic logistics transaction,29600.00,Paid,2025-08-16,PARTNER003
+TXN00913,COMP001,2025-08-17,inflow,Contract payment,Synthetic contract payment transaction,34000.00,Received,2025-08-19,PARTNER049
+TXN00914,COMP001,2025-08-17,inflow,Customer receipts,Synthetic customer receipts transaction,31400.00,Received,2025-08-17,PARTNER024
+TXN00915,COMP001,2025-08-17,outflow,Tax,Synthetic tax transaction,49500.00,Paid,2025-08-17,PARTNER045
+TXN00916,COMP001,2025-08-17,outflow,Marketing,Synthetic marketing transaction,40000.00,Paid,2025-08-22,PARTNER026
+TXN00917,COMP001,2025-08-18,inflow,Other income,Synthetic other income transaction,53500.00,Received,2025-08-24,PARTNER013
+TXN00918,COMP001,2025-08-18,inflow,Product sales,Synthetic product sales transaction,33400.00,Received,2025-08-20,PARTNER017
+TXN00919,COMP001,2025-08-18,outflow,Software,Synthetic software transaction,27300.00,Paid,2025-08-22,PARTNER048
+TXN00920,COMP001,2025-08-18,outflow,Supplier payment,Synthetic supplier payment transaction,22000.00,Paid,2025-08-21,PARTNER044
+TXN00921,COMP001,2025-08-19,inflow,Customer receipts,Synthetic customer receipts transaction,26000.00,Received,2025-08-25,PARTNER012
+TXN00922,COMP001,2025-08-19,inflow,Service revenue,Synthetic service revenue transaction,38800.00,Received,2025-08-20,PARTNER017
+TXN00923,COMP001,2025-08-19,outflow,Logistics,Synthetic logistics transaction,32400.00,Paid,2025-08-20,PARTNER027
+TXN00924,COMP001,2025-08-19,outflow,Payroll,Synthetic payroll transaction,40600.00,Paid,2025-08-19,PARTNER028
+TXN00925,COMP001,2025-08-20,inflow,Product sales,Synthetic product sales transaction,48900.00,Received,2025-08-21,PARTNER026
+TXN00926,COMP001,2025-08-20,inflow,Contract payment,Synthetic contract payment transaction,50200.00,Received,2025-08-22,PARTNER045
+TXN00927,COMP001,2025-08-20,outflow,Marketing,Synthetic marketing transaction,59800.00,Paid,2025-08-21,PARTNER015
+TXN00928,COMP001,2025-08-20,outflow,Rent,Synthetic rent transaction,45200.00,Paid,2025-08-26,PARTNER033
+TXN00929,COMP001,2025-08-21,inflow,Service revenue,Synthetic service revenue transaction,46400.00,Received,2025-08-25,PARTNER050
+TXN00930,COMP001,2025-08-21,inflow,Other income,Synthetic other income transaction,68800.00,Received,2025-08-28,PARTNER016
+TXN00931,COMP001,2025-08-21,outflow,Supplier payment,Synthetic supplier payment transaction,62400.00,Paid,2025-08-23,PARTNER048
+TXN00932,COMP001,2025-08-21,outflow,Utilities,Synthetic utilities transaction,46900.00,Paid,2025-08-24,PARTNER034
+TXN00933,COMP001,2025-08-22,inflow,Contract payment,Synthetic contract payment transaction,67300.00,Received,2025-08-28,PARTNER015
+TXN00934,COMP001,2025-08-22,inflow,Customer receipts,Synthetic customer receipts transaction,76000.00,Received,2025-08-28,PARTNER016
+TXN00935,COMP001,2025-08-22,outflow,Payroll,Synthetic payroll transaction,33900.00,Paid,2025-08-29,PARTNER035
+TXN00936,COMP001,2025-08-22,outflow,Tax,Synthetic tax transaction,34500.00,Paid,2025-08-23,PARTNER015
+TXN00937,COMP001,2025-08-23,inflow,Other income,Synthetic other income transaction,28900.00,Received,2025-08-24,PARTNER013
+TXN00938,COMP001,2025-08-23,inflow,Product sales,Synthetic product sales transaction,19700.00,Received,2025-08-25,PARTNER013
+TXN00939,COMP001,2025-08-23,outflow,Rent,Synthetic rent transaction,26000.00,Paid,2025-08-25,PARTNER002
+TXN00940,COMP001,2025-08-23,outflow,Software,Synthetic software transaction,47000.00,Paid,2025-08-26,PARTNER024
+TXN00941,COMP001,2025-08-24,inflow,Customer receipts,Synthetic customer receipts transaction,33600.00,Received,2025-08-25,PARTNER040
+TXN00942,COMP001,2025-08-24,inflow,Service revenue,Synthetic service revenue transaction,50400.00,Received,2025-08-29,PARTNER011
+TXN00943,COMP001,2025-08-24,outflow,Utilities,Synthetic utilities transaction,31600.00,Paid,2025-08-28,PARTNER023
+TXN00944,COMP001,2025-08-24,outflow,Logistics,Synthetic logistics transaction,37400.00,Paid,2025-08-27,PARTNER020
+TXN00945,COMP001,2025-08-25,inflow,Product sales,Synthetic product sales transaction,38400.00,Received,2025-08-29,PARTNER029
+TXN00946,COMP001,2025-08-25,inflow,Contract payment,Synthetic contract payment transaction,58700.00,Received,2025-08-25,PARTNER023
+TXN00947,COMP001,2025-08-25,outflow,Tax,Synthetic tax transaction,33800.00,Paid,2025-08-26,PARTNER033
+TXN00948,COMP001,2025-08-25,outflow,Marketing,Synthetic marketing transaction,27700.00,Paid,2025-09-01,PARTNER019
+TXN00949,COMP001,2025-08-26,inflow,Service revenue,Synthetic service revenue transaction,30200.00,Received,2025-08-29,PARTNER046
+TXN00950,COMP001,2025-08-26,inflow,Other income,Synthetic other income transaction,43400.00,Received,2025-08-30,PARTNER042
+TXN00951,COMP001,2025-08-26,outflow,Software,Synthetic software transaction,60600.00,Paid,2025-09-02,PARTNER005
+TXN00952,COMP001,2025-08-26,outflow,Supplier payment,Synthetic supplier payment transaction,36600.00,Paid,2025-08-30,PARTNER015
+TXN00953,COMP001,2025-08-27,inflow,Contract payment,Synthetic contract payment transaction,63200.00,Received,2025-09-01,PARTNER033
+TXN00954,COMP001,2025-08-27,inflow,Customer receipts,Synthetic customer receipts transaction,34200.00,Received,2025-08-31,PARTNER010
+TXN00955,COMP001,2025-08-27,outflow,Logistics,Synthetic logistics transaction,30300.00,Paid,2025-08-30,PARTNER042
+TXN00956,COMP001,2025-08-27,outflow,Payroll,Synthetic payroll transaction,50200.00,Paid,2025-08-28,PARTNER047
+TXN00957,COMP001,2025-08-28,inflow,Other income,Synthetic other income transaction,41600.00,Received,2025-08-30,PARTNER041
+TXN00958,COMP001,2025-08-28,inflow,Product sales,Synthetic product sales transaction,45500.00,Received,2025-09-02,PARTNER025
+TXN00959,COMP001,2025-08-28,outflow,Marketing,Synthetic marketing transaction,19100.00,Paid,2025-09-03,PARTNER041
+TXN00960,COMP001,2025-08-28,outflow,Rent,Synthetic rent transaction,25900.00,Paid,2025-08-31,PARTNER015
+TXN00961,COMP001,2025-08-29,inflow,Customer receipts,Synthetic customer receipts transaction,48900.00,Received,2025-09-05,PARTNER041
+TXN00962,COMP001,2025-08-29,inflow,Service revenue,Synthetic service revenue transaction,46100.00,Received,2025-09-02,PARTNER027
+TXN00963,COMP001,2025-08-29,outflow,Supplier payment,Synthetic supplier payment transaction,35100.00,Paid,2025-09-01,PARTNER005
+TXN00964,COMP001,2025-08-29,outflow,Utilities,Synthetic utilities transaction,24700.00,Paid,2025-09-05,PARTNER026
+TXN00965,COMP001,2025-08-30,inflow,Product sales,Synthetic product sales transaction,51700.00,Received,2025-09-05,PARTNER015
+TXN00966,COMP001,2025-08-30,inflow,Contract payment,Synthetic contract payment transaction,75600.00,Received,2025-09-05,PARTNER034
+TXN00967,COMP001,2025-08-30,outflow,Payroll,Synthetic payroll transaction,43700.00,Paid,2025-08-30,PARTNER041
+TXN00968,COMP001,2025-08-30,outflow,Tax,Synthetic tax transaction,33200.00,Paid,2025-08-30,PARTNER050
+TXN00969,COMP001,2025-08-31,inflow,Service revenue,Synthetic service revenue transaction,38000.00,Received,2025-09-02,PARTNER007
+TXN00970,COMP001,2025-08-31,inflow,Other income,Synthetic other income transaction,43500.00,Received,2025-09-04,PARTNER013
+TXN00971,COMP001,2025-08-31,outflow,Rent,Synthetic rent transaction,29200.00,Paid,2025-09-01,PARTNER032
+TXN00972,COMP001,2025-08-31,outflow,Software,Synthetic software transaction,45100.00,Paid,2025-09-02,PARTNER006
+TXN00973,COMP001,2025-09-01,inflow,Contract payment,Synthetic contract payment transaction,56200.00,Received,2025-09-07,PARTNER026
+TXN00974,COMP001,2025-09-01,inflow,Customer receipts,Synthetic customer receipts transaction,55300.00,Received,2025-09-05,PARTNER038
+TXN00975,COMP001,2025-09-01,outflow,Utilities,Synthetic utilities transaction,57700.00,Paid,2025-09-07,PARTNER050
+TXN00976,COMP001,2025-09-01,outflow,Logistics,Synthetic logistics transaction,39500.00,Paid,2025-09-04,PARTNER030
+TXN00977,COMP001,2025-09-02,inflow,Other income,Synthetic other income transaction,37100.00,Received,2025-09-05,PARTNER031
+TXN00978,COMP001,2025-09-02,inflow,Product sales,Synthetic product sales transaction,38100.00,Received,2025-09-06,PARTNER001
+TXN00979,COMP001,2025-09-02,outflow,Tax,Synthetic tax transaction,22500.00,Paid,2025-09-06,PARTNER049
+TXN00980,COMP001,2025-09-02,outflow,Marketing,Synthetic marketing transaction,15700.00,Paid,2025-09-09,PARTNER013
+TXN00981,COMP001,2025-09-03,inflow,Customer receipts,Synthetic customer receipts transaction,49700.00,Received,2025-09-05,PARTNER042
+TXN00982,COMP001,2025-09-03,inflow,Service revenue,Synthetic service revenue transaction,84400.00,Received,2025-09-09,PARTNER034
+TXN00983,COMP001,2025-09-03,outflow,Software,Synthetic software transaction,36100.00,Paid,2025-09-08,PARTNER043
+TXN00984,COMP001,2025-09-03,outflow,Supplier payment,Synthetic supplier payment transaction,24700.00,Paid,2025-09-03,PARTNER004
+TXN00985,COMP001,2025-09-04,inflow,Product sales,Synthetic product sales transaction,47100.00,Received,2025-09-11,PARTNER009
+TXN00986,COMP001,2025-09-04,inflow,Contract payment,Synthetic contract payment transaction,45200.00,Received,2025-09-05,PARTNER044
+TXN00987,COMP001,2025-09-04,outflow,Logistics,Synthetic logistics transaction,42300.00,Paid,2025-09-04,PARTNER034
+TXN00988,COMP001,2025-09-04,outflow,Payroll,Synthetic payroll transaction,37400.00,Paid,2025-09-05,PARTNER019
+TXN00989,COMP001,2025-09-05,inflow,Service revenue,Synthetic service revenue transaction,32100.00,Received,2025-09-11,PARTNER043
+TXN00990,COMP001,2025-09-05,inflow,Other income,Synthetic other income transaction,47400.00,Received,2025-09-07,PARTNER014
+TXN00991,COMP001,2025-09-05,outflow,Marketing,Synthetic marketing transaction,47600.00,Paid,2025-09-10,PARTNER022
+TXN00992,COMP001,2025-09-05,outflow,Rent,Synthetic rent transaction,33400.00,Paid,2025-09-10,PARTNER013
+TXN00993,COMP001,2025-09-06,inflow,Contract payment,Synthetic contract payment transaction,25200.00,Received,2025-09-12,PARTNER030
+TXN00994,COMP001,2025-09-06,inflow,Customer receipts,Synthetic customer receipts transaction,27600.00,Received,2025-09-08,PARTNER036
+TXN00995,COMP001,2025-09-06,outflow,Supplier payment,Synthetic supplier payment transaction,38100.00,Paid,2025-09-12,PARTNER026
+TXN00996,COMP001,2025-09-06,outflow,Utilities,Synthetic utilities transaction,39900.00,Paid,2025-09-08,PARTNER045
+TXN00997,COMP001,2025-09-07,inflow,Other income,Synthetic other income transaction,25700.00,Received,2025-09-10,PARTNER023
+TXN00998,COMP001,2025-09-07,inflow,Product sales,Synthetic product sales transaction,39700.00,Received,2025-09-11,PARTNER047
+TXN00999,COMP001,2025-09-07,outflow,Payroll,Synthetic payroll transaction,43000.00,Paid,2025-09-14,PARTNER049
+TXN01000,COMP001,2025-09-07,outflow,Tax,Synthetic tax transaction,34300.00,Paid,2025-09-13,PARTNER010
+TXN01001,COMP001,2025-09-08,inflow,Customer receipts,Synthetic customer receipts transaction,40700.00,Received,2025-09-09,PARTNER038
+TXN01002,COMP001,2025-09-08,inflow,Service revenue,Synthetic service revenue transaction,33700.00,Received,2025-09-08,PARTNER016
+TXN01003,COMP001,2025-09-08,outflow,Rent,Synthetic rent transaction,35200.00,Paid,2025-09-09,PARTNER004
+TXN01004,COMP001,2025-09-08,outflow,Software,Synthetic software transaction,32900.00,Paid,2025-09-08,PARTNER032
+TXN01005,COMP001,2025-09-09,inflow,Product sales,Synthetic product sales transaction,37900.00,Received,2025-09-12,PARTNER050
+TXN01006,COMP001,2025-09-09,inflow,Contract payment,Synthetic contract payment transaction,54900.00,Received,2025-09-16,PARTNER026
+TXN01007,COMP001,2025-09-09,outflow,Utilities,Synthetic utilities transaction,48800.00,Paid,2025-09-12,PARTNER047
+TXN01008,COMP001,2025-09-09,outflow,Logistics,Synthetic logistics transaction,33000.00,Paid,2025-09-15,PARTNER029
+TXN01009,COMP001,2025-09-10,inflow,Service revenue,Synthetic service revenue transaction,54700.00,Received,2025-09-12,PARTNER015
+TXN01010,COMP001,2025-09-10,inflow,Other income,Synthetic other income transaction,33800.00,Received,2025-09-13,PARTNER045
+TXN01011,COMP001,2025-09-10,outflow,Tax,Synthetic tax transaction,34800.00,Paid,2025-09-16,PARTNER021
+TXN01012,COMP001,2025-09-10,outflow,Marketing,Synthetic marketing transaction,39300.00,Paid,2025-09-13,PARTNER050
+TXN01013,COMP001,2025-09-11,inflow,Contract payment,Synthetic contract payment transaction,39300.00,Received,2025-09-12,PARTNER025
+TXN01014,COMP001,2025-09-11,inflow,Customer receipts,Synthetic customer receipts transaction,37600.00,Received,2025-09-15,PARTNER047
+TXN01015,COMP001,2025-09-11,outflow,Software,Synthetic software transaction,37900.00,Paid,2025-09-12,PARTNER006
+TXN01016,COMP001,2025-09-11,outflow,Supplier payment,Synthetic supplier payment transaction,22200.00,Paid,2025-09-12,PARTNER012
+TXN01017,COMP001,2025-09-12,inflow,Other income,Synthetic other income transaction,41900.00,Received,2025-09-19,PARTNER046
+TXN01018,COMP001,2025-09-12,inflow,Product sales,Synthetic product sales transaction,60000.00,Received,2025-09-15,PARTNER039
+TXN01019,COMP001,2025-09-12,outflow,Logistics,Synthetic logistics transaction,39000.00,Paid,2025-09-16,PARTNER008
+TXN01020,COMP001,2025-09-12,outflow,Payroll,Synthetic payroll transaction,55300.00,Paid,2025-09-14,PARTNER040
+TXN01021,COMP001,2025-09-13,inflow,Customer receipts,Synthetic customer receipts transaction,29100.00,Received,2025-09-13,PARTNER034
+TXN01022,COMP001,2025-09-13,inflow,Service revenue,Synthetic service revenue transaction,20500.00,Received,2025-09-16,PARTNER022
+TXN01023,COMP001,2025-09-13,outflow,Marketing,Synthetic marketing transaction,24100.00,Paid,2025-09-14,PARTNER048
+TXN01024,COMP001,2025-09-13,outflow,Rent,Synthetic rent transaction,35700.00,Paid,2025-09-20,PARTNER019
+TXN01025,COMP001,2025-09-14,inflow,Product sales,Synthetic product sales transaction,40100.00,Received,2025-09-16,PARTNER043
+TXN01026,COMP001,2025-09-14,inflow,Contract payment,Synthetic contract payment transaction,49200.00,Received,2025-09-21,PARTNER036
+TXN01027,COMP001,2025-09-14,outflow,Supplier payment,Synthetic supplier payment transaction,22200.00,Paid,2025-09-20,PARTNER028
+TXN01028,COMP001,2025-09-14,outflow,Utilities,Synthetic utilities transaction,38600.00,Paid,2025-09-15,PARTNER035
+TXN01029,COMP001,2025-09-15,inflow,Service revenue,Synthetic service revenue transaction,38100.00,Received,2025-09-22,PARTNER001
+TXN01030,COMP001,2025-09-15,inflow,Other income,Synthetic other income transaction,36900.00,Received,2025-09-20,PARTNER038
+TXN01031,COMP001,2025-09-15,outflow,Payroll,Synthetic payroll transaction,44400.00,Paid,2025-09-19,PARTNER003
+TXN01032,COMP001,2025-09-15,outflow,Tax,Synthetic tax transaction,61200.00,Paid,2025-09-17,PARTNER026
+TXN01033,COMP001,2025-09-16,inflow,Contract payment,Synthetic contract payment transaction,28200.00,Received,2025-09-19,PARTNER028
+TXN01034,COMP001,2025-09-16,inflow,Customer receipts,Synthetic customer receipts transaction,42600.00,Received,2025-09-20,PARTNER044
+TXN01035,COMP001,2025-09-16,outflow,Rent,Synthetic rent transaction,50700.00,Paid,2025-09-17,PARTNER004
+TXN01036,COMP001,2025-09-16,outflow,Software,Synthetic software transaction,39800.00,Paid,2025-09-18,PARTNER027
+TXN01037,COMP001,2025-09-17,inflow,Other income,Synthetic other income transaction,51300.00,Received,2025-09-20,PARTNER029
+TXN01038,COMP001,2025-09-17,inflow,Product sales,Synthetic product sales transaction,37400.00,Received,2025-09-23,PARTNER023
+TXN01039,COMP001,2025-09-17,outflow,Utilities,Synthetic utilities transaction,24700.00,Paid,2025-09-19,PARTNER007
+TXN01040,COMP001,2025-09-17,outflow,Logistics,Synthetic logistics transaction,34500.00,Paid,2025-09-18,PARTNER025
+TXN01041,COMP001,2025-09-18,inflow,Customer receipts,Synthetic customer receipts transaction,45000.00,Received,2025-09-21,PARTNER014
+TXN01042,COMP001,2025-09-18,inflow,Service revenue,Synthetic service revenue transaction,54700.00,Received,2025-09-24,PARTNER024
+TXN01043,COMP001,2025-09-18,outflow,Tax,Synthetic tax transaction,28700.00,Paid,2025-09-19,PARTNER013
+TXN01044,COMP001,2025-09-18,outflow,Marketing,Synthetic marketing transaction,40200.00,Paid,2025-09-21,PARTNER014
+TXN01045,COMP001,2025-09-19,inflow,Product sales,Synthetic product sales transaction,44600.00,Received,2025-09-20,PARTNER038
+TXN01046,COMP001,2025-09-19,inflow,Contract payment,Synthetic contract payment transaction,50800.00,Received,2025-09-26,PARTNER046
+TXN01047,COMP001,2025-09-19,outflow,Software,Synthetic software transaction,27500.00,Paid,2025-09-21,PARTNER006
+TXN01048,COMP001,2025-09-19,outflow,Supplier payment,Synthetic supplier payment transaction,40300.00,Paid,2025-09-22,PARTNER047
+TXN01049,COMP001,2025-09-20,inflow,Service revenue,Synthetic service revenue transaction,31800.00,Received,2025-09-22,PARTNER032
+TXN01050,COMP001,2025-09-20,inflow,Other income,Synthetic other income transaction,38100.00,Received,2025-09-23,PARTNER013
+TXN01051,COMP001,2025-09-20,outflow,Logistics,Synthetic logistics transaction,29900.00,Paid,2025-09-20,PARTNER023
+TXN01052,COMP001,2025-09-20,outflow,Payroll,Synthetic payroll transaction,45100.00,Paid,2025-09-24,PARTNER002
+TXN01053,COMP001,2025-09-21,inflow,Contract payment,Synthetic contract payment transaction,19800.00,Received,2025-09-26,PARTNER042
+TXN01054,COMP001,2025-09-21,inflow,Customer receipts,Synthetic customer receipts transaction,19400.00,Received,2025-09-25,PARTNER045
+TXN01055,COMP001,2025-09-21,outflow,Marketing,Synthetic marketing transaction,41600.00,Paid,2025-09-21,PARTNER020
+TXN01056,COMP001,2025-09-21,outflow,Rent,Synthetic rent transaction,23900.00,Paid,2025-09-28,PARTNER045
+TXN01057,COMP001,2025-09-22,inflow,Other income,Synthetic other income transaction,43700.00,Received,2025-09-22,PARTNER007
+TXN01058,COMP001,2025-09-22,inflow,Product sales,Synthetic product sales transaction,41900.00,Received,2025-09-27,PARTNER027
+TXN01059,COMP001,2025-09-22,outflow,Supplier payment,Synthetic supplier payment transaction,31100.00,Paid,2025-09-24,PARTNER017
+TXN01060,COMP001,2025-09-22,outflow,Utilities,Synthetic utilities transaction,25100.00,Paid,2025-09-27,PARTNER006
+TXN01061,COMP001,2025-09-23,inflow,Customer receipts,Synthetic customer receipts transaction,40500.00,Received,2025-09-29,PARTNER029
+TXN01062,COMP001,2025-09-23,inflow,Service revenue,Synthetic service revenue transaction,22200.00,Received,2025-09-26,PARTNER004
+TXN01063,COMP001,2025-09-23,outflow,Payroll,Synthetic payroll transaction,55600.00,Paid,2025-09-25,PARTNER024
+TXN01064,COMP001,2025-09-23,outflow,Tax,Synthetic tax transaction,32000.00,Paid,2025-09-28,PARTNER030
+TXN01065,COMP001,2025-09-24,inflow,Product sales,Synthetic product sales transaction,57300.00,Received,2025-09-30,PARTNER020
+TXN01066,COMP001,2025-09-24,inflow,Contract payment,Synthetic contract payment transaction,35000.00,Received,2025-09-26,PARTNER013
+TXN01067,COMP001,2025-09-24,outflow,Rent,Synthetic rent transaction,31200.00,Paid,2025-09-28,PARTNER038
+TXN01068,COMP001,2025-09-24,outflow,Software,Synthetic software transaction,42000.00,Paid,2025-09-29,PARTNER016
+TXN01069,COMP001,2025-09-25,inflow,Service revenue,Synthetic service revenue transaction,49200.00,Received,2025-09-25,PARTNER048
+TXN01070,COMP001,2025-09-25,inflow,Other income,Synthetic other income transaction,34300.00,Received,2025-09-28,PARTNER024
+TXN01071,COMP001,2025-09-25,outflow,Utilities,Synthetic utilities transaction,63800.00,Paid,2025-09-27,PARTNER009
+TXN01072,COMP001,2025-09-25,outflow,Logistics,Synthetic logistics transaction,39600.00,Paid,2025-09-26,PARTNER041
+TXN01073,COMP001,2025-09-26,inflow,Contract payment,Synthetic contract payment transaction,32500.00,Received,2025-09-29,PARTNER008
+TXN01074,COMP001,2025-09-26,inflow,Customer receipts,Synthetic customer receipts transaction,48500.00,Received,2025-09-27,PARTNER050
+TXN01075,COMP001,2025-09-26,outflow,Tax,Synthetic tax transaction,38900.00,Paid,2025-09-28,PARTNER008
+TXN01076,COMP001,2025-09-26,outflow,Marketing,Synthetic marketing transaction,40400.00,Paid,2025-10-03,PARTNER043
+TXN01077,COMP001,2025-09-27,inflow,Other income,Synthetic other income transaction,27800.00,Received,2025-09-29,PARTNER031
+TXN01078,COMP001,2025-09-27,inflow,Product sales,Synthetic product sales transaction,28300.00,Received,2025-10-04,PARTNER001
+TXN01079,COMP001,2025-09-27,outflow,Software,Synthetic software transaction,38300.00,Paid,2025-09-28,PARTNER037
+TXN01080,COMP001,2025-09-27,outflow,Supplier payment,Synthetic supplier payment transaction,35400.00,Paid,2025-10-03,PARTNER043
+TXN01081,COMP001,2025-09-28,inflow,Customer receipts,Synthetic customer receipts transaction,24700.00,Received,2025-10-03,PARTNER021
+TXN01082,COMP001,2025-09-28,inflow,Service revenue,Synthetic service revenue transaction,25400.00,Received,2025-09-30,PARTNER039
+TXN01083,COMP001,2025-09-28,outflow,Logistics,Synthetic logistics transaction,47100.00,Paid,2025-10-01,PARTNER046
+TXN01084,COMP001,2025-09-28,outflow,Payroll,Synthetic payroll transaction,45800.00,Paid,2025-09-28,PARTNER034
+TXN01085,COMP001,2025-09-29,inflow,Product sales,Synthetic product sales transaction,76100.00,Received,2025-10-04,PARTNER033
+TXN01086,COMP001,2025-09-29,inflow,Contract payment,Synthetic contract payment transaction,46300.00,Received,2025-10-06,PARTNER044
+TXN01087,COMP001,2025-09-29,outflow,Marketing,Synthetic marketing transaction,36000.00,Paid,2025-10-02,PARTNER038
+TXN01088,COMP001,2025-09-29,outflow,Rent,Synthetic rent transaction,39100.00,Paid,2025-10-02,PARTNER009
+TXN01089,COMP001,2025-09-30,inflow,Service revenue,Synthetic service revenue transaction,53000.00,Received,2025-10-02,PARTNER001
+TXN01090,COMP001,2025-09-30,inflow,Other income,Synthetic other income transaction,63500.00,Received,2025-10-07,PARTNER021
+TXN01091,COMP001,2025-09-30,outflow,Supplier payment,Synthetic supplier payment transaction,39100.00,Paid,2025-10-06,PARTNER030
+TXN01092,COMP001,2025-09-30,outflow,Utilities,Synthetic utilities transaction,23900.00,Paid,2025-10-05,PARTNER042
+TXN01093,COMP001,2025-10-01,inflow,Contract payment,Synthetic contract payment transaction,38300.00,Received,2025-10-07,PARTNER012
+TXN01094,COMP001,2025-10-01,inflow,Customer receipts,Synthetic customer receipts transaction,54400.00,Received,2025-10-04,PARTNER015
+TXN01095,COMP001,2025-10-01,outflow,Payroll,Synthetic payroll transaction,38700.00,Paid,2025-10-07,PARTNER016
+TXN01096,COMP001,2025-10-01,outflow,Tax,Synthetic tax transaction,26600.00,Paid,2025-10-07,PARTNER044
+TXN01097,COMP001,2025-10-02,inflow,Other income,Synthetic other income transaction,41100.00,Received,2025-10-08,PARTNER047
+TXN01098,COMP001,2025-10-02,inflow,Product sales,Synthetic product sales transaction,34200.00,Received,2025-10-05,PARTNER011
+TXN01099,COMP001,2025-10-02,outflow,Rent,Synthetic rent transaction,60700.00,Paid,2025-10-03,PARTNER007
+TXN01100,COMP001,2025-10-02,outflow,Software,Synthetic software transaction,44100.00,Paid,2025-10-07,PARTNER013
+TXN01101,COMP001,2025-10-03,inflow,Customer receipts,Synthetic customer receipts transaction,29000.00,Received,2025-10-05,PARTNER019
+TXN01102,COMP001,2025-10-03,inflow,Service revenue,Synthetic service revenue transaction,52800.00,Received,2025-10-03,PARTNER043
+TXN01103,COMP001,2025-10-03,outflow,Utilities,Synthetic utilities transaction,44100.00,Paid,2025-10-03,PARTNER015
+TXN01104,COMP001,2025-10-03,outflow,Logistics,Synthetic logistics transaction,47500.00,Paid,2025-10-09,PARTNER049
+TXN01105,COMP001,2025-10-04,inflow,Product sales,Synthetic product sales transaction,43800.00,Received,2025-10-08,PARTNER047
+TXN01106,COMP001,2025-10-04,inflow,Contract payment,Synthetic contract payment transaction,43700.00,Received,2025-10-05,PARTNER042
+TXN01107,COMP001,2025-10-04,outflow,Tax,Synthetic tax transaction,41900.00,Paid,2025-10-09,PARTNER010
+TXN01108,COMP001,2025-10-04,outflow,Marketing,Synthetic marketing transaction,46000.00,Paid,2025-10-10,PARTNER013
+TXN01109,COMP001,2025-10-05,inflow,Service revenue,Synthetic service revenue transaction,33200.00,Received,2025-10-06,PARTNER011
+TXN01110,COMP001,2025-10-05,inflow,Other income,Synthetic other income transaction,44600.00,Received,2025-10-07,PARTNER020
+TXN01111,COMP001,2025-10-05,outflow,Software,Synthetic software transaction,30300.00,Paid,2025-10-09,PARTNER050
+TXN01112,COMP001,2025-10-05,outflow,Supplier payment,Synthetic supplier payment transaction,49300.00,Paid,2025-10-05,PARTNER029
+TXN01113,COMP001,2025-10-06,inflow,Contract payment,Synthetic contract payment transaction,48000.00,Received,2025-10-10,PARTNER002
+TXN01114,COMP001,2025-10-06,inflow,Customer receipts,Synthetic customer receipts transaction,41700.00,Received,2025-10-10,PARTNER012
+TXN01115,COMP001,2025-10-06,outflow,Logistics,Synthetic logistics transaction,51600.00,Paid,2025-10-06,PARTNER010
+TXN01116,COMP001,2025-10-06,outflow,Payroll,Synthetic payroll transaction,33200.00,Paid,2025-10-13,PARTNER026
+TXN01117,COMP001,2025-10-07,inflow,Other income,Synthetic other income transaction,70900.00,Received,2025-10-09,PARTNER022
+TXN01118,COMP001,2025-10-07,inflow,Product sales,Synthetic product sales transaction,43000.00,Received,2025-10-14,PARTNER018
+TXN01119,COMP001,2025-10-07,outflow,Marketing,Synthetic marketing transaction,29600.00,Paid,2025-10-07,PARTNER016
+TXN01120,COMP001,2025-10-07,outflow,Rent,Synthetic rent transaction,31300.00,Paid,2025-10-10,PARTNER027
+TXN01121,COMP001,2025-10-08,inflow,Customer receipts,Synthetic customer receipts transaction,39200.00,Received,2025-10-15,PARTNER002
+TXN01122,COMP001,2025-10-08,inflow,Service revenue,Synthetic service revenue transaction,63000.00,Received,2025-10-15,PARTNER015
+TXN01123,COMP001,2025-10-08,outflow,Supplier payment,Synthetic supplier payment transaction,29400.00,Paid,2025-10-12,PARTNER037
+TXN01124,COMP001,2025-10-08,outflow,Utilities,Synthetic utilities transaction,32800.00,Paid,2025-10-12,PARTNER037
+TXN01125,COMP001,2025-10-09,inflow,Product sales,Synthetic product sales transaction,47200.00,Received,2025-10-11,PARTNER049
+TXN01126,COMP001,2025-10-09,inflow,Contract payment,Synthetic contract payment transaction,45600.00,Received,2025-10-15,PARTNER030
+TXN01127,COMP001,2025-10-09,outflow,Payroll,Synthetic payroll transaction,57400.00,Paid,2025-10-09,PARTNER022
+TXN01128,COMP001,2025-10-09,outflow,Tax,Synthetic tax transaction,47700.00,Paid,2025-10-13,PARTNER009
+TXN01129,COMP001,2025-10-10,inflow,Service revenue,Synthetic service revenue transaction,56600.00,Received,2025-10-14,PARTNER002
+TXN01130,COMP001,2025-10-10,inflow,Other income,Synthetic other income transaction,42400.00,Received,2025-10-16,PARTNER038
+TXN01131,COMP001,2025-10-10,outflow,Rent,Synthetic rent transaction,45300.00,Paid,2025-10-16,PARTNER009
+TXN01132,COMP001,2025-10-10,outflow,Software,Synthetic software transaction,40600.00,Paid,2025-10-10,PARTNER038
+TXN01133,COMP001,2025-10-11,inflow,Contract payment,Synthetic contract payment transaction,48600.00,Received,2025-10-15,PARTNER029
+TXN01134,COMP001,2025-10-11,inflow,Customer receipts,Synthetic customer receipts transaction,31400.00,Received,2025-10-12,PARTNER040
+TXN01135,COMP001,2025-10-11,outflow,Utilities,Synthetic utilities transaction,47500.00,Paid,2025-10-12,PARTNER002
+TXN01136,COMP001,2025-10-11,outflow,Logistics,Synthetic logistics transaction,45300.00,Paid,2025-10-15,PARTNER001
+TXN01137,COMP001,2025-10-12,inflow,Other income,Synthetic other income transaction,35000.00,Received,2025-10-18,PARTNER005
+TXN01138,COMP001,2025-10-12,inflow,Product sales,Synthetic product sales transaction,38000.00,Received,2025-10-14,PARTNER035
+TXN01139,COMP001,2025-10-12,outflow,Tax,Synthetic tax transaction,58000.00,Paid,2025-10-17,PARTNER018
+TXN01140,COMP001,2025-10-12,outflow,Marketing,Synthetic marketing transaction,38400.00,Paid,2025-10-13,PARTNER014
+TXN01141,COMP001,2025-10-13,inflow,Customer receipts,Synthetic customer receipts transaction,54300.00,Received,2025-10-13,PARTNER016
+TXN01142,COMP001,2025-10-13,inflow,Service revenue,Synthetic service revenue transaction,48400.00,Received,2025-10-15,PARTNER039
+TXN01143,COMP001,2025-10-13,outflow,Software,Synthetic software transaction,30300.00,Paid,2025-10-17,PARTNER011
+TXN01144,COMP001,2025-10-13,outflow,Supplier payment,Synthetic supplier payment transaction,55900.00,Paid,2025-10-18,PARTNER050
+TXN01145,COMP001,2025-10-14,inflow,Product sales,Synthetic product sales transaction,48400.00,Received,2025-10-20,PARTNER029
+TXN01146,COMP001,2025-10-14,inflow,Contract payment,Synthetic contract payment transaction,33900.00,Received,2025-10-21,PARTNER025
+TXN01147,COMP001,2025-10-14,outflow,Logistics,Synthetic logistics transaction,51300.00,Paid,2025-10-20,PARTNER028
+TXN01148,COMP001,2025-10-14,outflow,Payroll,Synthetic payroll transaction,32400.00,Paid,2025-10-19,PARTNER043
+TXN01149,COMP001,2025-10-15,inflow,Service revenue,Synthetic service revenue transaction,45300.00,Received,2025-10-22,PARTNER028
+TXN01150,COMP001,2025-10-15,inflow,Other income,Synthetic other income transaction,44900.00,Received,2025-10-20,PARTNER038
+TXN01151,COMP001,2025-10-15,outflow,Marketing,Synthetic marketing transaction,42200.00,Paid,2025-10-15,PARTNER028
+TXN01152,COMP001,2025-10-15,outflow,Rent,Synthetic rent transaction,56700.00,Paid,2025-10-17,PARTNER016
+TXN01153,COMP001,2025-10-16,inflow,Contract payment,Synthetic contract payment transaction,31800.00,Received,2025-10-20,PARTNER003
+TXN01154,COMP001,2025-10-16,inflow,Customer receipts,Synthetic customer receipts transaction,29100.00,Received,2025-10-17,PARTNER004
+TXN01155,COMP001,2025-10-16,outflow,Supplier payment,Synthetic supplier payment transaction,33600.00,Paid,2025-10-18,PARTNER041
+TXN01156,COMP001,2025-10-16,outflow,Utilities,Synthetic utilities transaction,44000.00,Paid,2025-10-19,PARTNER013
+TXN01157,COMP001,2025-10-17,inflow,Other income,Synthetic other income transaction,53000.00,Received,2025-10-17,PARTNER048
+TXN01158,COMP001,2025-10-17,inflow,Product sales,Synthetic product sales transaction,38700.00,Received,2025-10-20,PARTNER022
+TXN01159,COMP001,2025-10-17,outflow,Payroll,Synthetic payroll transaction,26600.00,Paid,2025-10-24,PARTNER038
+TXN01160,COMP001,2025-10-17,outflow,Tax,Synthetic tax transaction,46900.00,Paid,2025-10-22,PARTNER009
+TXN01161,COMP001,2025-10-18,inflow,Customer receipts,Synthetic customer receipts transaction,26300.00,Received,2025-10-22,PARTNER050
+TXN01162,COMP001,2025-10-18,inflow,Service revenue,Synthetic service revenue transaction,41500.00,Received,2025-10-20,PARTNER032
+TXN01163,COMP001,2025-10-18,outflow,Rent,Synthetic rent transaction,39700.00,Paid,2025-10-23,PARTNER042
+TXN01164,COMP001,2025-10-18,outflow,Software,Synthetic software transaction,33700.00,Paid,2025-10-21,PARTNER009
+TXN01165,COMP001,2025-10-19,inflow,Product sales,Synthetic product sales transaction,28700.00,Received,2025-10-25,PARTNER014
+TXN01166,COMP001,2025-10-19,inflow,Contract payment,Synthetic contract payment transaction,31800.00,Received,2025-10-21,PARTNER040
+TXN01167,COMP001,2025-10-19,outflow,Utilities,Synthetic utilities transaction,67600.00,Paid,2025-10-26,PARTNER003
+TXN01168,COMP001,2025-10-19,outflow,Logistics,Synthetic logistics transaction,48700.00,Paid,2025-10-24,PARTNER044
+TXN01169,COMP001,2025-10-20,inflow,Service revenue,Synthetic service revenue transaction,42500.00,Received,2025-10-23,PARTNER038
+TXN01170,COMP001,2025-10-20,inflow,Other income,Synthetic other income transaction,33800.00,Received,2025-10-24,PARTNER012
+TXN01171,COMP001,2025-10-20,outflow,Tax,Synthetic tax transaction,42600.00,Paid,2025-10-24,PARTNER048
+TXN01172,COMP001,2025-10-20,outflow,Marketing,Synthetic marketing transaction,29600.00,Paid,2025-10-21,PARTNER046
+TXN01173,COMP001,2025-10-21,inflow,Contract payment,Synthetic contract payment transaction,43800.00,Received,2025-10-22,PARTNER016
+TXN01174,COMP001,2025-10-21,inflow,Customer receipts,Synthetic customer receipts transaction,45300.00,Received,2025-10-23,PARTNER039
+TXN01175,COMP001,2025-10-21,outflow,Software,Synthetic software transaction,42800.00,Paid,2025-10-22,PARTNER015
+TXN01176,COMP001,2025-10-21,outflow,Supplier payment,Synthetic supplier payment transaction,33500.00,Paid,2025-10-28,PARTNER045
+TXN01177,COMP001,2025-10-22,inflow,Other income,Synthetic other income transaction,63000.00,Received,2025-10-24,PARTNER004
+TXN01178,COMP001,2025-10-22,inflow,Product sales,Synthetic product sales transaction,59200.00,Received,2025-10-28,PARTNER003
+TXN01179,COMP001,2025-10-22,outflow,Logistics,Synthetic logistics transaction,44900.00,Paid,2025-10-25,PARTNER010
+TXN01180,COMP001,2025-10-22,outflow,Payroll,Synthetic payroll transaction,43000.00,Paid,2025-10-27,PARTNER044
+TXN01181,COMP001,2025-10-23,inflow,Customer receipts,Synthetic customer receipts transaction,33200.00,Received,2025-10-26,PARTNER008
+TXN01182,COMP001,2025-10-23,inflow,Service revenue,Synthetic service revenue transaction,57700.00,Received,2025-10-26,PARTNER033
+TXN01183,COMP001,2025-10-23,outflow,Marketing,Synthetic marketing transaction,34000.00,Paid,2025-10-24,PARTNER017
+TXN01184,COMP001,2025-10-23,outflow,Rent,Synthetic rent transaction,61000.00,Paid,2025-10-29,PARTNER010
+TXN01185,COMP001,2025-10-24,inflow,Product sales,Synthetic product sales transaction,40900.00,Received,2025-10-28,PARTNER007
+TXN01186,COMP001,2025-10-24,inflow,Contract payment,Synthetic contract payment transaction,24600.00,Received,2025-10-30,PARTNER013
+TXN01187,COMP001,2025-10-24,outflow,Supplier payment,Synthetic supplier payment transaction,31000.00,Paid,2025-10-25,PARTNER010
+TXN01188,COMP001,2025-10-24,outflow,Utilities,Synthetic utilities transaction,36300.00,Paid,2025-10-24,PARTNER036
+TXN01189,COMP001,2025-10-25,inflow,Service revenue,Synthetic service revenue transaction,27700.00,Received,2025-10-25,PARTNER019
+TXN01190,COMP001,2025-10-25,inflow,Other income,Synthetic other income transaction,18400.00,Received,2025-10-26,PARTNER044
+TXN01191,COMP001,2025-10-25,outflow,Payroll,Synthetic payroll transaction,30200.00,Paid,2025-11-01,PARTNER003
+TXN01192,COMP001,2025-10-25,outflow,Tax,Synthetic tax transaction,55300.00,Paid,2025-10-25,PARTNER040
+TXN01193,COMP001,2025-10-26,inflow,Contract payment,Synthetic contract payment transaction,25100.00,Received,2025-10-29,PARTNER043
+TXN01194,COMP001,2025-10-26,inflow,Customer receipts,Synthetic customer receipts transaction,44600.00,Received,2025-11-01,PARTNER016
+TXN01195,COMP001,2025-10-26,outflow,Rent,Synthetic rent transaction,34000.00,Paid,2025-10-30,PARTNER046
+TXN01196,COMP001,2025-10-26,outflow,Software,Synthetic software transaction,37400.00,Paid,2025-11-02,PARTNER048
+TXN01197,COMP001,2025-10-27,inflow,Other income,Synthetic other income transaction,34100.00,Received,2025-11-02,PARTNER025
+TXN01198,COMP001,2025-10-27,inflow,Product sales,Synthetic product sales transaction,40500.00,Received,2025-10-30,PARTNER035
+TXN01199,COMP001,2025-10-27,outflow,Utilities,Synthetic utilities transaction,39400.00,Paid,2025-10-29,PARTNER047
+TXN01200,COMP001,2025-10-27,outflow,Logistics,Synthetic logistics transaction,41500.00,Paid,2025-10-27,PARTNER039
+TXN01201,COMP001,2025-10-28,inflow,Customer receipts,Synthetic customer receipts transaction,49900.00,Received,2025-10-29,PARTNER017
+TXN01202,COMP001,2025-10-28,inflow,Service revenue,Synthetic service revenue transaction,31200.00,Received,2025-11-02,PARTNER014
+TXN01203,COMP001,2025-10-28,outflow,Tax,Synthetic tax transaction,50800.00,Paid,2025-11-02,PARTNER012
+TXN01204,COMP001,2025-10-28,outflow,Marketing,Synthetic marketing transaction,35200.00,Paid,2025-10-30,PARTNER027
+TXN01205,COMP001,2025-10-29,inflow,Product sales,Synthetic product sales transaction,34000.00,Received,2025-11-03,PARTNER040
+TXN01206,COMP001,2025-10-29,inflow,Contract payment,Synthetic contract payment transaction,23700.00,Received,2025-11-05,PARTNER036
+TXN01207,COMP001,2025-10-29,outflow,Software,Synthetic software transaction,36900.00,Paid,2025-11-01,PARTNER011
+TXN01208,COMP001,2025-10-29,outflow,Supplier payment,Synthetic supplier payment transaction,37400.00,Paid,2025-11-01,PARTNER037
+TXN01209,COMP001,2025-10-30,inflow,Service revenue,Synthetic service revenue transaction,50700.00,Received,2025-11-03,PARTNER018
+TXN01210,COMP001,2025-10-30,inflow,Other income,Synthetic other income transaction,62700.00,Received,2025-11-03,PARTNER010
+TXN01211,COMP001,2025-10-30,outflow,Logistics,Synthetic logistics transaction,37300.00,Paid,2025-10-30,PARTNER020
+TXN01212,COMP001,2025-10-30,outflow,Payroll,Synthetic payroll transaction,36400.00,Paid,2025-11-05,PARTNER024
+TXN01213,COMP001,2025-10-31,inflow,Contract payment,Synthetic contract payment transaction,54900.00,Received,2025-11-05,PARTNER002
+TXN01214,COMP001,2025-10-31,inflow,Customer receipts,Synthetic customer receipts transaction,39800.00,Received,2025-11-01,PARTNER022
+TXN01215,COMP001,2025-10-31,outflow,Marketing,Synthetic marketing transaction,52200.00,Paid,2025-11-07,PARTNER045
+TXN01216,COMP001,2025-10-31,outflow,Rent,Synthetic rent transaction,57000.00,Paid,2025-11-04,PARTNER046
+TXN01217,COMP001,2025-11-01,inflow,Other income,Synthetic other income transaction,27300.00,Received,2025-11-04,PARTNER015
+TXN01218,COMP001,2025-11-01,inflow,Product sales,Synthetic product sales transaction,31700.00,Received,2025-11-01,PARTNER009
+TXN01219,COMP001,2025-11-01,outflow,Supplier payment,Synthetic supplier payment transaction,25700.00,Paid,2025-11-04,PARTNER023
+TXN01220,COMP001,2025-11-01,outflow,Utilities,Synthetic utilities transaction,46500.00,Paid,2025-11-07,PARTNER019
+TXN01221,COMP001,2025-11-02,inflow,Customer receipts,Synthetic customer receipts transaction,38000.00,Received,2025-11-02,PARTNER035
+TXN01222,COMP001,2025-11-02,inflow,Service revenue,Synthetic service revenue transaction,46300.00,Received,2025-11-03,PARTNER025
+TXN01223,COMP001,2025-11-02,outflow,Payroll,Synthetic payroll transaction,38500.00,Paid,2025-11-06,PARTNER022
+TXN01224,COMP001,2025-11-02,outflow,Tax,Synthetic tax transaction,54800.00,Paid,2025-11-04,PARTNER012
+TXN01225,COMP001,2025-11-03,inflow,Product sales,Synthetic product sales transaction,39400.00,Received,2025-11-04,PARTNER006
+TXN01226,COMP001,2025-11-03,inflow,Contract payment,Synthetic contract payment transaction,28200.00,Received,2025-11-09,PARTNER038
+TXN01227,COMP001,2025-11-03,outflow,Rent,Synthetic rent transaction,20200.00,Paid,2025-11-06,PARTNER006
+TXN01228,COMP001,2025-11-03,outflow,Software,Synthetic software transaction,29800.00,Paid,2025-11-07,PARTNER050
+TXN01229,COMP001,2025-11-04,inflow,Service revenue,Synthetic service revenue transaction,35000.00,Received,2025-11-11,PARTNER026
+TXN01230,COMP001,2025-11-04,inflow,Other income,Synthetic other income transaction,61800.00,Received,2025-11-04,PARTNER025
+TXN01231,COMP001,2025-11-04,outflow,Utilities,Synthetic utilities transaction,32100.00,Paid,2025-11-10,PARTNER041
+TXN01232,COMP001,2025-11-04,outflow,Logistics,Synthetic logistics transaction,24800.00,Paid,2025-11-04,PARTNER027
+TXN01233,COMP001,2025-11-05,inflow,Contract payment,Synthetic contract payment transaction,49600.00,Received,2025-11-12,PARTNER025
+TXN01234,COMP001,2025-11-05,inflow,Customer receipts,Synthetic customer receipts transaction,64500.00,Received,2025-11-09,PARTNER003
+TXN01235,COMP001,2025-11-05,outflow,Tax,Synthetic tax transaction,53900.00,Paid,2025-11-12,PARTNER027
+TXN01236,COMP001,2025-11-05,outflow,Marketing,Synthetic marketing transaction,56600.00,Paid,2025-11-08,PARTNER026
+TXN01237,COMP001,2025-11-06,inflow,Other income,Synthetic other income transaction,29500.00,Received,2025-11-10,PARTNER023
+TXN01238,COMP001,2025-11-06,inflow,Product sales,Synthetic product sales transaction,52600.00,Received,2025-11-13,PARTNER033
+TXN01239,COMP001,2025-11-06,outflow,Software,Synthetic software transaction,41800.00,Paid,2025-11-12,PARTNER043
+TXN01240,COMP001,2025-11-06,outflow,Supplier payment,Synthetic supplier payment transaction,34700.00,Paid,2025-11-06,PARTNER047
+TXN01241,COMP001,2025-11-07,inflow,Customer receipts,Synthetic customer receipts transaction,34100.00,Received,2025-11-12,PARTNER015
+TXN01242,COMP001,2025-11-07,inflow,Service revenue,Synthetic service revenue transaction,58400.00,Received,2025-11-11,PARTNER023
+TXN01243,COMP001,2025-11-07,outflow,Logistics,Synthetic logistics transaction,25200.00,Paid,2025-11-13,PARTNER048
+TXN01244,COMP001,2025-11-07,outflow,Payroll,Synthetic payroll transaction,32100.00,Paid,2025-11-09,PARTNER020
+TXN01245,COMP001,2025-11-08,inflow,Product sales,Synthetic product sales transaction,46400.00,Received,2025-11-13,PARTNER006
+TXN01246,COMP001,2025-11-08,inflow,Contract payment,Synthetic contract payment transaction,56700.00,Received,2025-11-12,PARTNER024
+TXN01247,COMP001,2025-11-08,outflow,Marketing,Synthetic marketing transaction,35100.00,Paid,2025-11-09,PARTNER007
+TXN01248,COMP001,2025-11-08,outflow,Rent,Synthetic rent transaction,28400.00,Paid,2025-11-14,PARTNER042
+TXN01249,COMP001,2025-11-09,inflow,Service revenue,Synthetic service revenue transaction,30600.00,Received,2025-11-11,PARTNER017
+TXN01250,COMP001,2025-11-09,inflow,Other income,Synthetic other income transaction,36500.00,Received,2025-11-15,PARTNER024
+TXN01251,COMP001,2025-11-09,outflow,Supplier payment,Synthetic supplier payment transaction,35100.00,Paid,2025-11-16,PARTNER010
+TXN01252,COMP001,2025-11-09,outflow,Utilities,Synthetic utilities transaction,43700.00,Paid,2025-11-11,PARTNER023
+TXN01253,COMP001,2025-11-10,inflow,Contract payment,Synthetic contract payment transaction,39700.00,Received,2025-11-15,PARTNER020
+TXN01254,COMP001,2025-11-10,inflow,Customer receipts,Synthetic customer receipts transaction,71400.00,Received,2025-11-16,PARTNER041
+TXN01255,COMP001,2025-11-10,outflow,Payroll,Synthetic payroll transaction,23600.00,Paid,2025-11-14,PARTNER020
+TXN01256,COMP001,2025-11-10,outflow,Tax,Synthetic tax transaction,29600.00,Paid,2025-11-13,PARTNER019
+TXN01257,COMP001,2025-11-11,inflow,Other income,Synthetic other income transaction,52500.00,Received,2025-11-11,PARTNER013
+TXN01258,COMP001,2025-11-11,inflow,Product sales,Synthetic product sales transaction,54000.00,Received,2025-11-14,PARTNER038
+TXN01259,COMP001,2025-11-11,outflow,Rent,Synthetic rent transaction,47100.00,Paid,2025-11-11,PARTNER048
+TXN01260,COMP001,2025-11-11,outflow,Software,Synthetic software transaction,47500.00,Paid,2025-11-16,PARTNER024
+TXN01261,COMP001,2025-11-12,inflow,Customer receipts,Synthetic customer receipts transaction,57300.00,Received,2025-11-18,PARTNER022
+TXN01262,COMP001,2025-11-12,inflow,Service revenue,Synthetic service revenue transaction,39500.00,Received,2025-11-18,PARTNER047
+TXN01263,COMP001,2025-11-12,outflow,Utilities,Synthetic utilities transaction,60600.00,Paid,2025-11-17,PARTNER033
+TXN01264,COMP001,2025-11-12,outflow,Logistics,Synthetic logistics transaction,34000.00,Paid,2025-11-12,PARTNER045
+TXN01265,COMP001,2025-11-13,inflow,Product sales,Synthetic product sales transaction,31000.00,Received,2025-11-18,PARTNER026
+TXN01266,COMP001,2025-11-13,inflow,Contract payment,Synthetic contract payment transaction,24700.00,Received,2025-11-16,PARTNER044
+TXN01267,COMP001,2025-11-13,outflow,Tax,Synthetic tax transaction,47100.00,Paid,2025-11-13,PARTNER047
+TXN01268,COMP001,2025-11-13,outflow,Marketing,Synthetic marketing transaction,26700.00,Paid,2025-11-18,PARTNER042
+TXN01269,COMP001,2025-11-14,inflow,Service revenue,Synthetic service revenue transaction,36500.00,Received,2025-11-15,PARTNER033
+TXN01270,COMP001,2025-11-14,inflow,Other income,Synthetic other income transaction,56900.00,Received,2025-11-19,PARTNER006
+TXN01271,COMP001,2025-11-14,outflow,Software,Synthetic software transaction,20000.00,Paid,2025-11-15,PARTNER034
+TXN01272,COMP001,2025-11-14,outflow,Supplier payment,Synthetic supplier payment transaction,32000.00,Paid,2025-11-21,PARTNER023
+TXN01273,COMP001,2025-11-15,inflow,Contract payment,Synthetic contract payment transaction,39600.00,Received,2025-11-21,PARTNER047
+TXN01274,COMP001,2025-11-15,inflow,Customer receipts,Synthetic customer receipts transaction,70400.00,Received,2025-11-16,PARTNER039
+TXN01275,COMP001,2025-11-15,outflow,Logistics,Synthetic logistics transaction,42600.00,Paid,2025-11-16,PARTNER027
+TXN01276,COMP001,2025-11-15,outflow,Payroll,Synthetic payroll transaction,42800.00,Paid,2025-11-22,PARTNER015
+TXN01277,COMP001,2025-11-16,inflow,Other income,Synthetic other income transaction,49700.00,Received,2025-11-20,PARTNER005
+TXN01278,COMP001,2025-11-16,inflow,Product sales,Synthetic product sales transaction,29400.00,Received,2025-11-17,PARTNER048
+TXN01279,COMP001,2025-11-16,outflow,Marketing,Synthetic marketing transaction,48200.00,Paid,2025-11-16,PARTNER044
+TXN01280,COMP001,2025-11-16,outflow,Rent,Synthetic rent transaction,27100.00,Paid,2025-11-22,PARTNER031
+TXN01281,COMP001,2025-11-17,inflow,Customer receipts,Synthetic customer receipts transaction,43000.00,Received,2025-11-17,PARTNER008
+TXN01282,COMP001,2025-11-17,inflow,Service revenue,Synthetic service revenue transaction,55200.00,Received,2025-11-18,PARTNER028
+TXN01283,COMP001,2025-11-17,outflow,Supplier payment,Synthetic supplier payment transaction,29000.00,Paid,2025-11-22,PARTNER003
+TXN01284,COMP001,2025-11-17,outflow,Utilities,Synthetic utilities transaction,31300.00,Paid,2025-11-17,PARTNER033
+TXN01285,COMP001,2025-11-18,inflow,Product sales,Synthetic product sales transaction,43900.00,Received,2025-11-19,PARTNER007
+TXN01286,COMP001,2025-11-18,inflow,Contract payment,Synthetic contract payment transaction,48400.00,Received,2025-11-22,PARTNER027
+TXN01287,COMP001,2025-11-18,outflow,Payroll,Synthetic payroll transaction,20600.00,Paid,2025-11-19,PARTNER050
+TXN01288,COMP001,2025-11-18,outflow,Tax,Synthetic tax transaction,32500.00,Paid,2025-11-19,PARTNER024
+TXN01289,COMP001,2025-11-19,inflow,Service revenue,Synthetic service revenue transaction,54500.00,Received,2025-11-23,PARTNER026
+TXN01290,COMP001,2025-11-19,inflow,Other income,Synthetic other income transaction,38600.00,Received,2025-11-23,PARTNER004
+TXN01291,COMP001,2025-11-19,outflow,Rent,Synthetic rent transaction,49400.00,Paid,2025-11-26,PARTNER028
+TXN01292,COMP001,2025-11-19,outflow,Software,Synthetic software transaction,29000.00,Paid,2025-11-20,PARTNER003
+TXN01293,COMP001,2025-11-20,inflow,Contract payment,Synthetic contract payment transaction,26800.00,Received,2025-11-20,PARTNER002
+TXN01294,COMP001,2025-11-20,inflow,Customer receipts,Synthetic customer receipts transaction,40400.00,Received,2025-11-23,PARTNER012
+TXN01295,COMP001,2025-11-20,outflow,Utilities,Synthetic utilities transaction,32900.00,Paid,2025-11-20,PARTNER047
+TXN01296,COMP001,2025-11-20,outflow,Logistics,Synthetic logistics transaction,57500.00,Paid,2025-11-21,PARTNER010
+TXN01297,COMP001,2025-11-21,inflow,Other income,Synthetic other income transaction,30600.00,Received,2025-11-27,PARTNER044
+TXN01298,COMP001,2025-11-21,inflow,Product sales,Synthetic product sales transaction,42800.00,Received,2025-11-24,PARTNER033
+TXN01299,COMP001,2025-11-21,outflow,Tax,Synthetic tax transaction,43800.00,Paid,2025-11-23,PARTNER030
+TXN01300,COMP001,2025-11-21,outflow,Marketing,Synthetic marketing transaction,45500.00,Paid,2025-11-26,PARTNER019
+TXN01301,COMP001,2025-11-22,inflow,Customer receipts,Synthetic customer receipts transaction,13300.00,Received,2025-11-26,PARTNER034
+TXN01302,COMP001,2025-11-22,inflow,Service revenue,Synthetic service revenue transaction,24100.00,Received,2025-11-27,PARTNER013
+TXN01303,COMP001,2025-11-22,outflow,Software,Synthetic software transaction,42800.00,Paid,2025-11-29,PARTNER003
+TXN01304,COMP001,2025-11-22,outflow,Supplier payment,Synthetic supplier payment transaction,53900.00,Paid,2025-11-29,PARTNER045
+TXN01305,COMP001,2025-11-23,inflow,Product sales,Synthetic product sales transaction,21000.00,Received,2025-11-25,PARTNER002
+TXN01306,COMP001,2025-11-23,inflow,Contract payment,Synthetic contract payment transaction,27600.00,Received,2025-11-25,PARTNER011
+TXN01307,COMP001,2025-11-23,outflow,Logistics,Synthetic logistics transaction,32900.00,Paid,2025-11-23,PARTNER011
+TXN01308,COMP001,2025-11-23,outflow,Payroll,Synthetic payroll transaction,33300.00,Paid,2025-11-23,PARTNER040
+TXN01309,COMP001,2025-11-24,inflow,Service revenue,Synthetic service revenue transaction,38000.00,Received,2025-12-01,PARTNER023
+TXN01310,COMP001,2025-11-24,inflow,Other income,Synthetic other income transaction,33400.00,Received,2025-11-26,PARTNER005
+TXN01311,COMP001,2025-11-24,outflow,Marketing,Synthetic marketing transaction,37700.00,Paid,2025-12-01,PARTNER019
+TXN01312,COMP001,2025-11-24,outflow,Rent,Synthetic rent transaction,23200.00,Paid,2025-11-27,PARTNER034
+TXN01313,COMP001,2025-11-25,inflow,Contract payment,Synthetic contract payment transaction,44700.00,Received,2025-11-25,PARTNER027
+TXN01314,COMP001,2025-11-25,inflow,Customer receipts,Synthetic customer receipts transaction,42100.00,Received,2025-11-26,PARTNER022
+TXN01315,COMP001,2025-11-25,outflow,Supplier payment,Synthetic supplier payment transaction,38500.00,Paid,2025-12-02,PARTNER029
+TXN01316,COMP001,2025-11-25,outflow,Utilities,Synthetic utilities transaction,34000.00,Paid,2025-12-02,PARTNER039
+TXN01317,COMP001,2025-11-26,inflow,Other income,Synthetic other income transaction,66600.00,Received,2025-11-27,PARTNER046
+TXN01318,COMP001,2025-11-26,inflow,Product sales,Synthetic product sales transaction,40300.00,Received,2025-12-01,PARTNER008
+TXN01319,COMP001,2025-11-26,outflow,Payroll,Synthetic payroll transaction,57400.00,Paid,2025-11-29,PARTNER030
+TXN01320,COMP001,2025-11-26,outflow,Tax,Synthetic tax transaction,36400.00,Paid,2025-11-29,PARTNER044
+TXN01321,COMP001,2025-11-27,inflow,Customer receipts,Synthetic customer receipts transaction,33300.00,Received,2025-12-02,PARTNER031
+TXN01322,COMP001,2025-11-27,inflow,Service revenue,Synthetic service revenue transaction,37200.00,Received,2025-11-29,PARTNER004
+TXN01323,COMP001,2025-11-27,outflow,Rent,Synthetic rent transaction,34700.00,Paid,2025-11-30,PARTNER036
+TXN01324,COMP001,2025-11-27,outflow,Software,Synthetic software transaction,31800.00,Paid,2025-12-02,PARTNER001
+TXN01325,COMP001,2025-11-28,inflow,Product sales,Synthetic product sales transaction,33100.00,Received,2025-11-28,PARTNER042
+TXN01326,COMP001,2025-11-28,inflow,Contract payment,Synthetic contract payment transaction,56100.00,Received,2025-12-02,PARTNER034
+TXN01327,COMP001,2025-11-28,outflow,Utilities,Synthetic utilities transaction,20500.00,Paid,2025-11-29,PARTNER007
+TXN01328,COMP001,2025-11-28,outflow,Logistics,Synthetic logistics transaction,24100.00,Paid,2025-11-28,PARTNER012
+TXN01329,COMP001,2025-11-29,inflow,Service revenue,Synthetic service revenue transaction,44200.00,Received,2025-12-04,PARTNER035
+TXN01330,COMP001,2025-11-29,inflow,Other income,Synthetic other income transaction,37300.00,Received,2025-12-06,PARTNER044
+TXN01331,COMP001,2025-11-29,outflow,Tax,Synthetic tax transaction,45600.00,Paid,2025-12-03,PARTNER014
+TXN01332,COMP001,2025-11-29,outflow,Marketing,Synthetic marketing transaction,52700.00,Paid,2025-12-03,PARTNER039
+TXN01333,COMP001,2025-11-30,inflow,Contract payment,Synthetic contract payment transaction,40000.00,Received,2025-12-07,PARTNER026
+TXN01334,COMP001,2025-11-30,inflow,Customer receipts,Synthetic customer receipts transaction,38800.00,Received,2025-12-05,PARTNER041
+TXN01335,COMP001,2025-11-30,outflow,Software,Synthetic software transaction,33700.00,Paid,2025-11-30,PARTNER019
+TXN01336,COMP001,2025-11-30,outflow,Supplier payment,Synthetic supplier payment transaction,30700.00,Paid,2025-12-03,PARTNER048
+TXN01337,COMP001,2025-12-01,inflow,Other income,Synthetic other income transaction,89600.00,Received,2025-12-06,PARTNER001
+TXN01338,COMP001,2025-12-01,inflow,Product sales,Synthetic product sales transaction,53600.00,Received,2025-12-06,PARTNER030
+TXN01339,COMP001,2025-12-01,outflow,Logistics,Synthetic logistics transaction,34400.00,Paid,2025-12-01,PARTNER020
+TXN01340,COMP001,2025-12-01,outflow,Payroll,Synthetic payroll transaction,53900.00,Paid,2025-12-07,PARTNER006
+TXN01341,COMP001,2025-12-02,inflow,Customer receipts,Synthetic customer receipts transaction,45300.00,Received,2025-12-03,PARTNER001
+TXN01342,COMP001,2025-12-02,inflow,Service revenue,Synthetic service revenue transaction,42100.00,Received,2025-12-09,PARTNER049
+TXN01343,COMP001,2025-12-02,outflow,Marketing,Synthetic marketing transaction,18000.00,Paid,2025-12-08,PARTNER023
+TXN01344,COMP001,2025-12-02,outflow,Rent,Synthetic rent transaction,32800.00,Paid,2025-12-09,PARTNER041
+TXN01345,COMP001,2025-12-03,inflow,Product sales,Synthetic product sales transaction,29100.00,Received,2025-12-10,PARTNER017
+TXN01346,COMP001,2025-12-03,inflow,Contract payment,Synthetic contract payment transaction,50800.00,Received,2025-12-03,PARTNER028
+TXN01347,COMP001,2025-12-03,outflow,Supplier payment,Synthetic supplier payment transaction,33900.00,Paid,2025-12-10,PARTNER045
+TXN01348,COMP001,2025-12-03,outflow,Utilities,Synthetic utilities transaction,50400.00,Paid,2025-12-05,PARTNER045
+TXN01349,COMP001,2025-12-04,inflow,Service revenue,Synthetic service revenue transaction,69500.00,Received,2025-12-10,PARTNER007
+TXN01350,COMP001,2025-12-04,inflow,Other income,Synthetic other income transaction,55600.00,Received,2025-12-08,PARTNER049
+TXN01351,COMP001,2025-12-04,outflow,Payroll,Synthetic payroll transaction,38100.00,Paid,2025-12-09,PARTNER037
+TXN01352,COMP001,2025-12-04,outflow,Tax,Synthetic tax transaction,26900.00,Paid,2025-12-05,PARTNER037
+TXN01353,COMP001,2025-12-05,inflow,Contract payment,Synthetic contract payment transaction,54300.00,Received,2025-12-11,PARTNER042
+TXN01354,COMP001,2025-12-05,inflow,Customer receipts,Synthetic customer receipts transaction,37800.00,Received,2025-12-07,PARTNER021
+TXN01355,COMP001,2025-12-05,outflow,Rent,Synthetic rent transaction,24400.00,Paid,2025-12-05,PARTNER019
+TXN01356,COMP001,2025-12-05,outflow,Software,Synthetic software transaction,14600.00,Paid,2025-12-10,PARTNER009
+TXN01357,COMP001,2025-12-06,inflow,Other income,Synthetic other income transaction,37600.00,Received,2025-12-12,PARTNER029
+TXN01358,COMP001,2025-12-06,inflow,Product sales,Synthetic product sales transaction,41300.00,Received,2025-12-13,PARTNER008
+TXN01359,COMP001,2025-12-06,outflow,Utilities,Synthetic utilities transaction,52100.00,Paid,2025-12-10,PARTNER012
+TXN01360,COMP001,2025-12-06,outflow,Logistics,Synthetic logistics transaction,30600.00,Paid,2025-12-06,PARTNER044
+TXN01361,COMP001,2025-12-07,inflow,Customer receipts,Synthetic customer receipts transaction,41800.00,Received,2025-12-13,PARTNER043
+TXN01362,COMP001,2025-12-07,inflow,Service revenue,Synthetic service revenue transaction,24000.00,Received,2025-12-11,PARTNER018
+TXN01363,COMP001,2025-12-07,outflow,Tax,Synthetic tax transaction,43800.00,Paid,2025-12-12,PARTNER023
+TXN01364,COMP001,2025-12-07,outflow,Marketing,Synthetic marketing transaction,46400.00,Paid,2025-12-13,PARTNER048
+TXN01365,COMP001,2025-12-08,inflow,Product sales,Synthetic product sales transaction,55700.00,Received,2025-12-14,PARTNER009
+TXN01366,COMP001,2025-12-08,inflow,Contract payment,Synthetic contract payment transaction,34900.00,Received,2025-12-09,PARTNER047
+TXN01367,COMP001,2025-12-08,outflow,Software,Synthetic software transaction,38100.00,Paid,2025-12-15,PARTNER001
+TXN01368,COMP001,2025-12-08,outflow,Supplier payment,Synthetic supplier payment transaction,22800.00,Paid,2025-12-13,PARTNER049
+TXN01369,COMP001,2025-12-09,inflow,Service revenue,Synthetic service revenue transaction,62900.00,Received,2025-12-14,PARTNER017
+TXN01370,COMP001,2025-12-09,inflow,Other income,Synthetic other income transaction,63300.00,Received,2025-12-12,PARTNER047
+TXN01371,COMP001,2025-12-09,outflow,Logistics,Synthetic logistics transaction,26900.00,Paid,2025-12-12,PARTNER011
+TXN01372,COMP001,2025-12-09,outflow,Payroll,Synthetic payroll transaction,49000.00,Paid,2025-12-09,PARTNER040
+TXN01373,COMP001,2025-12-10,inflow,Contract payment,Synthetic contract payment transaction,51400.00,Received,2025-12-10,PARTNER007
+TXN01374,COMP001,2025-12-10,inflow,Customer receipts,Synthetic customer receipts transaction,60600.00,Received,2025-12-15,PARTNER043
+TXN01375,COMP001,2025-12-10,outflow,Marketing,Synthetic marketing transaction,42100.00,Paid,2025-12-11,PARTNER011
+TXN01376,COMP001,2025-12-10,outflow,Rent,Synthetic rent transaction,42000.00,Paid,2025-12-11,PARTNER038
+TXN01377,COMP001,2025-12-11,inflow,Other income,Synthetic other income transaction,33500.00,Received,2025-12-12,PARTNER005
+TXN01378,COMP001,2025-12-11,inflow,Product sales,Synthetic product sales transaction,50100.00,Received,2025-12-18,PARTNER048
+TXN01379,COMP001,2025-12-11,outflow,Supplier payment,Synthetic supplier payment transaction,27600.00,Paid,2025-12-12,PARTNER028
+TXN01380,COMP001,2025-12-11,outflow,Utilities,Synthetic utilities transaction,51000.00,Paid,2025-12-15,PARTNER016
+TXN01381,COMP001,2025-12-12,inflow,Customer receipts,Synthetic customer receipts transaction,34000.00,Received,2025-12-13,PARTNER032
+TXN01382,COMP001,2025-12-12,inflow,Service revenue,Synthetic service revenue transaction,55600.00,Received,2025-12-12,PARTNER021
+TXN01383,COMP001,2025-12-12,outflow,Payroll,Synthetic payroll transaction,41100.00,Paid,2025-12-14,PARTNER011
+TXN01384,COMP001,2025-12-12,outflow,Tax,Synthetic tax transaction,35300.00,Paid,2025-12-14,PARTNER029
+TXN01385,COMP001,2025-12-13,inflow,Product sales,Synthetic product sales transaction,28600.00,Received,2025-12-15,PARTNER013
+TXN01386,COMP001,2025-12-13,inflow,Contract payment,Synthetic contract payment transaction,35600.00,Received,2025-12-15,PARTNER047
+TXN01387,COMP001,2025-12-13,outflow,Rent,Synthetic rent transaction,51300.00,Paid,2025-12-20,PARTNER040
+TXN01388,COMP001,2025-12-13,outflow,Software,Synthetic software transaction,32600.00,Paid,2025-12-20,PARTNER004
+TXN01389,COMP001,2025-12-14,inflow,Service revenue,Synthetic service revenue transaction,19900.00,Received,2025-12-21,PARTNER037
+TXN01390,COMP001,2025-12-14,inflow,Other income,Synthetic other income transaction,18700.00,Received,2025-12-16,PARTNER013
+TXN01391,COMP001,2025-12-14,outflow,Utilities,Synthetic utilities transaction,25900.00,Paid,2025-12-15,PARTNER040
+TXN01392,COMP001,2025-12-14,outflow,Logistics,Synthetic logistics transaction,41800.00,Paid,2025-12-16,PARTNER020
+TXN01393,COMP001,2025-12-15,inflow,Contract payment,Synthetic contract payment transaction,44900.00,Received,2025-12-20,PARTNER048
+TXN01394,COMP001,2025-12-15,inflow,Customer receipts,Synthetic customer receipts transaction,55900.00,Received,2025-12-19,PARTNER018
+TXN01395,COMP001,2025-12-15,outflow,Tax,Synthetic tax transaction,34100.00,Paid,2025-12-20,PARTNER024
+TXN01396,COMP001,2025-12-15,outflow,Marketing,Synthetic marketing transaction,32300.00,Paid,2025-12-15,PARTNER045
+TXN01397,COMP001,2025-12-16,inflow,Other income,Synthetic other income transaction,38200.00,Received,2025-12-17,PARTNER048
+TXN01398,COMP001,2025-12-16,inflow,Product sales,Synthetic product sales transaction,44700.00,Received,2025-12-18,PARTNER036
+TXN01399,COMP001,2025-12-16,outflow,Software,Synthetic software transaction,38900.00,Paid,2025-12-19,PARTNER033
+TXN01400,COMP001,2025-12-16,outflow,Supplier payment,Synthetic supplier payment transaction,33300.00,Paid,2025-12-21,PARTNER019
+TXN01401,COMP001,2025-12-17,inflow,Customer receipts,Synthetic customer receipts transaction,51400.00,Received,2025-12-17,PARTNER020
+TXN01402,COMP001,2025-12-17,inflow,Service revenue,Synthetic service revenue transaction,34600.00,Received,2025-12-19,PARTNER045
+TXN01403,COMP001,2025-12-17,outflow,Logistics,Synthetic logistics transaction,34900.00,Paid,2025-12-18,PARTNER020
+TXN01404,COMP001,2025-12-17,outflow,Payroll,Synthetic payroll transaction,19200.00,Paid,2025-12-22,PARTNER005
+TXN01405,COMP001,2025-12-18,inflow,Product sales,Synthetic product sales transaction,67100.00,Received,2025-12-21,PARTNER023
+TXN01406,COMP001,2025-12-18,inflow,Contract payment,Synthetic contract payment transaction,47300.00,Received,2025-12-23,PARTNER012
+TXN01407,COMP001,2025-12-18,outflow,Marketing,Synthetic marketing transaction,33800.00,Paid,2025-12-23,PARTNER050
+TXN01408,COMP001,2025-12-18,outflow,Rent,Synthetic rent transaction,49000.00,Paid,2025-12-19,PARTNER020
+TXN01409,COMP001,2025-12-19,inflow,Service revenue,Synthetic service revenue transaction,46000.00,Received,2025-12-26,PARTNER036
+TXN01410,COMP001,2025-12-19,inflow,Other income,Synthetic other income transaction,43700.00,Received,2025-12-19,PARTNER006
+TXN01411,COMP001,2025-12-19,outflow,Supplier payment,Synthetic supplier payment transaction,37100.00,Paid,2025-12-22,PARTNER045
+TXN01412,COMP001,2025-12-19,outflow,Utilities,Synthetic utilities transaction,40500.00,Paid,2025-12-24,PARTNER017
+TXN01413,COMP001,2025-12-20,inflow,Contract payment,Synthetic contract payment transaction,48200.00,Received,2025-12-24,PARTNER020
+TXN01414,COMP001,2025-12-20,inflow,Customer receipts,Synthetic customer receipts transaction,31100.00,Received,2025-12-23,PARTNER021
+TXN01415,COMP001,2025-12-20,outflow,Payroll,Synthetic payroll transaction,33300.00,Paid,2025-12-25,PARTNER017
+TXN01416,COMP001,2025-12-20,outflow,Tax,Synthetic tax transaction,52600.00,Paid,2025-12-27,PARTNER005
+TXN01417,COMP001,2025-12-21,inflow,Other income,Synthetic other income transaction,27200.00,Received,2025-12-28,PARTNER031
+TXN01418,COMP001,2025-12-21,inflow,Product sales,Synthetic product sales transaction,49400.00,Received,2025-12-23,PARTNER034
+TXN01419,COMP001,2025-12-21,outflow,Rent,Synthetic rent transaction,36900.00,Paid,2025-12-27,PARTNER027
+TXN01420,COMP001,2025-12-21,outflow,Software,Synthetic software transaction,41500.00,Paid,2025-12-25,PARTNER001
+TXN01421,COMP001,2025-12-22,inflow,Customer receipts,Synthetic customer receipts transaction,24700.00,Received,2025-12-22,PARTNER046
+TXN01422,COMP001,2025-12-22,inflow,Service revenue,Synthetic service revenue transaction,45000.00,Received,2025-12-29,PARTNER032
+TXN01423,COMP001,2025-12-22,outflow,Utilities,Synthetic utilities transaction,33300.00,Paid,2025-12-27,PARTNER038
+TXN01424,COMP001,2025-12-22,outflow,Logistics,Synthetic logistics transaction,33700.00,Paid,2025-12-27,PARTNER036
+TXN01425,COMP001,2025-12-23,inflow,Product sales,Synthetic product sales transaction,49900.00,Received,2025-12-25,PARTNER044
+TXN01426,COMP001,2025-12-23,inflow,Contract payment,Synthetic contract payment transaction,50700.00,Received,2025-12-27,PARTNER005
+TXN01427,COMP001,2025-12-23,outflow,Tax,Synthetic tax transaction,25700.00,Paid,2025-12-29,PARTNER044
+TXN01428,COMP001,2025-12-23,outflow,Marketing,Synthetic marketing transaction,28600.00,Paid,2025-12-27,PARTNER025
+TXN01429,COMP001,2025-12-24,inflow,Service revenue,Synthetic service revenue transaction,35400.00,Received,2025-12-25,PARTNER007
+TXN01430,COMP001,2025-12-24,inflow,Other income,Synthetic other income transaction,39400.00,Received,2025-12-30,PARTNER020
+TXN01431,COMP001,2025-12-24,outflow,Software,Synthetic software transaction,48700.00,Paid,2025-12-27,PARTNER046
+TXN01432,COMP001,2025-12-24,outflow,Supplier payment,Synthetic supplier payment transaction,40700.00,Paid,2025-12-25,PARTNER042
+TXN01433,COMP001,2025-12-25,inflow,Contract payment,Synthetic contract payment transaction,58000.00,Received,2025-12-25,PARTNER046
+TXN01434,COMP001,2025-12-25,inflow,Customer receipts,Synthetic customer receipts transaction,57200.00,Received,2026-01-01,PARTNER030
+TXN01435,COMP001,2025-12-25,outflow,Logistics,Synthetic logistics transaction,53100.00,Paid,2025-12-26,PARTNER035
+TXN01436,COMP001,2025-12-25,outflow,Payroll,Synthetic payroll transaction,33900.00,Paid,2026-01-01,PARTNER021
+TXN01437,COMP001,2025-12-26,inflow,Other income,Synthetic other income transaction,60900.00,Received,2025-12-27,PARTNER025
+TXN01438,COMP001,2025-12-26,inflow,Product sales,Synthetic product sales transaction,52500.00,Received,2025-12-27,PARTNER050
+TXN01439,COMP001,2025-12-26,outflow,Marketing,Synthetic marketing transaction,47600.00,Paid,2025-12-28,PARTNER036
+TXN01440,COMP001,2025-12-26,outflow,Rent,Synthetic rent transaction,37000.00,Paid,2025-12-30,PARTNER035
+TXN01441,COMP001,2025-12-27,inflow,Customer receipts,Synthetic customer receipts transaction,24700.00,Received,2025-12-27,PARTNER020
+TXN01442,COMP001,2025-12-27,inflow,Service revenue,Synthetic service revenue transaction,36200.00,Received,2025-12-31,PARTNER034
+TXN01443,COMP001,2025-12-27,outflow,Supplier payment,Synthetic supplier payment transaction,52300.00,Paid,2026-01-02,PARTNER036
+TXN01444,COMP001,2025-12-27,outflow,Utilities,Synthetic utilities transaction,33900.00,Paid,2025-12-29,PARTNER046
+TXN01445,COMP001,2025-12-28,inflow,Product sales,Synthetic product sales transaction,26800.00,Received,2026-01-03,PARTNER001
+TXN01446,COMP001,2025-12-28,inflow,Contract payment,Synthetic contract payment transaction,33600.00,Received,2025-12-28,PARTNER014
+TXN01447,COMP001,2025-12-28,outflow,Payroll,Synthetic payroll transaction,24300.00,Paid,2026-01-03,PARTNER012
+TXN01448,COMP001,2025-12-28,outflow,Tax,Synthetic tax transaction,37500.00,Paid,2026-01-03,PARTNER018
+TXN01449,COMP001,2025-12-29,inflow,Service revenue,Synthetic service revenue transaction,42000.00,Received,2026-01-02,PARTNER024
+TXN01450,COMP001,2025-12-29,inflow,Other income,Synthetic other income transaction,39100.00,Received,2026-01-05,PARTNER027
+TXN01451,COMP001,2025-12-29,outflow,Rent,Synthetic rent transaction,43600.00,Paid,2025-12-29,PARTNER006
+TXN01452,COMP001,2025-12-29,outflow,Software,Synthetic software transaction,28700.00,Paid,2026-01-02,PARTNER007
+TXN01453,COMP001,2025-12-30,inflow,Contract payment,Synthetic contract payment transaction,53900.00,Received,2025-12-31,PARTNER048
+TXN01454,COMP001,2025-12-30,inflow,Customer receipts,Synthetic customer receipts transaction,44300.00,Received,2026-01-02,PARTNER011
+TXN01455,COMP001,2025-12-30,outflow,Utilities,Synthetic utilities transaction,26400.00,Paid,2026-01-04,PARTNER004
+TXN01456,COMP001,2025-12-30,outflow,Logistics,Synthetic logistics transaction,42600.00,Paid,2026-01-04,PARTNER020
+TXN01457,COMP001,2025-12-31,inflow,Other income,Synthetic other income transaction,63500.00,Received,2025-12-31,PARTNER034
+TXN01458,COMP001,2025-12-31,inflow,Product sales,Synthetic product sales transaction,41300.00,Received,2026-01-03,PARTNER017
+TXN01459,COMP001,2025-12-31,outflow,Tax,Synthetic tax transaction,24900.00,Paid,2026-01-03,PARTNER040
+TXN01460,COMP001,2025-12-31,outflow,Marketing,Synthetic marketing transaction,42600.00,Paid,2026-01-02,PARTNER041
